@@ -10,11 +10,14 @@ Uso:
 import argparse
 import asyncio
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse, StreamingResponse
+import httpx
 import uvicorn
 
 from scanner import scan_tickers, scan_ticker
@@ -22,27 +25,30 @@ from tickers import get_index_tickers, list_indices, INDICES
 from context import get_ticker_context, apply_context_penalty
 import config
 
+load_dotenv()
+
 app = FastAPI(title="Insider Trading Detector")
 
 WATCHLIST_PATH = Path(__file__).parent / "watchlist.json"
 STATIC_DIR = Path(__file__).parent / "static"
 SCANS_DIR = Path(__file__).parent / "scans"
+GITHUB_RAW_BASE = os.getenv("GITHUB_RAW_BASE", "https://raw.githubusercontent.com/proyect-nexus/alpha-insights/main")
 
 
 def load_watchlist() -> dict:
-    with open(WATCHLIST_PATH) as f:
+    with open(WATCHLIST_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
 @app.get("/", response_class=HTMLResponse)
 async def index():
-    with open(STATIC_DIR / "index.html") as f:
+    with open(STATIC_DIR / "index.html", encoding="utf-8") as f:
         return f.read()
 
 
 @app.get("/how-it-works", response_class=HTMLResponse)
 async def how_it_works():
-    with open(STATIC_DIR / "how-it-works.html") as f:
+    with open(STATIC_DIR / "how-it-works.html", encoding="utf-8") as f:
         return f.read()
 
 
@@ -55,7 +61,7 @@ async def get_watchlist():
 async def update_watchlist(list_name: str, tickers: list[str]):
     wl = load_watchlist()
     wl["lists"][list_name] = [t.upper() for t in tickers]
-    with open(WATCHLIST_PATH, "w") as f:
+    with open(WATCHLIST_PATH, "w", encoding="utf-8") as f:
         json.dump(wl, f, indent=2)
     return {"ok": True}
 
@@ -64,7 +70,7 @@ async def update_watchlist(list_name: str, tickers: list[str]):
 async def delete_watchlist(list_name: str):
     wl = load_watchlist()
     wl["lists"].pop(list_name, None)
-    with open(WATCHLIST_PATH, "w") as f:
+    with open(WATCHLIST_PATH, "w", encoding="utf-8") as f:
         json.dump(wl, f, indent=2)
     return {"ok": True}
 
@@ -92,7 +98,7 @@ def _save_scan(result: dict, source: str):
     SCANS_DIR.mkdir(exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     filename = f"{ts}_{source}.json"
-    with open(SCANS_DIR / filename, "w") as f:
+    with open(SCANS_DIR / filename, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, default=str)
 
 
@@ -402,7 +408,7 @@ async def get_history():
     result = []
     for f in files:
         try:
-            with open(f) as fh:
+            with open(f, encoding="utf-8") as fh:
                 data = json.load(fh)
             result.append({
                 "filename": f.name,
@@ -424,7 +430,7 @@ async def get_scan(filename: str):
     filepath = SCANS_DIR / filename
     if not filepath.exists() or not filepath.suffix == ".json":
         return {"error": "not found"}
-    with open(filepath) as f:
+    with open(filepath, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -435,6 +441,97 @@ async def delete_scan(filename: str):
     if filepath.exists() and filepath.suffix == ".json":
         filepath.unlink()
     return {"ok": True}
+
+
+@app.get("/api/trends")
+async def get_trends():
+    """Fetch scheduled scan data from GitHub and compute trends."""
+    async with httpx.AsyncClient(timeout=15) as client:
+        # Fetch index of scheduled scans
+        try:
+            r = await client.get(f"{GITHUB_RAW_BASE}/scans/scheduled/index.json")
+            r.raise_for_status()
+            index = r.json()
+        except Exception:
+            return {"error": "No scheduled scan data available yet", "tickers": []}
+
+        # Fetch the last 9 scans (3 days x 3 scans/day)
+        # index.json is a plain array of scan entries
+        scan_files = (index if isinstance(index, list) else index.get("scans", []))[-9:]
+
+        scans = []
+        for entry in scan_files:
+            try:
+                r2 = await client.get(f"{GITHUB_RAW_BASE}/scans/scheduled/{entry['filename']}")
+                r2.raise_for_status()
+                scans.append(r2.json())
+            except Exception:
+                continue
+
+        if not scans:
+            return {"error": "Could not fetch scan data", "tickers": []}
+
+        # Analyze trends across scans
+        ticker_history = {}  # ticker -> list of {scan_time, score, notional, alert_count}
+
+        for scan in scans:
+            scan_time = scan.get("scan_time", "")
+            for insight in scan.get("insights", []):
+                ticker = insight["ticker"]
+                if ticker not in ticker_history:
+                    ticker_history[ticker] = {
+                        "ticker": ticker,
+                        "company": insight.get("company", ticker),
+                        "spot": insight.get("spot", 0),
+                        "appearances": [],
+                    }
+                ticker_history[ticker]["appearances"].append({
+                    "scan_time": scan_time,
+                    "max_score": insight.get("max_score", 0),
+                    "total_notional": insight.get("total_notional", 0),
+                    "alert_count": insight.get("alert_count", 0),
+                })
+                # Update spot to most recent
+                ticker_history[ticker]["spot"] = insight.get("spot", ticker_history[ticker]["spot"])
+
+        # Compute trend metrics
+        trends = []
+        total_scans = len(scans)
+        for ticker, data in ticker_history.items():
+            appearances = data["appearances"]
+            freq = len(appearances) / total_scans  # 1.0 = every scan
+            scores = [a["max_score"] for a in appearances]
+            notionals = [a["total_notional"] for a in appearances]
+
+            # Score trend: compare last vs first appearance
+            score_trend = scores[-1] - scores[0] if len(scores) > 1 else 0
+
+            trends.append({
+                "ticker": data["ticker"],
+                "company": data["company"],
+                "spot": data["spot"],
+                "frequency": round(freq, 2),
+                "appearances": len(appearances),
+                "total_scans": total_scans,
+                "avg_score": round(sum(scores) / len(scores), 1),
+                "max_score": round(max(scores), 1),
+                "latest_score": round(scores[-1], 1),
+                "score_trend": round(score_trend, 1),
+                "avg_notional": round(sum(notionals) / len(notionals), 0),
+                "history": appearances,
+            })
+
+        # Sort by frequency first, then avg_score
+        trends.sort(key=lambda x: (x["frequency"], x["avg_score"]), reverse=True)
+
+        return {
+            "total_scans": total_scans,
+            "scan_range": {
+                "first": scans[0].get("scan_time", "") if scans else "",
+                "last": scans[-1].get("scan_time", "") if scans else "",
+            },
+            "tickers": trends,
+        }
 
 
 if __name__ == "__main__":

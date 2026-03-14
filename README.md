@@ -125,6 +125,23 @@ BATCH_SIZE = 10               # Tickers per batch
 DELAY_BETWEEN_BATCHES = 2.0   # Rate limiting (seconds)
 ```
 
+## How data is collected
+
+The scanner does **not** fetch historical data from the past week. Each scan is a **real-time snapshot** of the current options market at the moment you click Scan. Here's what happens for each ticker:
+
+1. **Fetch all available expiration dates** from Yahoo Finance (`stock.options`)
+2. **Filter by DTE** — only expirations between 1 and 45 days out are considered (configurable in `config.py`)
+3. **Fetch the full options chain** (calls AND puts) for each eligible expiration (`stock.option_chain()`)
+4. **Filter individual call contracts** — each contract must pass:
+   - Volume ≥ 100 (skip illiquid noise)
+   - Strike ≥ 97% of spot price (ATM and OTM only — ignore deep ITM)
+   - Strike ≤ 130% of spot price (max 30% OTM)
+5. **Score** each surviving contract using the 8 signals above
+
+The **volume** field represents how many contracts were traded **today**. The scanner compares this against a baseline estimated from total open interest (OI × 10%) to determine if today's activity is abnormally high. Puts are fetched too, but only for calculating directional flow (calls vs puts ratio) — only calls generate alerts.
+
+This means: if you scan at 10:00 AM you see morning activity; if you scan at 3:30 PM you see the full day. Running multiple scans throughout the day lets you catch activity as it develops.
+
 ## Data sources
 
 - **Options data**: [Yahoo Finance](https://finance.yahoo.com) via [yfinance](https://github.com/ranaroussi/yfinance) (free, ~15 min delay)

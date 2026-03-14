@@ -1,0 +1,52 @@
+name: Scheduled Options Scan
+
+on:
+  schedule:
+    - cron: '30 14 * * 1-5'  # 16:30 Madrid (CEST, UTC+2)
+    - cron: '0 17 * * 1-5'   # 19:00 Madrid
+    - cron: '30 19 * * 1-5'  # 21:30 Madrid
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scheduled scan
+        id: scan
+        run: python scheduled_scan.py --threshold 40
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scans/scheduled/
+          if ! git diff --quiet --cached; then
+            git commit -m "scan: scheduled scan $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
+
+      - name: Send email alert via Resend
+        if: steps.scan.outputs.has_critical == 'true'
+        run: |
+          BODY=$(cat scans/scheduled/latest_alert.txt | python -c "import sys,json; print(json.dumps(sys.stdin.read()))")
+          IFS=',' read -ra EMAILS <<< "${{ secrets.ALERT_EMAILS }}"
+          TO_ARRAY=$(printf '%s\n' "${EMAILS[@]}" | python -c "import sys,json; print(json.dumps([l.strip() for l in sys.stdin.readlines()]))")
+          curl -s -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"from\":\"Alpha Insights <${{ secrets.RESEND_FROM }}>\",\"to\":${TO_ARRAY},\"subject\":\"ALERTA Insider Trading — Score >= 80 detectado\",\"text\":${BODY}}"

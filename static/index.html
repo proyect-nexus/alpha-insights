@@ -94,6 +94,8 @@
           Full Scan
         </button>
 
+        <button id="btnTrends" onclick="loadTrends()" class="px-3 py-1.5 bg-indigo-600/20 border border-indigo-500/30 rounded text-xs text-indigo-300 hover:bg-indigo-600/40 transition-colors">Tendencias</button>
+
         <div class="ml-auto min-w-[220px] relative">
           <label class="block text-[10px] text-slate-500 mb-1 uppercase tracking-wider">Historial</label>
           <select id="historySelect" class="w-full rounded px-3 py-1.5 text-sm" onchange="onHistorySelect()">
@@ -938,6 +940,101 @@
     async function deleteScan(filename) {
       await fetch(`/api/history/${filename}`, { method: 'DELETE' });
       loadHistory();
+    }
+
+    // --- Trends ---
+    async function loadTrends() {
+      const status = document.getElementById('status');
+      status.innerHTML = '<span class="text-indigo-400 pulse">Cargando tendencias...</span>';
+
+      try {
+        const res = await fetch('/api/trends');
+        const data = await res.json();
+
+        if (data.error || !data.tickers || data.tickers.length === 0) {
+          status.innerHTML = `<span class="text-amber-400">${data.error || 'Sin datos de tendencias'}</span>`;
+          return;
+        }
+
+        // Hide normal scan sections
+        document.getElementById('summary').classList.add('hidden');
+        document.getElementById('insightsSection').classList.add('hidden');
+        document.getElementById('alertsSection').classList.add('hidden');
+
+        // Build date range label
+        const fmtDate = (iso) => {
+          if (!iso) return '?';
+          const d = new Date(iso);
+          return d.toLocaleDateString('es-ES', {day:'2-digit',month:'short'}) + ' ' + d.toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit'});
+        };
+        const rangeLabel = `${fmtDate(data.scan_range.first)} — ${fmtDate(data.scan_range.last)}`;
+
+        // Remove existing trends view if present
+        const existing = document.getElementById('trendsSection');
+        if (existing) existing.remove();
+
+        // Build trends HTML
+        const trendsHtml = `
+          <div id="trendsSection" class="space-y-3 fade-in">
+            <div class="flex items-center justify-between">
+              <h2 class="text-sm font-semibold text-slate-300 uppercase tracking-wider">Tendencias — Actividad recurrente</h2>
+              <span class="text-[10px] text-slate-500">${data.total_scans} escaneos | ${rangeLabel}</span>
+            </div>
+            <div class="glass rounded-lg overflow-hidden">
+              <div class="overflow-x-auto">
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="text-[10px] text-slate-500 uppercase tracking-wider border-b border-slate-800/50">
+                      <th class="text-left px-4 py-2">Ticker</th>
+                      <th class="text-left px-3 py-2">Empresa</th>
+                      <th class="text-right px-3 py-2">Spot</th>
+                      <th class="text-center px-3 py-2">Frecuencia</th>
+                      <th class="text-right px-3 py-2">Score Prom</th>
+                      <th class="text-right px-3 py-2">Score Actual</th>
+                      <th class="text-center px-3 py-2">Tendencia</th>
+                      <th class="text-right px-3 py-2">Notional Prom</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${data.tickers.map(t => {
+                      const freqPct = Math.round(t.frequency * 100);
+                      const scoreClass = t.latest_score >= 75 ? 'score-high' : t.latest_score >= 50 ? 'score-med' : 'text-slate-400';
+                      const avgClass = t.avg_score >= 75 ? 'score-high' : t.avg_score >= 50 ? 'score-med' : 'text-slate-400';
+                      const trendArrow = t.score_trend > 2 ? '<span class="text-red-400">&#8593;</span>' : t.score_trend < -2 ? '<span class="text-green-400">&#8595;</span>' : '<span class="text-slate-500">&#8594;</span>';
+                      const notionalFmt = t.avg_notional >= 1e6 ? (t.avg_notional/1e6).toFixed(1)+'M' : t.avg_notional >= 1e3 ? (t.avg_notional/1e3).toFixed(0)+'K' : t.avg_notional.toFixed(0);
+                      return `<tr class="border-b border-slate-800/30 hover:bg-indigo-600/5">
+                        <td class="px-4 py-2 font-bold text-indigo-300">${t.ticker}</td>
+                        <td class="px-3 py-2 text-slate-400 truncate max-w-[200px]">${t.company}</td>
+                        <td class="px-3 py-2 text-right text-slate-300">$${t.spot.toFixed(2)}</td>
+                        <td class="px-3 py-2">
+                          <div class="flex items-center gap-2 justify-center">
+                            <div class="w-16 bg-slate-800 rounded-full h-1.5 overflow-hidden">
+                              <div class="h-full rounded-full ${freqPct >= 70 ? 'bg-red-500' : freqPct >= 40 ? 'bg-amber-500' : 'bg-indigo-500'}" style="width:${freqPct}%"></div>
+                            </div>
+                            <span class="text-slate-400 min-w-[45px] text-right">${t.appearances}/${t.total_scans}</span>
+                          </div>
+                        </td>
+                        <td class="px-3 py-2 text-right ${avgClass} font-mono">${t.avg_score}</td>
+                        <td class="px-3 py-2 text-right ${scoreClass} font-mono font-bold">${t.latest_score}</td>
+                        <td class="px-3 py-2 text-center text-lg">${trendArrow}</td>
+                        <td class="px-3 py-2 text-right text-slate-300 font-mono">$${notionalFmt}</td>
+                      </tr>`;
+                    }).join('')}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>`;
+
+        // Insert after controls
+        const main = document.querySelector('main');
+        const summary = document.getElementById('summary');
+        summary.insertAdjacentHTML('afterend', trendsHtml);
+
+        status.textContent = `Tendencias: ${data.tickers.length} tickers recurrentes`;
+      } catch(e) {
+        status.innerHTML = `<span class="text-red-400">Error: ${e.message}</span>`;
+      }
     }
 
     // Enter to scan
