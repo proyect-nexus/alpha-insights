@@ -163,5 +163,6 @@ marimo/_lsp/
 __marimo__/
 
 # Project-specific
-scans/
+scans/*
+!scans/scheduled/
 .DS_Store
