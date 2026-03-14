@@ -20,6 +20,26 @@ import yfinance as yf
 import config
 
 
+def _safe_int(val) -> int:
+    """Convert to int, treating NaN/None as 0."""
+    try:
+        if val is None or pd.isna(val):
+            return 0
+        return int(val)
+    except (ValueError, TypeError):
+        return 0
+
+
+def _safe_float(val) -> float:
+    """Convert to float, treating NaN/None as 0.0."""
+    try:
+        if val is None or pd.isna(val):
+            return 0.0
+        return float(val)
+    except (ValueError, TypeError):
+        return 0.0
+
+
 def _estimate_baseline(calls_df: pd.DataFrame) -> float:
     """Estima el volumen diario 'normal' de calls usando OI como proxy.
     Regla: vol normal ~ 8-12% del OI total."""
@@ -111,12 +131,12 @@ def scan_ticker(ticker: str) -> list[dict]:
 
         for _, row in calls.iterrows():
             strike = row.get("strike", 0)
-            volume = row.get("volume", 0) or 0
-            open_interest = row.get("openInterest", 0) or 0
-            implied_vol = row.get("impliedVolatility", 0) or 0
-            last_price = row.get("lastPrice", 0) or 0
-            bid = row.get("bid", 0) or 0
-            ask = row.get("ask", 0) or 0
+            volume = _safe_int(row.get("volume"))
+            open_interest = _safe_int(row.get("openInterest"))
+            implied_vol = _safe_float(row.get("impliedVolatility"))
+            last_price = _safe_float(row.get("lastPrice"))
+            bid = _safe_float(row.get("bid"))
+            ask = _safe_float(row.get("ask"))
 
             # Filtros básicos
             if volume < config.MIN_VOLUME:
@@ -140,8 +160,8 @@ def scan_ticker(ticker: str) -> list[dict]:
                 "strike": round(strike, 2),
                 "spot": round(spot_price, 2),
                 "otm_pct": round(otm_pct * 100, 2),
-                "volume": int(volume),
-                "open_interest": int(open_interest),
+                "volume": volume,
+                "open_interest": open_interest,
                 "vol_oi_ratio": round(vol_oi_ratio, 2),
                 "implied_vol": round(implied_vol * 100, 2),
                 "last_price": round(last_price, 2),
