@@ -31,6 +31,7 @@
     ::-webkit-scrollbar { width:5px; } ::-webkit-scrollbar-thumb { background:rgba(99,102,241,0.2); border-radius:3px; }
     details summary { cursor: pointer; list-style: none; }
     details summary::-webkit-details-marker { display: none; }
+    #fgNeedle { transition: transform 1.2s cubic-bezier(0.34, 1.56, 0.64, 1); }
   </style>
 </head>
 <body class="min-h-screen">
@@ -44,13 +45,21 @@
         <span class="text-xs text-slate-500 ml-2">Unusual Options Activity Scanner</span>
       </div>
       <div class="flex items-center gap-4">
+        <!-- Tab switch -->
+        <div class="flex bg-slate-800/60 rounded-lg p-0.5 border border-slate-700/50">
+          <button id="tabScanner" onclick="switchTab('scanner')" class="px-3 py-1 rounded-md text-xs font-medium transition-all bg-indigo-600 text-white">Scanner</button>
+          <button id="tabKpis" onclick="switchTab('kpis')" class="px-3 py-1 rounded-md text-xs font-medium transition-all text-slate-400 hover:text-white">Market KPIs</button>
+        </div>
         <a href="/how-it-works" target="_blank" class="text-xs text-slate-500 hover:text-indigo-400 transition-colors">Como funciona</a>
         <div id="status" class="text-xs text-slate-500">Listo</div>
       </div>
     </div>
   </header>
 
-  <main class="max-w-[1400px] mx-auto px-6 py-5 space-y-5">
+  <main class="max-w-[1400px] mx-auto px-6 py-5">
+
+    <!-- TAB: Scanner -->
+    <div id="sectionScanner" class="space-y-5">
 
     <!-- Controls -->
     <div class="glass rounded-lg p-4">
@@ -58,20 +67,20 @@
         <div class="min-w-[160px]">
           <label class="block text-[10px] text-slate-500 mb-1 uppercase tracking-wider">Fuente</label>
           <select id="sourceSelect" class="w-full rounded px-3 py-1.5 text-sm" onchange="onSourceChange()">
-            <option value="watchlist">Watchlists</option>
             <option value="index">Indice</option>
+            <option value="watchlist">Watchlists</option>
             <option value="custom">Custom</option>
           </select>
         </div>
 
-        <div id="watchlistGroup" class="min-w-[160px]">
+        <div id="watchlistGroup" class="min-w-[160px] hidden">
           <label class="block text-[10px] text-slate-500 mb-1 uppercase tracking-wider">Watchlist</label>
           <select id="listSelect" class="w-full rounded px-3 py-1.5 text-sm">
             <option value="">Todas</option>
           </select>
         </div>
 
-        <div id="indexGroup" class="min-w-[200px] hidden">
+        <div id="indexGroup" class="min-w-[200px]">
           <label class="block text-[10px] text-slate-500 mb-1 uppercase tracking-wider">Indice</label>
           <select id="indexSelect" class="w-full rounded px-3 py-1.5 text-sm"></select>
         </div>
@@ -209,6 +218,86 @@
         <div id="watchlistItems" class="space-y-1"></div>
       </div>
     </details>
+
+    </div><!-- end TAB Scanner -->
+
+    <!-- TAB: Market KPIs -->
+    <div id="sectionKpis" class="hidden space-y-5">
+
+      <!-- KPI grid: two columns -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+      <!-- Fear & Greed Gauge -->
+      <div class="glass rounded-lg p-5">
+        <h3 class="text-xs text-slate-500 uppercase tracking-wider mb-4 font-semibold">Fear & Greed Index</h3>
+        <div id="fgLoading" class="text-center py-6">
+          <div class="text-xs text-slate-500 pulse">Cargando...</div>
+        </div>
+        <div id="fgContent" class="hidden">
+          <!-- Gauge -->
+          <div class="flex justify-center mb-1">
+            <svg id="fgGauge" viewBox="0 0 300 175" width="300" height="175">
+              <defs>
+                <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#dc2626"/>
+                  <stop offset="25%" stop-color="#f97316"/>
+                  <stop offset="50%" stop-color="#eab308"/>
+                  <stop offset="75%" stop-color="#22c55e"/>
+                  <stop offset="100%" stop-color="#15803d"/>
+                </linearGradient>
+                <filter id="needleShadow"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.5"/></filter>
+              </defs>
+              <!-- Arc track (background) -->
+              <path d="M 30 150 A 120 120 0 0 1 270 150" fill="none" stroke="rgba(100,116,139,0.12)" stroke-width="24" stroke-linecap="round"/>
+              <!-- Arc gradient fill -->
+              <path d="M 30 150 A 120 120 0 0 1 270 150" fill="none" stroke="url(#gaugeGrad)" stroke-width="24" stroke-linecap="round" opacity="0.7"/>
+              <!-- Tick numbers -->
+              <text x="26" y="164" fill="#64748b" font-size="9" text-anchor="middle">0</text>
+              <text x="150" y="28" fill="#64748b" font-size="9" text-anchor="middle">50</text>
+              <text x="274" y="164" fill="#64748b" font-size="9" text-anchor="middle">100</text>
+              <!-- Needle -->
+              <g id="fgNeedle" filter="url(#needleShadow)" transform="rotate(-90,150,150)">
+                <polygon points="150,52 146,150 154,150" fill="#e2e8f0" opacity="0.9"/>
+              </g>
+              <!-- Center hub -->
+              <circle cx="150" cy="150" r="8" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+              <circle cx="150" cy="150" r="4" fill="#6366f1"/>
+              <!-- Score -->
+              <text id="fgScoreText" x="150" y="130" fill="#e2e8f0" font-size="40" font-weight="800" text-anchor="middle" font-family="system-ui">--</text>
+            </svg>
+          </div>
+          <div id="fgLabel" class="text-center text-base font-bold -mt-2 mb-3"></div>
+          <div id="fgSignals" class="space-y-1.5"></div>
+          <div id="fgHistory" class="mt-3 space-y-0"></div>
+          <div id="fgUpdated" class="text-[10px] text-slate-600 text-center mt-2"></div>
+        </div>
+      </div>
+
+      <!-- Sector ETF Heatmap -->
+      <div class="glass rounded-lg p-5">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Sector Performance</h3>
+          <select id="hmPeriod" onchange="loadSectorHeatmap()" class="rounded px-1.5 py-0.5 text-[10px]" style="background:rgba(10,10,26,0.9);border:1px solid rgba(99,102,241,0.25);color:#e2e8f0;">
+            <option value="1mo" selected>1 Month</option>
+            <option value="3mo">3 Months</option>
+            <option value="6mo">6 Months</option>
+            <option value="1y">1 Year</option>
+          </select>
+        </div>
+        <div id="hmLoading" class="text-center py-6">
+          <div class="text-xs text-slate-500 pulse">Cargando...</div>
+        </div>
+        <div id="hmContent" class="hidden">
+          <div id="hmNetTotal" class="text-center mb-3"></div>
+          <div id="heatmapGrid" class="grid grid-cols-3 sm:grid-cols-4 gap-2"></div>
+          <div id="hmUpdated" class="text-[10px] text-slate-600 text-center mt-3"></div>
+        </div>
+      </div>
+
+      </div><!-- end KPI grid -->
+
+    </div><!-- end TAB KPIs -->
+
   </main>
 
   <!-- Modal detalle -->
@@ -224,6 +313,26 @@
     let scanData = null;
     let sortField = 'score';
     let sortAsc = false;
+
+    // --- Tab switching ---
+    function switchTab(tab) {
+      const scannerSection = document.getElementById('sectionScanner');
+      const kpisSection = document.getElementById('sectionKpis');
+      const tabScanner = document.getElementById('tabScanner');
+      const tabKpis = document.getElementById('tabKpis');
+
+      if (tab === 'scanner') {
+        scannerSection.classList.remove('hidden');
+        kpisSection.classList.add('hidden');
+        tabScanner.className = 'px-3 py-1 rounded-md text-xs font-medium transition-all bg-indigo-600 text-white';
+        tabKpis.className = 'px-3 py-1 rounded-md text-xs font-medium transition-all text-slate-400 hover:text-white';
+      } else {
+        scannerSection.classList.add('hidden');
+        kpisSection.classList.remove('hidden');
+        tabKpis.className = 'px-3 py-1 rounded-md text-xs font-medium transition-all bg-indigo-600 text-white';
+        tabScanner.className = 'px-3 py-1 rounded-md text-xs font-medium transition-all text-slate-400 hover:text-white';
+      }
+    }
 
     // --- Source switching ---
     function onSourceChange() {
@@ -565,8 +674,12 @@
         const res = await fetch('/api/indices');
         const data = await res.json();
         const sel = document.getElementById('indexSelect');
-        sel.innerHTML = data.indices.map(i =>
-          `<option value="${i.id}">${i.name} (${i.count})</option>`
+        // Put insider indices first, then the rest
+        const insider = data.indices.filter(i => i.id.startsWith('insider_'));
+        const others = data.indices.filter(i => !i.id.startsWith('insider_'));
+        const sorted = [...insider, ...others];
+        sel.innerHTML = sorted.map(i =>
+          `<option value="${i.id}"${i.id === 'insider_universe' ? ' selected' : ''}>${i.name} (${i.count})</option>`
         ).join('');
       } catch(e) {}
     }
@@ -1040,9 +1153,136 @@
     // Enter to scan
     document.getElementById('tickerInput').addEventListener('keydown', e => { if(e.key==='Enter') startScan(); });
 
+    // --- Fear & Greed (CNN) ---
+    async function loadFearGreed() {
+      try {
+        const res = await fetch('/api/market/fear-greed');
+        const data = await res.json();
+        document.getElementById('fgLoading').classList.add('hidden');
+        document.getElementById('fgContent').classList.remove('hidden');
+
+        const score = data.score || 50;
+        // Needle rotation: -90 (score=0) to +90 (score=100)
+        const angle = -90 + (score / 100) * 180;
+        document.getElementById('fgNeedle').setAttribute('transform', `rotate(${angle},150,150)`);
+        document.getElementById('fgScoreText').textContent = score;
+
+        // Label with color
+        const label = data.label || 'Neutral';
+        const labelEl = document.getElementById('fgLabel');
+        const labelColors = {
+          'Extreme Fear': 'text-red-500',
+          'Fear': 'text-orange-400',
+          'Neutral': 'text-slate-300',
+          'Greed': 'text-green-400',
+          'Extreme Greed': 'text-green-500',
+        };
+        labelEl.className = `text-center text-sm font-bold mb-3 ${labelColors[label] || 'text-slate-300'}`;
+        labelEl.textContent = label;
+
+        // Signals breakdown
+        const signalsEl = document.getElementById('fgSignals');
+        signalsEl.innerHTML = Object.values(data.signals || {}).map(s => {
+          const barColor = s.score <= 25 ? 'bg-red-500' : s.score <= 45 ? 'bg-orange-500' : s.score <= 55 ? 'bg-slate-400' : s.score <= 75 ? 'bg-green-500' : 'bg-green-600';
+          return `<div class="flex items-center gap-2 text-[10px]">
+            <span class="text-slate-500 w-[130px] truncate" title="${s.label}">${s.label}</span>
+            <div class="flex-1 bg-slate-800 rounded-full h-1 overflow-hidden">
+              <div class="${barColor} h-full rounded-full" style="width:${s.score}%"></div>
+            </div>
+            <span class="text-slate-400 w-6 text-right">${s.score}</span>
+          </div>`;
+        }).join('');
+
+        // Historical comparison
+        const hist = data.history || {};
+        if (hist.previous_close) {
+          const fgScoreColor = (v) => v <= 25 ? 'text-red-400' : v <= 45 ? 'text-orange-400' : v <= 55 ? 'text-slate-300' : v <= 75 ? 'text-green-400' : 'text-green-500';
+          const fgScoreLabel = (v) => v <= 25 ? 'Extreme Fear' : v <= 45 ? 'Fear' : v <= 55 ? 'Neutral' : v <= 75 ? 'Greed' : 'Extreme Greed';
+          document.getElementById('fgHistory').innerHTML = [
+            {label: 'Previous close', val: hist.previous_close},
+            {label: '1 week ago', val: hist.previous_1_week},
+            {label: '1 month ago', val: hist.previous_1_month},
+            {label: '1 year ago', val: hist.previous_1_year},
+          ].map(h => `<div class="flex items-center justify-between text-[10px] py-1 border-b border-slate-800/30">
+            <div>
+              <div class="text-slate-500">${h.label}</div>
+              <div class="text-slate-400 font-medium">${fgScoreLabel(h.val)}</div>
+            </div>
+            <div class="w-7 h-7 rounded-full border flex items-center justify-center text-[11px] font-bold ${fgScoreColor(h.val)}" style="border-color: currentColor">${h.val}</div>
+          </div>`).join('');
+        }
+
+        const srcLabel = data.source ? `${data.source}` : '';
+        const ts = data.timestamp ? new Date(data.timestamp).toLocaleDateString('en-US', {month:'short', day:'numeric'}) : '';
+        document.getElementById('fgUpdated').textContent = `${srcLabel} ${ts ? '| ' + ts : ''}`;
+      } catch(e) {
+        document.getElementById('fgLoading').innerHTML = '<div class="text-xs text-red-400">Error loading F&G</div>';
+      }
+    }
+
+    // --- Sector Heatmap ---
+    async function loadSectorHeatmap() {
+      const period = document.getElementById('hmPeriod').value;
+      document.getElementById('hmLoading').classList.remove('hidden');
+      document.getElementById('hmContent').classList.add('hidden');
+      try {
+        const res = await fetch(`/api/market/sector-heatmap?period=${period}`);
+        const data = await res.json();
+        document.getElementById('hmLoading').classList.add('hidden');
+        document.getElementById('hmContent').classList.remove('hidden');
+
+        const sectors = data.sectors || [];
+
+        // Net total
+        const avgPerf = sectors.length ? sectors.reduce((s, x) => s + x.price_change, 0) / sectors.length : 0;
+        const netSign = avgPerf > 0 ? '+' : '';
+        const netColor = avgPerf > 0 ? 'text-green-400' : avgPerf < 0 ? 'text-red-400' : 'text-slate-400';
+        document.getElementById('hmNetTotal').innerHTML = `<div class="text-[10px] text-slate-500 uppercase">Avg sector performance</div><div class="text-lg font-bold ${netColor}">${netSign}${avgPerf.toFixed(1)}%</div>`;
+
+        const maxAbs = Math.max(...sectors.map(s => Math.abs(s.price_change)), 1);
+
+        const grid = document.getElementById('heatmapGrid');
+        grid.innerHTML = sectors.map(s => {
+          const perf = s.price_change;
+          const intensity = Math.min(Math.abs(perf) / maxAbs, 1);
+
+          let bg, border, textColor;
+          if (perf > 0) {
+            const a = (0.15 + intensity * 0.35).toFixed(2);
+            bg = `rgba(34,197,94,${a})`;
+            border = `rgba(34,197,94,${(0.3 + intensity * 0.4).toFixed(2)})`;
+            textColor = intensity > 0.5 ? '#bbf7d0' : '#86efac';
+          } else {
+            const a = (0.15 + intensity * 0.35).toFixed(2);
+            bg = `rgba(239,68,68,${a})`;
+            border = `rgba(239,68,68,${(0.3 + intensity * 0.4).toFixed(2)})`;
+            textColor = intensity > 0.5 ? '#fecaca' : '#fca5a5';
+          }
+
+          const sign = perf > 0 ? '+' : '';
+          const volSign = s.vol_change > 0 ? '+' : '';
+
+          return `<div class="rounded-lg p-2 text-center cursor-default transition-all hover:scale-105" style="background:${bg};border:1px solid ${border}" title="${s.name}: ${sign}${perf.toFixed(1)}% price | ${volSign}${s.vol_change.toFixed(0)}% vol">
+            <div class="text-[10px] font-bold text-white/90">${s.symbol}</div>
+            <div class="text-[9px] text-slate-400 truncate">${s.name}</div>
+            <div class="text-sm font-bold mt-0.5" style="color:${textColor}">${sign}${perf.toFixed(1)}%</div>
+            <div class="text-[9px] text-slate-500">vol ${volSign}${s.vol_change.toFixed(0)}%</div>
+          </div>`;
+        }).join('');
+
+        if (data.updated) {
+          document.getElementById('hmUpdated').textContent = `Updated: ${new Date(data.updated).toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit'})}`;
+        }
+      } catch(e) {
+        document.getElementById('hmLoading').innerHTML = '<div class="text-xs text-red-400">Error loading heatmap</div>';
+      }
+    }
+
     loadWatchlist();
     loadIndices();
     loadHistory();
+    loadFearGreed();
+    loadSectorHeatmap();
   </script>
 </body>
 </html>

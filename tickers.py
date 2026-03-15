@@ -1,5 +1,26 @@
 """Listas de tickers del S&P 500 y NASDAQ-100."""
 
+import json
+from pathlib import Path
+
+# ── Insider Universe (2000 empresas filtradas por sector) ───────────────────
+_UNIVERSE_PATH = Path(__file__).parent / "insider_universe_tickers.json"
+_INSIDER_UNIVERSE = []
+_INSIDER_BY_SECTOR = {}
+
+def _load_insider_universe():
+    global _INSIDER_UNIVERSE, _INSIDER_BY_SECTOR
+    if _UNIVERSE_PATH.exists():
+        _INSIDER_BY_SECTOR = json.loads(_UNIVERSE_PATH.read_text())
+        seen = set()
+        for tickers in _INSIDER_BY_SECTOR.values():
+            for t in tickers:
+                if t not in seen:
+                    seen.add(t)
+                    _INSIDER_UNIVERSE.append(t)
+
+_load_insider_universe()
+
 # NASDAQ-100 (actualizado Q1 2025)
 NASDAQ_100 = [
     "AAPL", "ABNB", "ADBE", "ADI", "ADP", "ADSK", "AEP", "AMAT", "AMD",
@@ -161,7 +182,13 @@ INDICES = {
     "meme":         ("Meme / Alta Volatilidad", MEME_VOLATILE),
     "russell2k":    ("Russell 2000 (Top 100)", RUSSELL_2K_TOP),
     "all":          ("S&P 500 + NASDAQ-100", []),  # special case
+    "insider_universe": ("Insider Universe (Full)", _INSIDER_UNIVERSE),
 }
+
+# Add per-sector insider indices
+for _sector_key, _tickers in _INSIDER_BY_SECTOR.items():
+    _id = "insider_" + _sector_key.lower().replace(" ", "_").replace("-", "_")
+    INDICES[_id] = (f"Insider: {_sector_key}", _tickers)
 
 
 def get_index_tickers(index: str) -> list[str]:

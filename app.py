@@ -23,6 +23,7 @@ import uvicorn
 from scanner import scan_tickers, scan_ticker
 from tickers import get_index_tickers, list_indices, INDICES
 from context import get_ticker_context, apply_context_penalty
+from market_kpis import get_fear_and_greed, get_sector_heatmap
 import config
 
 load_dotenv()
@@ -111,12 +112,8 @@ def _resolve_tickers(list_name: str | None, tickers_str: str | None, index: str 
     if list_name:
         wl = load_watchlist()
         return wl["lists"].get(list_name, [])
-    # Default: todas las watchlists
-    wl = load_watchlist()
-    result = []
-    for t_list in wl["lists"].values():
-        result.extend(t for t in t_list if t not in result)
-    return result
+    # Default: insider universe
+    return get_index_tickers("insider_universe")
 
 
 async def _enrich_with_context(alerts: list[dict], insights: list[dict]) -> dict:
@@ -441,6 +438,18 @@ async def delete_scan(filename: str):
     if filepath.exists() and filepath.suffix == ".json":
         filepath.unlink()
     return {"ok": True}
+
+
+@app.get("/api/market/fear-greed")
+async def fear_greed():
+    """Fear & Greed index data."""
+    return await get_fear_and_greed()
+
+
+@app.get("/api/market/sector-heatmap")
+async def sector_heatmap(period: str = Query("1mo")):
+    """Sector ETF heatmap. period: 1mo, 3mo, 6mo, 1y."""
+    return await get_sector_heatmap(period)
 
 
 @app.get("/api/trends")

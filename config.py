@@ -28,14 +28,14 @@ OI_CONCENTRATION_THRESHOLD = 0.20  # 20%+ del OI total en un solo contrato
 OI_CONCENTRATION_MIN = 1000  # Mínimo OI absoluto para considerar concentración
 
 # --- Scoring: pesos (suman 1.0) ---
-WEIGHT_VOL_ANOMALY = 0.20     # Volumen vs media histórica del ticker
-WEIGHT_VOL_OI = 0.15          # Posiciones nuevas (vol >> OI)
+WEIGHT_VOL_ANOMALY = 0.12     # Volumen vs media histórica del ticker
+WEIGHT_VOL_OI = 0.13          # Posiciones nuevas (vol >> OI)
 WEIGHT_NOTIONAL = 0.15        # Tamaño de la apuesta en $
-WEIGHT_NEAR_EXPIRY = 0.12     # Near-term = más apalancamiento = más sospechoso
-WEIGHT_OTM_DEPTH = 0.08       # OTM profundo con volumen = apuesta direccional fuerte
+WEIGHT_NEAR_EXPIRY = 0.15     # Near-term = más apalancamiento = más sospechoso
+WEIGHT_OTM_DEPTH = 0.15       # OTM profundo con volumen = apuesta direccional fuerte
 WEIGHT_CLUSTERING = 0.08      # Múltiples strikes inusuales en el mismo ticker
-WEIGHT_DIRECTIONAL_FLOW = 0.12  # Flujo extremo en una dirección (calls vs puts)
-WEIGHT_OI_CONCENTRATION = 0.10  # Concentración anormal de OI en contratos específicos
+WEIGHT_DIRECTIONAL_FLOW = 0.10  # Flujo extremo en una dirección (calls vs puts)
+WEIGHT_OI_CONCENTRATION = 0.12  # Concentración anormal de OI en contratos específicos
 
 # Umbral mínimo de score (0-100) para generar alerta
 ALERT_THRESHOLD = 50

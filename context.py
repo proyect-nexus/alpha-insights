@@ -234,14 +234,12 @@ async def get_ticker_context(ticker: str) -> dict:
     reasons = []
     tags = []  # Tags informativos para el frontend
 
-    # Reddit context (informativo, penalización mínima)
+    # Reddit context (solo informativo, sin penalización)
     hype = reddit["hype_level"]
     if hype == "viral":
-        penalty += 10
         reasons.append(f"Viral en Reddit ({reddit['total_mentions']} posts esta semana)")
         tags.append("reddit_viral")
     elif hype == "high":
-        penalty += 5
         reasons.append(f"Trending en Reddit ({reddit['total_mentions']} posts)")
         tags.append("reddit_trending")
     elif hype == "moderate":

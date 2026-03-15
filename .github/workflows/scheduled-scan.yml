@@ -49,4 +49,4 @@ jobs:
           curl -s -X POST https://api.resend.com/emails \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H "Content-Type: application/json" \
-            -d "{\"from\":\"Alpha Insights <${{ secrets.RESEND_FROM }}>\",\"to\":${TO_ARRAY},\"subject\":\"ALERTA Insider Trading — Score >= 80 detectado\",\"text\":${BODY}}"
+            -d "{\"from\":\"Alpha Insights <${{ secrets.RESEND_FROM }}>\",\"to\":${TO_ARRAY},\"subject\":\"ALERTA Insider Trading — Score >= 50 detectado\",\"text\":${BODY}}"

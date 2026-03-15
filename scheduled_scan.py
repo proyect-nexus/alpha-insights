@@ -172,8 +172,8 @@ def print_summary(result: dict) -> None:
 
 
 def build_email_body(result: dict) -> str | None:
-    """Build email alert body for high-score tickers (>=80). Returns None if no alerts."""
-    critical = [ins for ins in result["insights"] if ins["max_score"] >= 80]
+    """Build email alert body for high-score tickers (>=50). Returns None if no alerts."""
+    critical = [ins for ins in result["insights"] if ins["max_score"] >= 50]
     if not critical:
         return None
 
@@ -183,7 +183,7 @@ def build_email_body(result: dict) -> str | None:
     lines.append(f"Total alertas: {result['total_alerts']}")
     lines.append("")
     lines.append(f"{'='*60}")
-    lines.append(f"ALERTAS CRITICAS (score >= 80)")
+    lines.append(f"ALERTAS (score >= 50)")
     lines.append(f"{'='*60}")
 
     for ins in critical:
@@ -226,7 +226,7 @@ if __name__ == "__main__":
             with open(github_output, "a", encoding="utf-8") as f:
                 f.write("has_critical=true\n")
     else:
-        print("\nNo critical alerts (score >= 80)")
+        print("\nNo critical alerts (score >= 50)")
         github_output = os.environ.get("GITHUB_OUTPUT")
         if github_output:
             with open(github_output, "a", encoding="utf-8") as f:
