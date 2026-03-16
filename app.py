@@ -11,6 +11,7 @@ import argparse
 import asyncio
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -25,6 +26,8 @@ from tickers import get_index_tickers, list_indices, INDICES
 from context import get_ticker_context, apply_context_penalty
 from market_kpis import get_fear_and_greed, get_sector_heatmap
 import config
+
+SCAN_WORKERS = 5
 
 load_dotenv()
 
@@ -245,26 +248,35 @@ async def scan_stream(
     async def generate():
         total = len(ticker_list)
         all_alerts = []
+        loop = asyncio.get_event_loop()
+        done_count = 0
 
         yield f"data: {json.dumps({'type': 'start', 'total': total})}\n\n"
 
-        for i, ticker in enumerate(ticker_list):
-            yield f"data: {json.dumps({'type': 'progress', 'current': i+1, 'total': total, 'ticker': ticker})}\n\n"
+        # Process in concurrent batches
+        for batch_start in range(0, total, SCAN_WORKERS):
+            batch = ticker_list[batch_start:batch_start + SCAN_WORKERS]
 
-            try:
-                entries = scan_ticker(ticker)
-                for e in entries:
+            with ThreadPoolExecutor(max_workers=SCAN_WORKERS) as executor:
+                futures = {executor.submit(scan_ticker, t): t for t in batch}
+                results = {}
+                for future in futures:
+                    ticker = futures[future]
+                    try:
+                        results[ticker] = future.result()
+                    except Exception:
+                        results[ticker] = []
+
+            # Yield results in order
+            for ticker in batch:
+                done_count += 1
+                yield f"data: {json.dumps({'type': 'progress', 'current': done_count, 'total': total, 'ticker': ticker})}\n\n"
+                for e in results.get(ticker, []):
                     if e["score"] >= threshold:
                         all_alerts.append(e)
                         yield f"data: {json.dumps({'type': 'alert', 'alert': e})}\n\n"
-            except Exception:
-                pass
 
-            # Rate limiting
-            if (i + 1) % config.BATCH_SIZE == 0:
-                await asyncio.sleep(config.DELAY_BETWEEN_BATCHES)
-            else:
-                await asyncio.sleep(config.DELAY_BETWEEN_TICKERS)
+            await asyncio.sleep(config.DELAY_BETWEEN_BATCHES)
 
         # Insights agrupados
         ticker_groups = {}
@@ -328,25 +340,32 @@ async def scan_full(
     async def generate():
         total = len(all_tickers)
         all_alerts = []
+        done_count = 0
 
         yield f"data: {json.dumps({'type': 'start', 'total': total})}\n\n"
 
-        for i, ticker in enumerate(all_tickers):
-            yield f"data: {json.dumps({'type': 'progress', 'current': i+1, 'total': total, 'ticker': ticker})}\n\n"
+        for batch_start in range(0, total, SCAN_WORKERS):
+            batch = all_tickers[batch_start:batch_start + SCAN_WORKERS]
 
-            try:
-                entries = scan_ticker(ticker)
-                for e in entries:
+            with ThreadPoolExecutor(max_workers=SCAN_WORKERS) as executor:
+                futures = {executor.submit(scan_ticker, t): t for t in batch}
+                results = {}
+                for future in futures:
+                    ticker = futures[future]
+                    try:
+                        results[ticker] = future.result()
+                    except Exception:
+                        results[ticker] = []
+
+            for ticker in batch:
+                done_count += 1
+                yield f"data: {json.dumps({'type': 'progress', 'current': done_count, 'total': total, 'ticker': ticker})}\n\n"
+                for e in results.get(ticker, []):
                     if e["score"] >= threshold:
                         all_alerts.append(e)
                         yield f"data: {json.dumps({'type': 'alert', 'alert': e})}\n\n"
-            except Exception:
-                pass
 
-            if (i + 1) % config.BATCH_SIZE == 0:
-                await asyncio.sleep(config.DELAY_BETWEEN_BATCHES)
-            else:
-                await asyncio.sleep(config.DELAY_BETWEEN_TICKERS)
+            await asyncio.sleep(config.DELAY_BETWEEN_BATCHES)
 
         # Agrupar y ordenar
         ticker_groups = {}

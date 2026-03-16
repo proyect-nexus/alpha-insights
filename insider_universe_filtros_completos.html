@@ -1,0 +1,305 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans,'system-ui');color:var(--color-text-primary);background:transparent;font-size:12px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.leg{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--color-text-secondary)}
+.dot{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+col.c0{width:148px}col.c1{width:52px}col.c2{width:46px}col.c3{width:60px}col.c4{width:72px}col.c5{width:72px}col.c6{width:74px}col.c7{width:74px}col.c8{width:58px}
+thead th{font-weight:500;font-size:10px;color:var(--color-text-secondary);text-align:right;padding:5px 6px;border-bottom:0.5px solid var(--color-border-tertiary);white-space:normal;line-height:1.3;vertical-align:bottom}
+thead th:first-child{text-align:left}
+tbody tr{border-bottom:0.5px solid var(--color-border-tertiary)}
+tbody tr:last-child{border-bottom:none}
+td{padding:6px 6px;vertical-align:middle;text-align:right;font-size:11px;color:var(--color-text-secondary);white-space:nowrap}
+td:first-child{text-align:left;font-size:11px;font-weight:500;color:var(--color-text-primary);white-space:normal;line-height:1.3}
+.badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:10px;font-weight:500;white-space:nowrap}
+.t1{background:#EEEDFE;color:#3C3489}
+.t2{background:#E1F5EE;color:#085041}
+.t3{background:#FAEEDA;color:#633806}
+.t4{background:#F1EFE8;color:#5F5E5A}
+.nb{display:inline-block;padding:1px 6px;border-radius:3px;font-weight:500;font-size:12px}
+.nb1{background:#EEEDFE;color:#3C3489}
+.nb2{background:#E1F5EE;color:#085041}
+.nb3{background:#FAEEDA;color:#633806}
+.nb4{background:#F1EFE8;color:#5F5E5A}
+.total-row td{font-weight:500;background:var(--color-background-secondary);color:var(--color-text-primary);font-size:11px}
+.total-row td:first-child{font-size:12px}
+.group-header td{background:var(--color-background-secondary);font-size:10px;font-weight:500;color:var(--color-text-secondary);padding:3px 6px;letter-spacing:0.03em}
+.atr-cell{font-size:10px;line-height:1.4;text-align:right}
+.note{margin-top:10px;font-size:11px;color:var(--color-text-secondary);line-height:1.6;padding:8px 10px;border-left:2px solid var(--color-border-secondary);border-radius:0}
+</style>
+
+<div class="legend">
+  <div class="leg"><div class="dot" style="background:#7F77DD"></div>Tier 1 — insider muy alto</div>
+  <div class="leg"><div class="dot" style="background:#1D9E75"></div>Tier 2 — insider alto</div>
+  <div class="leg"><div class="dot" style="background:#BA7517"></div>Tier 3 — insider moderado</div>
+  <div class="leg"><div class="dot" style="background:#888780"></div>Tier 4 — insider bajo</div>
+</div>
+
+<div class="scroll">
+<table>
+<colgroup>
+  <col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"><col class="c7"><col class="c8">
+</colgroup>
+<thead>
+<tr>
+  <th style="text-align:left">Sector</th>
+  <th>Tier</th>
+  <th>N obj.</th>
+  <th>Vol diario mín ($M)</th>
+  <th>Mkt cap mín ($M)</th>
+  <th>Mkt cap máx ($B)</th>
+  <th>ATR% baseline 180d</th>
+  <th>ATR% señal 30d</th>
+  <th>Anomalía si señal/baseline</th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="group-header"><td colspan="9">— Tier 1: máxima actividad insider en opciones —</td></tr>
+
+<tr>
+  <td>Health Technology</td>
+  <td><span class="badge t1">T1</span></td>
+  <td><span class="nb nb1">280</span></td>
+  <td>0.3</td>
+  <td>100</td>
+  <td>20</td>
+  <td class="atr-cell">≥ 3%<br><span style="font-size:9px;color:var(--color-text-secondary)">(sin techo)</span></td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Technology Services</td>
+  <td><span class="badge t1">T1</span></td>
+  <td><span class="nb nb1">260</span></td>
+  <td>2.0</td>
+  <td>500</td>
+  <td>50</td>
+  <td class="atr-cell">1 – 5%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Electronic Technology</td>
+  <td><span class="badge t1">T1</span></td>
+  <td><span class="nb nb1">240</span></td>
+  <td>2.0</td>
+  <td>500</td>
+  <td>50</td>
+  <td class="atr-cell">1 – 5%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Finance</td>
+  <td><span class="badge t1">T1</span></td>
+  <td><span class="nb nb1">200</span></td>
+  <td>5.0</td>
+  <td>1,000</td>
+  <td>30</td>
+  <td class="atr-cell">0.5 – 3%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 2.0×</td>
+</tr>
+
+<tr class="group-header"><td colspan="9">— Tier 2: alto — M&A frecuente + regulatorio —</td></tr>
+
+<tr>
+  <td>Energy Minerals</td>
+  <td><span class="badge t2">T2</span></td>
+  <td><span class="nb nb2">150</span></td>
+  <td>0.5</td>
+  <td>200</td>
+  <td>25</td>
+  <td class="atr-cell">2 – 8%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Health Services</td>
+  <td><span class="badge t2">T2</span></td>
+  <td><span class="nb nb2">120</span></td>
+  <td>0.3</td>
+  <td>100</td>
+  <td>15</td>
+  <td class="atr-cell">≥ 2%<br><span style="font-size:9px;color:var(--color-text-secondary)">(sin techo)</span></td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Consumer Non-Durables</td>
+  <td><span class="badge t2">T2</span></td>
+  <td><span class="nb nb2">110</span></td>
+  <td>1.0</td>
+  <td>300</td>
+  <td>40</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Retail Trade</td>
+  <td><span class="badge t2">T2</span></td>
+  <td><span class="nb nb2">100</span></td>
+  <td>1.0</td>
+  <td>300</td>
+  <td>40</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+<tr>
+  <td>Producer Manufacturing</td>
+  <td><span class="badge t2">T2</span></td>
+  <td><span class="nb nb2">90</span></td>
+  <td>1.0</td>
+  <td>300</td>
+  <td>30</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+
+<tr class="group-header"><td colspan="9">— Tier 3: moderado — eventos con upside &gt;10% —</td></tr>
+
+<tr>
+  <td>Consumer Durables</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">80</span></td>
+  <td>1.0</td>
+  <td>400</td>
+  <td>35</td>
+  <td class="atr-cell">1 – 5%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Industrial Services</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">70</span></td>
+  <td>0.5</td>
+  <td>200</td>
+  <td>25</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Non-Energy Minerals</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">65</span></td>
+  <td>0.5</td>
+  <td>200</td>
+  <td>20</td>
+  <td class="atr-cell">2 – 7%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Consumer Services</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">60</span></td>
+  <td>1.0</td>
+  <td>400</td>
+  <td>30</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Transportation</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">55</span></td>
+  <td>0.5</td>
+  <td>300</td>
+  <td>25</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Process Industries</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">50</span></td>
+  <td>0.5</td>
+  <td>200</td>
+  <td>20</td>
+  <td class="atr-cell">1 – 4%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Commercial Services</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">45</span></td>
+  <td>0.5</td>
+  <td>300</td>
+  <td>20</td>
+  <td class="atr-cell">1 – 3%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.8×</td>
+</tr>
+<tr>
+  <td>Utilities</td>
+  <td><span class="badge t3">T3</span></td>
+  <td><span class="nb nb3">40</span></td>
+  <td>1.0</td>
+  <td>500</td>
+  <td>25</td>
+  <td class="atr-cell">0.5 – 2%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 2.5×</td>
+</tr>
+
+<tr class="group-header"><td colspan="9">— Tier 4: bajo — pocas opciones líquidas —</td></tr>
+
+<tr>
+  <td>Communications</td>
+  <td><span class="badge t4">T4</span></td>
+  <td><span class="nb nb4">30</span></td>
+  <td>1.0</td>
+  <td>500</td>
+  <td>30</td>
+  <td class="atr-cell">0.5 – 3%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 2.0×</td>
+</tr>
+<tr>
+  <td>Distribution Services</td>
+  <td><span class="badge t4">T4</span></td>
+  <td><span class="nb nb4">25</span></td>
+  <td>0.5</td>
+  <td>300</td>
+  <td>20</td>
+  <td class="atr-cell">1 – 3%</td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 2.0×</td>
+</tr>
+<tr>
+  <td>Miscellaneous</td>
+  <td><span class="badge t4">T4</span></td>
+  <td><span class="nb nb4">30</span></td>
+  <td>1.0</td>
+  <td>500</td>
+  <td>15</td>
+  <td class="atr-cell">≥ 2%<br><span style="font-size:9px;color:var(--color-text-secondary)">(sin techo)</span></td>
+  <td class="atr-cell">monitorizar</td>
+  <td>&gt; 1.5×</td>
+</tr>
+
+<tr class="total-row">
+  <td>Total universo</td>
+  <td></td>
+  <td>2,000</td>
+  <td colspan="6" style="text-align:left;padding-left:12px;font-size:10px;color:var(--color-text-secondary)">La columna "señal 30d" se monitoriza en tiempo real — no es filtro de entrada, es la alarma</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="note">
+<strong>Cómo leer las dos columnas ATR%</strong> — el rango de baseline 180d define qué empresas entran al universo (demasiado baja = no se moverá ni con M&A; demasiado alta sin techo solo en sectores donde la volatilidad es la señal). La columna señal/baseline es el ratio que dispara la alerta: si el ATR de 30d sube a &gt;1.5× el ATR de 180d, algo está pasando en esa empresa fuera de lo normal. En Utilities ese umbral sube a 2.5× porque su volatilidad de base es tan baja que cualquier movimiento ya es ruido — necesitas una desviación mayor para que sea significativa.
+</div>

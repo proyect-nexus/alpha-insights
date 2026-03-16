@@ -43,10 +43,23 @@ jobs:
       - name: Send email alert via Resend
         if: steps.scan.outputs.has_critical == 'true'
         run: |
-          BODY=$(cat scans/scheduled/latest_alert.txt | python -c "import sys,json; print(json.dumps(sys.stdin.read()))")
-          IFS=',' read -ra EMAILS <<< "${{ secrets.ALERT_EMAILS }}"
-          TO_ARRAY=$(printf '%s\n' "${EMAILS[@]}" | python -c "import sys,json; print(json.dumps([l.strip() for l in sys.stdin.readlines()]))")
+          python -c "
+          import json, sys
+          with open('scans/scheduled/latest_alert.html') as f:
+              html = f.read()
+          with open('scans/scheduled/latest_alert.txt') as f:
+              text = f.read()
+          emails = [e.strip() for e in '${{ secrets.ALERT_EMAILS }}'.split(',')]
+          payload = {
+              'from': 'Alpha Insights <${{ secrets.RESEND_FROM }}>',
+              'to': emails,
+              'subject': 'ALERTA Insider Trading — Score >= 60 detectado',
+              'html': html,
+              'text': text,
+          }
+          print(json.dumps(payload))
+          " > /tmp/email_payload.json
           curl -s -X POST https://api.resend.com/emails \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H "Content-Type: application/json" \
-            -d "{\"from\":\"Alpha Insights <${{ secrets.RESEND_FROM }}>\",\"to\":${TO_ARRAY},\"subject\":\"ALERTA Insider Trading — Score >= 50 detectado\",\"text\":${BODY}}"
+            -d @/tmp/email_payload.json
