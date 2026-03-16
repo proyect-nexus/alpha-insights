@@ -62,17 +62,20 @@ def run_scan(threshold: int) -> dict:
 
         with ThreadPoolExecutor(max_workers=CONCURRENT_WORKERS) as executor:
             futures = {executor.submit(_scan_one, t, threshold): t for t in batch}
-            for future in as_completed(futures):
-                result = future.result()
+            for future in as_completed(futures, timeout=30):
                 done += 1
-                if result["ok"]:
-                    scanned += 1
-                    if result["alerts"]:
-                        all_alerts.extend(result["alerts"])
-                        print(f"  [{done}/{total}] {result['ticker']}: {len(result['alerts'])} alert(s) "
-                              f"(max score {max(a['score'] for a in result['alerts'])})")
-                else:
-                    errors.append({"ticker": result["ticker"], "error": result.get("error", "")})
+                try:
+                    result = future.result(timeout=15)
+                    if result["ok"]:
+                        scanned += 1
+                        if result["alerts"]:
+                            all_alerts.extend(result["alerts"])
+                            print(f"  [{done}/{total}] {result['ticker']}: {len(result['alerts'])} alert(s) "
+                                  f"(max score {max(a['score'] for a in result['alerts'])})")
+                    else:
+                        errors.append({"ticker": result["ticker"], "error": result.get("error", "")})
+                except Exception:
+                    errors.append({"ticker": "unknown", "error": "timeout"})
 
         # Rate limiting between batches
         time.sleep(config.DELAY_BETWEEN_BATCHES)
