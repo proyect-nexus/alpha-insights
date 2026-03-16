@@ -1,0 +1,16 @@
+Scan: 2026-03-16T16:03:22.316697
+Tickers escaneados: 2412
+Total alertas: 217
+
+============================================================
+ALERTAS (score >= 60)
+============================================================
+
+  KHC — The Kraft Heinz Company
+  Precio: $22.72
+  Score: 62.4
+  Notional total: $3,218
+  Contratos inusuales: 4
+    - Strike $29.0 exp 2026-03-27 | score 62.4 | vol 404 | V/OI 134.67x | Flujo ALCISTA: 75.7% direccional | V/OI 135x — posiciones mayoritariamente nueva
+    - Strike $27.5 exp 2026-03-20 | score 48.4 | vol 152 | V/OI 0.02x | OI concentrado: 32,836 contratos (31% del total) | Expira en 3 dias — maximo apa
+    - Strike $25.0 exp 2026-03-27 | score 44.9 | vol 393 | V/OI 0.26x | Flujo ALCISTA: 75.7% direccional | OI concentrado: 32,836 contratos (31% del tot
