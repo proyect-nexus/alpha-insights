@@ -1,25 +1,24 @@
-Scan: 2026-03-17T18:12:09.957732
+Scan: 2026-03-17T20:21:35.521411
 Tickers escaneados: 2395
-Total alertas: 184
+Total alertas: 220
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  KHC — The Kraft Heinz Company
-  Precio: $22.82
-  Score: 61.5
-  Notional total: $1,553
-  Contratos inusuales: 3
-    - Strike $29.0 exp 2026-03-27 | score 61.5 | vol 404 | V/OI 134.67x | Flujo ALCISTA: 79.8% direccional | V/OI 135x — posiciones mayoritariamente nueva
-    - Strike $25.0 exp 2026-03-20 | score 47.0 | vol 103 | V/OI 0.0x | Flujo ALCISTA: 77.0% direccional | OI concentrado: 33,130 contratos (27% del tot
-    - Strike $24.5 exp 2026-03-20 | score 42.5 | vol 119 | V/OI 0.12x | Flujo ALCISTA: 77.0% direccional | OI concentrado: 33,130 contratos (27% del tot
-
   NVDA — NVIDIA Corporation
-  Precio: $183.12
-  Score: 61.1
-  Notional total: $63,568,720
-  Contratos inusuales: 20
-    - Strike $215.0 exp 2026-04-17 | score 61.1 | vol 56,101 | V/OI 26.41x | Flujo ALCISTA: 78.1% direccional | V/OI 26x — posiciones mayoritariamente nuevas
-    - Strike $190.0 exp 2026-04-10 | score 54.3 | vol 56,242 | V/OI 13.29x | Flujo ALCISTA extremo: 87.6% en una direccion | V/OI 13x — posiciones mayoritari
-    - Strike $190.0 exp 2026-03-20 | score 46.4 | vol 44,602 | V/OI 0.24x | Apuesta de $1.9M | Expira en 2 dias — maximo apalancamiento | 112 contratos inus
+  Precio: $181.93
+  Score: 61.8
+  Notional total: $40,590,588
+  Contratos inusuales: 10
+    - Strike $215.0 exp 2026-04-17 | score 61.8 | vol 58,613 | V/OI 27.6x | Flujo ALCISTA: 77.7% direccional | V/OI 28x — posiciones mayoritariamente nuevas
+    - Strike $190.0 exp 2026-04-10 | score 54.7 | vol 58,346 | V/OI 13.79x | Flujo ALCISTA extremo: 86.7% en una direccion | V/OI 14x — posiciones mayoritari
+    - Strike $217.5 exp 2026-03-25 | score 48.0 | vol 101 | V/OI 20.2x | V/OI 20x — posiciones mayoritariamente nuevas | Expira en 7 dias — maximo apalan
+
+  KHC — The Kraft Heinz Company
+  Precio: $22.89
+  Score: 61.5
+  Notional total: $1,351
+  Contratos inusuales: 2
+    - Strike $29.0 exp 2026-03-27 | score 61.5 | vol 404 | V/OI 134.67x | Flujo ALCISTA: 81.4% direccional | V/OI 135x — posiciones mayoritariamente nueva
+    - Strike $25.0 exp 2026-03-20 | score 43.0 | vol 139 | V/OI 0.0x | OI concentrado: 33,130 contratos (27% del total) | Expira en 2 dias — maximo apa
