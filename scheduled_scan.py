@@ -4,6 +4,7 @@ Runs a full scan across all indices, saves results to scans/scheduled/.
 """
 
 import argparse
+import asyncio
 import json
 import os
 import time
@@ -14,6 +15,8 @@ from pathlib import Path
 import config
 from scanner import scan_ticker
 from tickers import INDICES, get_index_tickers
+from ai_analysis import analyze_alerts
+from context import get_ticker_context
 
 CONCURRENT_WORKERS = 5
 
@@ -338,6 +341,21 @@ def build_email_html(result: dict) -> str | None:
               <div style="color:#94a3b8;font-size:11px">{reason}</div>
             </div>'''
 
+        # AI analysis section for email
+        ai_html = ""
+        ai = ins.get("ai_analysis", {})
+        if ai.get("available") and not ai.get("error") and ai.get("analysis"):
+            conf_color = "#34d399" if ai.get("confidence") == "high" else "#fbbf24" if ai.get("confidence") == "medium" else "#94a3b8"
+            ai_text = ai["analysis"].replace("\n", "<br>")
+            ai_html = f'''
+            <div style="background:#1e1b4b;border:1px solid #4c1d95;border-radius:6px;padding:12px;margin-top:12px">
+              <div style="margin-bottom:8px">
+                <span style="{badge_base};background:#2e1065;color:#c4b5fd">Claude AI</span>
+                <span style="font-size:10px;color:{conf_color}">Confianza: {ai.get("confidence", "?")}</span>
+              </div>
+              <div style="font-size:12px;color:#cbd5e1;line-height:1.5">{ai_text}</div>
+            </div>'''
+
         cards_html += f'''
         <div style="background:#0f172a;border:1px solid #1e293b;border-radius:8px;padding:16px;margin-bottom:16px">
           <div style="margin-bottom:10px">
@@ -356,6 +374,7 @@ def build_email_html(result: dict) -> str | None:
           <div>
             {rows_html}
           </div>
+          {ai_html}
         </div>'''
 
     # Summary stat boxes
@@ -423,6 +442,32 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     result = run_scan(args.threshold)
+
+    # AI analysis for high-score tickers
+    high_score_insights = [ins for ins in result.get("insights", []) if ins.get("max_score", 0) >= config.AI_ANALYSIS_THRESHOLD]
+    if high_score_insights:
+        print(f"\nRunning AI analysis on {len(high_score_insights)} tickers (score >= {config.AI_ANALYSIS_THRESHOLD})...")
+        try:
+            async def _run_ai():
+                # Get context for qualifying tickers
+                context_map = {}
+                for ins in high_score_insights:
+                    try:
+                        context_map[ins["ticker"]] = await get_ticker_context(ins["ticker"])
+                    except Exception:
+                        context_map[ins["ticker"]] = {}
+                # Run AI analysis
+                all_alerts = []
+                for ins in result.get("insights", []):
+                    all_alerts.extend(ins.get("alerts", []))
+                await analyze_alerts(all_alerts, result["insights"], context_map)
+
+            asyncio.run(_run_ai())
+            ai_count = sum(1 for ins in result["insights"] if ins.get("ai_analysis", {}).get("available"))
+            print(f"  AI analysis completed for {ai_count} tickers")
+        except Exception as e:
+            print(f"  AI analysis failed: {e}")
+
     filepath = save_result(result)
     print_summary(result)
     print(f"\nResults saved to: {filepath}")

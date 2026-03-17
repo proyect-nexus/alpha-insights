@@ -25,6 +25,7 @@ from scanner import scan_tickers, scan_ticker
 from tickers import get_index_tickers, list_indices, INDICES
 from context import get_ticker_context, apply_context_penalty
 from market_kpis import get_fear_and_greed, get_sector_heatmap
+from ai_analysis import analyze_alerts, analyze_ticker
 import config
 
 SCAN_WORKERS = 5
@@ -211,7 +212,10 @@ async def scan(
     insights = sorted(ticker_groups.values(), key=lambda x: x["max_score"], reverse=True)
 
     # Enriquecer con contexto Reddit/earnings
-    await _enrich_with_context(alerts, insights)
+    context_map = await _enrich_with_context(alerts, insights)
+
+    # AI analysis for high-score tickers
+    await analyze_alerts(alerts, insights, context_map)
 
     source = _source_label(list_name, tickers, index)
     result = {
@@ -292,7 +296,13 @@ async def scan_stream(
 
         # Enriquecer con contexto Reddit/earnings
         yield f"data: {json.dumps({'type': 'progress', 'current': total, 'total': total, 'ticker': 'Analizando contexto Reddit/Earnings...'})}\n\n"
-        await _enrich_with_context(all_alerts, insights)
+        context_map = await _enrich_with_context(all_alerts, insights)
+
+        # AI analysis for high-score tickers
+        high_score_count = sum(1 for ins in insights if ins.get("max_score", 0) >= config.AI_ANALYSIS_THRESHOLD)
+        if high_score_count > 0:
+            yield f"data: {json.dumps({'type': 'progress', 'current': total, 'total': total, 'ticker': f'Analizando {high_score_count} tickers con IA (Claude)...'})}\n\n"
+            await analyze_alerts(all_alerts, insights, context_map)
 
         scan_time = datetime.now().isoformat()
         summary = {
@@ -387,7 +397,13 @@ async def scan_full(
 
         # Enriquecer con contexto Reddit/earnings
         yield f"data: {json.dumps({'type': 'progress', 'current': total, 'total': total, 'ticker': 'Analizando contexto Reddit/Earnings...'})}\n\n"
-        await _enrich_with_context(top_alerts, insights)
+        context_map = await _enrich_with_context(top_alerts, insights)
+
+        # AI analysis for high-score tickers
+        high_score_count = sum(1 for ins in insights if ins.get("max_score", 0) >= config.AI_ANALYSIS_THRESHOLD)
+        if high_score_count > 0:
+            yield f"data: {json.dumps({'type': 'progress', 'current': total, 'total': total, 'ticker': f'Analizando {high_score_count} tickers con IA (Claude)...'})}\n\n"
+            await analyze_alerts(top_alerts, insights, context_map)
 
         scan_time = datetime.now().isoformat()
         summary = {
@@ -457,6 +473,42 @@ async def delete_scan(filename: str):
     if filepath.exists() and filepath.suffix == ".json":
         filepath.unlink()
     return {"ok": True}
+
+
+@app.get("/api/ai-analysis/{ticker}")
+async def get_ai_analysis(ticker: str):
+    """On-demand AI analysis for a ticker. Requires recent scan data."""
+    ticker = ticker.upper()
+
+    # Find the most recent scan with this ticker
+    SCANS_DIR.mkdir(exist_ok=True)
+    files = sorted(SCANS_DIR.glob("*.json"), reverse=True)
+
+    insight = None
+    for f in files[:10]:  # Check last 10 scans
+        try:
+            with open(f, encoding="utf-8") as fh:
+                data = json.load(fh)
+            for ins in data.get("insights", []):
+                if ins["ticker"] == ticker:
+                    insight = ins
+                    break
+            if insight:
+                break
+        except Exception:
+            continue
+
+    if not insight:
+        return {"error": f"No scan data found for {ticker}. Run a scan first."}
+
+    # Get context
+    try:
+        ctx = await get_ticker_context(ticker)
+    except Exception:
+        ctx = {}
+
+    result = await analyze_ticker(ticker, insight, ctx)
+    return result
 
 
 @app.get("/api/market/fear-greed")

@@ -24,6 +24,7 @@
     .badge-genuine { background: rgba(16,185,129,0.15); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.3); }
     .badge-flow { background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3); }
     .badge-oi { background: rgba(251,191,36,0.15); color: #fde68a; border: 1px solid rgba(251,191,36,0.3); }
+    .badge-ai { background: rgba(139,92,246,0.15); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
     input, select { background: rgba(10,10,26,0.9); border: 1px solid rgba(99,102,241,0.25); color: #e2e8f0; }
     input:focus, select:focus { outline:none; border-color:#6366f1; box-shadow:0 0 0 2px rgba(99,102,241,0.15); }
     .progress-bar { transition: width 0.3s ease; }
@@ -551,6 +552,13 @@
         const maxOi = topAlert.max_oi_contract || 0;
         if (oiConc >= 20 && maxOi >= 1000) contextBadges += `<span class="px-2 py-0.5 rounded text-[10px] badge-oi">OI concentrado ${oiConc.toFixed(0)}%</span>`;
 
+        // AI analysis badge
+        const ai = ins.ai_analysis;
+        if (ai && ai.available && !ai.error) {
+          const confIcon = ai.confidence === 'alta' ? '↑' : ai.confidence === 'baja' ? '↓' : '→';
+          contextBadges += `<span class="px-2 py-0.5 rounded text-[10px] badge-ai">AI ${confIcon} ${ai.confidence}</span>`;
+        }
+
         const rawScore = ins.raw_max_score || ins.max_score;
         const penaltyInfo = ctx.penalty > 0 ? `<span class="text-[10px] text-slate-600 ml-1">(raw: ${rawScore.toFixed(0)}, -${ctx.penalty}pts contexto)</span>` : '';
 
@@ -697,6 +705,52 @@
     function closeModal() { document.getElementById('modal').classList.add('hidden'); }
     document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
 
+    function formatMarkdown(text) {
+      return text
+        .replace(/^### (.*$)/gm, '<h5 class="text-white font-semibold text-xs mt-3 mb-1">$1</h5>')
+        .replace(/^## (.*$)/gm, '<h4 class="text-white font-semibold text-sm mt-3 mb-1">$1</h4>')
+        .replace(/^# (.*$)/gm, '<h3 class="text-white font-bold text-sm mt-3 mb-1">$1</h3>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong class="text-white">$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/^- (.*$)/gm, '<div class="pl-3 before:content-[\"•\"] before:mr-1.5 before:text-violet-400">$1</div>')
+        .replace(/\n\n/g, '<div class="h-2"></div>')
+        .replace(/\n/g, '<br>');
+    }
+
+    async function requestAiAnalysis(ticker) {
+      const btn = document.getElementById(`aiBtn_${ticker}`);
+      const container = document.getElementById(`aiContainer_${ticker}`);
+      if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<span class="pulse">Analizando con Claude...</span>';
+      }
+      try {
+        const res = await fetch(`/api/ai-analysis/${ticker}`);
+        const data = await res.json();
+        if (data.error) {
+          container.innerHTML = `<div class="text-xs text-red-400">${data.error}</div>`;
+          return;
+        }
+        if (!data.available) {
+          container.innerHTML = `<div class="text-xs text-slate-500">${data.reason}</div>`;
+          return;
+        }
+        const confColor = data.confidence === 'alta' ? 'text-emerald-400' : data.confidence === 'media' ? 'text-amber-400' : 'text-slate-400';
+        const analysisHtml = formatMarkdown(data.analysis || '');
+        container.innerHTML = `
+          <h4 class="text-[10px] text-slate-500 uppercase tracking-wider mb-2">Analisis IA</h4>
+          <div class="p-3 rounded bg-violet-500/5 border border-violet-500/15">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="badge-ai px-1.5 py-0.5 rounded text-[10px]">Claude</span>
+              <span class="text-[10px] ${confColor}">Confianza: ${data.confidence}</span>
+            </div>
+            <div class="text-xs text-slate-300 leading-relaxed">${analysisHtml}</div>
+          </div>`;
+      } catch(e) {
+        container.innerHTML = `<div class="text-xs text-red-400">Error: ${e.message}</div>`;
+      }
+    }
+
     function showTickerDetail(ticker) {
       const alerts = allAlerts.filter(a => a.ticker === ticker);
       if (!alerts.length) return;
@@ -824,6 +878,32 @@
           </div>`;
       }
 
+      // AI Analysis section
+      let aiSection = '';
+      const aiData = top.ai_analysis || (scanData?.insights?.find(i => i.ticker === ticker)?.ai_analysis);
+      if (aiData && aiData.available && !aiData.error) {
+        const confColor = aiData.confidence === 'alta' ? 'text-emerald-400' : aiData.confidence === 'media' ? 'text-amber-400' : 'text-slate-400';
+        const analysisHtml = formatMarkdown(aiData.analysis || '');
+        aiSection = `
+          <h4 class="text-[10px] text-slate-500 uppercase tracking-wider mb-2 mt-5">Analisis IA</h4>
+          <div class="p-3 rounded bg-violet-500/5 border border-violet-500/15 mb-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="badge-ai px-1.5 py-0.5 rounded text-[10px]">Claude</span>
+              <span class="text-[10px] ${confColor}">Confianza: ${aiData.confidence}</span>
+              <span class="text-[10px] text-slate-600">${aiData.model || ''}</span>
+            </div>
+            <div class="text-xs text-slate-300 leading-relaxed">${analysisHtml}</div>
+          </div>`;
+      } else if (!aiData && top.score >= 50) {
+        aiSection = `
+          <div class="mt-4 mb-4" id="aiContainer_${ticker}">
+            <button onclick="requestAiAnalysis('${ticker}')" id="aiBtn_${ticker}"
+              class="px-3 py-1.5 rounded text-xs bg-violet-600/20 text-violet-300 border border-violet-500/30 hover:bg-violet-600/30 transition-colors">
+              Analizar con IA
+            </button>
+          </div>`;
+      }
+
       const content = document.getElementById('modalContent');
       content.innerHTML = `
         <div class="mb-4">
@@ -838,6 +918,7 @@
         ${flowSection}
         ${oiSection}
         ${contextSection}
+        ${aiSection}
 
         <h4 class="text-[10px] text-slate-500 uppercase tracking-wider mb-2 mt-6">Desglose del score — Contrato con mayor sospecha (Score ${top.score.toFixed(0)})</h4>
         <div class="bg-slate-800/40 rounded p-3 text-xs font-mono text-slate-300 mb-3">
