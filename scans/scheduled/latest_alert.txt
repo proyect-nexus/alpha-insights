@@ -1,16 +1,24 @@
-Scan: 2026-03-16T20:18:55.773128
+Scan: 2026-03-17T16:04:36.363234
 Tickers escaneados: 2412
-Total alertas: 404
+Total alertas: 377
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  KHC — The Kraft Heinz Company
-  Precio: $22.71
-  Score: 65.4
-  Notional total: $829,477
-  Contratos inusuales: 11
-    - Strike $29.0 exp 2026-03-27 | score 65.4 | vol 404 | V/OI 134.67x | Flujo ALCISTA extremo: 98.5% en una direccion | V/OI 135x — posiciones mayoritar
-    - Strike $23.5 exp 2026-03-27 | score 58.5 | vol 13,338 | V/OI 98.07x | Flujo ALCISTA extremo: 98.5% en una direccion | V/OI 98x — posiciones mayoritari
-    - Strike $23.0 exp 2026-03-27 | score 55.5 | vol 13,249 | V/OI 79.81x | Flujo ALCISTA extremo: 98.5% en una direccion | V/OI 80x — posiciones mayoritari
+  SHOO — Steven Madden, Ltd.
+  Precio: $32.62
+  Score: 63.5
+  Notional total: $643,300
+  Contratos inusuales: 4
+    - Strike $40.0 exp 2026-03-20 | score 63.5 | vol 10,000 | V/OI 0.74x | Volumen 4.6x sobre lo normal | Flujo ALCISTA extremo: 99.6% en una direccion | O
+    - Strike $40.0 exp 2026-04-17 | score 60.5 | vol 5,000 | V/OI 42.37x | Flujo ALCISTA extremo: 94.7% en una direccion | V/OI 42x — posiciones mayoritari
+    - Strike $35.0 exp 2026-03-20 | score 49.2 | vol 5,000 | V/OI 0.91x | Flujo ALCISTA extremo: 99.6% en una direccion | OI concentrado: 13,480 contratos
+
+  ITRI — Itron, Inc.
+  Precio: $91.71
+  Score: 60.7
+  Notional total: $48,545
+  Contratos inusuales: 2
+    - Strike $115.0 exp 2026-03-20 | score 60.7 | vol 4,000 | V/OI 1.4x | Volumen 4.6x sobre lo normal | Flujo ALCISTA extremo: 99.3% en una direccion | O
+    - Strike $90.0 exp 2026-03-20 | score 41.7 | vol 153 | V/OI 0.58x | Flujo ALCISTA extremo: 99.3% en una direccion | OI concentrado: 4,389 contratos 
