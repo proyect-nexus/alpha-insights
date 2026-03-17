@@ -894,7 +894,7 @@
             </div>
             <div class="text-xs text-slate-300 leading-relaxed">${analysisHtml}</div>
           </div>`;
-      } else if (!aiData && top.score >= 50) {
+      } else if (!aiData && top.score >= 60) {
         aiSection = `
           <div class="mt-4 mb-4" id="aiContainer_${ticker}">
             <button onclick="requestAiAnalysis('${ticker}')" id="aiBtn_${ticker}"

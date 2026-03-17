@@ -46,7 +46,7 @@ DELAY_BETWEEN_BATCHES = 2.0   # Segundos entre lotes
 DELAY_BETWEEN_TICKERS = 0.3   # Segundos entre tickers individuales
 
 # --- AI Analysis (Claude API) ---
-AI_ANALYSIS_THRESHOLD = 50       # Min score to trigger AI analysis
+AI_ANALYSIS_THRESHOLD = 60       # Min score to trigger AI analysis
 AI_ANALYSIS_MODEL = "claude-sonnet-4-20250514"
 AI_ANALYSIS_MAX_TOKENS = 1024
 
