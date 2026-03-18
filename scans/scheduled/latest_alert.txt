@@ -1,14 +1,23 @@
-Scan: 2026-03-18T18:15:22.361656
-Tickers escaneados: 2394
-Total alertas: 149
+Scan: 2026-03-18T20:19:41.444767
+Tickers escaneados: 2395
+Total alertas: 224
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
+  BF-B — Brown Forman Inc
+  Precio: $22.94
+  Score: 65.0
+  Notional total: $57,136
+  Contratos inusuales: 3
+    - Strike $25.0 exp 2026-03-20 | score 65.0 | vol 1,500 | V/OI 13.76x | Flujo ALCISTA extremo: 91.7% en una direccion | V/OI 14x — posiciones mayoritari
+    - Strike $25.0 exp 2026-04-17 | score 54.9 | vol 1,254 | V/OI 16.95x | Flujo ALCISTA extremo: 98.4% en una direccion | V/OI 17x — posiciones mayoritari
+    - Strike $27.5 exp 2026-04-17 | score 49.7 | vol 700 | V/OI 3.83x | Flujo ALCISTA extremo: 98.4% en una direccion | V/OI 3.8x — flujo de posiciones 
+
   IVZ — Invesco Ltd
-  Precio: $23.86
-  Score: 62.9
-  Notional total: $275,132
+  Precio: $23.41
+  Score: 64.6
+  Notional total: $500,420
   Contratos inusuales: 1
-    - Strike $28.0 exp 2026-04-17 | score 62.9 | vol 25,012 | V/OI 57.11x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
+    - Strike $28.0 exp 2026-04-17 | score 64.6 | vol 25,021 | V/OI 57.13x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V/O
