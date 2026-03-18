@@ -1,14 +1,14 @@
-Scan: 2026-03-18T16:08:42.986055
-Tickers escaneados: 2395
-Total alertas: 106
+Scan: 2026-03-18T18:15:22.361656
+Tickers escaneados: 2394
+Total alertas: 149
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   IVZ — Invesco Ltd
-  Precio: $23.73
-  Score: 62.7
-  Notional total: $250,000
+  Precio: $23.86
+  Score: 62.9
+  Notional total: $275,132
   Contratos inusuales: 1
-    - Strike $28.0 exp 2026-04-17 | score 62.7 | vol 25,000 | V/OI 57.08x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
+    - Strike $28.0 exp 2026-04-17 | score 62.9 | vol 25,012 | V/OI 57.11x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
