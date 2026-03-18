@@ -1,24 +1,14 @@
-Scan: 2026-03-17T20:21:35.521411
+Scan: 2026-03-18T16:08:42.986055
 Tickers escaneados: 2395
-Total alertas: 220
+Total alertas: 106
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  NVDA — NVIDIA Corporation
-  Precio: $181.93
-  Score: 61.8
-  Notional total: $40,590,588
-  Contratos inusuales: 10
-    - Strike $215.0 exp 2026-04-17 | score 61.8 | vol 58,613 | V/OI 27.6x | Flujo ALCISTA: 77.7% direccional | V/OI 28x — posiciones mayoritariamente nuevas
-    - Strike $190.0 exp 2026-04-10 | score 54.7 | vol 58,346 | V/OI 13.79x | Flujo ALCISTA extremo: 86.7% en una direccion | V/OI 14x — posiciones mayoritari
-    - Strike $217.5 exp 2026-03-25 | score 48.0 | vol 101 | V/OI 20.2x | V/OI 20x — posiciones mayoritariamente nuevas | Expira en 7 dias — maximo apalan
-
-  KHC — The Kraft Heinz Company
-  Precio: $22.89
-  Score: 61.5
-  Notional total: $1,351
-  Contratos inusuales: 2
-    - Strike $29.0 exp 2026-03-27 | score 61.5 | vol 404 | V/OI 134.67x | Flujo ALCISTA: 81.4% direccional | V/OI 135x — posiciones mayoritariamente nueva
-    - Strike $25.0 exp 2026-03-20 | score 43.0 | vol 139 | V/OI 0.0x | OI concentrado: 33,130 contratos (27% del total) | Expira en 2 dias — maximo apa
+  IVZ — Invesco Ltd
+  Precio: $23.73
+  Score: 62.7
+  Notional total: $250,000
+  Contratos inusuales: 1
+    - Strike $28.0 exp 2026-04-17 | score 62.7 | vol 25,000 | V/OI 57.08x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
