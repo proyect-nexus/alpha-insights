@@ -1,24 +1,51 @@
-Scan: 2026-03-19T18:07:02.561168
+Scan: 2026-03-19T20:18:02.218188
 Tickers escaneados: 2395
-Total alertas: 170
+Total alertas: 229
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
+  LEN — Lennar Corporation
+  Precio: $93.68
+  Score: 65.6
+  Notional total: $24,488
+  Contratos inusuales: 5
+    - Strike $118.0 exp 2026-03-27 | score 65.6 | vol 120 | V/OI 120.0x | Flujo ALCISTA: 84.9% direccional | V/OI 120x — posiciones mayoritariamente nueva
+    - Strike $119.0 exp 2026-03-27 | score 56.5 | vol 150 | V/OI 4.55x | Flujo ALCISTA: 84.9% direccional | V/OI 4.5x — flujo de posiciones nuevas | OI c
+    - Strike $117.0 exp 2026-03-27 | score 55.4 | vol 602 | V/OI 3.2x | Flujo ALCISTA: 84.9% direccional | V/OI 3.2x — flujo de posiciones nuevas | OI c
+
   META — Meta Platforms, Inc.
-  Precio: $604.18
+  Precio: $606.88
   Score: 62.5
-  Notional total: $18,258,080
-  Contratos inusuales: 7
-    - Strike $700.0 exp 2026-05-01 | score 62.5 | vol 7,095 | V/OI 33.47x | Flujo ALCISTA extremo: 96.3% en una direccion | V/OI 33x — posiciones mayoritari
-    - Strike $650.0 exp 2026-05-01 | score 53.5 | vol 7,141 | V/OI 82.08x | Flujo ALCISTA extremo: 96.3% en una direccion | V/OI 82x — posiciones mayoritari
-    - Strike $610.0 exp 2026-03-27 | score 44.4 | vol 1,892 | V/OI 10.06x | V/OI 10x — posiciones mayoritariamente nuevas | Apuesta de $1.9M | Expira en 7 d
+  Notional total: $24,317,542
+  Contratos inusuales: 11
+    - Strike $700.0 exp 2026-05-01 | score 62.5 | vol 7,178 | V/OI 33.86x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 34x — posiciones mayoritari
+    - Strike $650.0 exp 2026-05-01 | score 53.5 | vol 7,169 | V/OI 82.4x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 82x — posiciones mayoritari
+    - Strike $595.0 exp 2026-03-27 | score 49.5 | vol 1,353 | V/OI 16.3x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $2.8M | Expira en 7 d
+
+  EQT — EQT Corporation
+  Precio: $64.68
+  Score: 61.6
+  Notional total: $456,160
+  Contratos inusuales: 6
+    - Strike $70.0 exp 2026-03-27 | score 61.6 | vol 545 | V/OI 34.06x | Flujo ALCISTA extremo: 92.0% en una direccion | V/OI 34x — posiciones mayoritari
+    - Strike $69.0 exp 2026-03-27 | score 57.1 | vol 825 | V/OI 20.12x | Flujo ALCISTA extremo: 92.0% en una direccion | V/OI 20x — posiciones mayoritari
+    - Strike $68.0 exp 2026-03-27 | score 44.1 | vol 102 | V/OI 0.32x | Flujo ALCISTA extremo: 92.0% en una direccion | OI concentrado: 6,353 contratos 
+
+  DAL — Delta Air Lines, Inc.
+  Precio: $65.03
+  Score: 61.3
+  Notional total: $32,403,840
+  Contratos inusuales: 5
+    - Strike $70.0 exp 2026-04-17 | score 61.3 | vol 73,749 | V/OI 8.44x | Volumen 3.9x sobre lo normal | Flujo ALCISTA extremo: 96.1% en una direccion | V
+    - Strike $80.0 exp 2026-04-17 | score 52.6 | vol 26,245 | V/OI 0.55x | Flujo ALCISTA extremo: 96.1% en una direccion | OI concentrado: 52,173 contratos
+    - Strike $65.0 exp 2026-04-17 | score 44.9 | vol 36,442 | V/OI 0.7x | Flujo ALCISTA extremo: 96.1% en una direccion | OI concentrado: 52,173 contratos
 
   BF-B — Brown Forman Inc
-  Precio: $23.54
-  Score: 60.1
-  Notional total: $447,981
+  Precio: $23.31
+  Score: 60.0
+  Notional total: $416,652
   Contratos inusuales: 2
-    - Strike $27.5 exp 2026-04-17 | score 60.1 | vol 3,516 | V/OI 4.1x | Volumen 13x sobre lo normal | Flujo ALCISTA extremo: 99.2% en una direccion | V/
-    - Strike $25.0 exp 2026-04-17 | score 53.2 | vol 5,883 | V/OI 3.97x | Volumen 21x sobre lo normal | Flujo ALCISTA extremo: 99.2% en una direccion | V/
+    - Strike $27.5 exp 2026-04-17 | score 60.0 | vol 3,532 | V/OI 4.12x | Volumen 13x sobre lo normal | Flujo ALCISTA extremo: 99.2% en una direccion | V/
+    - Strike $25.0 exp 2026-04-17 | score 53.4 | vol 6,368 | V/OI 4.3x | Volumen 23x sobre lo normal | Flujo ALCISTA extremo: 99.2% en una direccion | V/
