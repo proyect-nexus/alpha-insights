@@ -1,57 +1,15 @@
-Scan: 2026-03-20T17:55:17.565920
+Scan: 2026-03-20T20:12:16.681966
 Tickers escaneados: 2395
-Total alertas: 368
+Total alertas: 272
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  BTDR — Bitdeer Technologies Group
-  Precio: $8.1
-  Score: 66.2
-  Notional total: $217,552
-  Contratos inusuales: 4
-    - Strike $9.5 exp 2026-03-27 | score 66.2 | vol 3,998 | V/OI 42.99x | Flujo ALCISTA extremo: 98.8% en una direccion | V/OI 43x — posiciones mayoritari
-    - Strike $8.5 exp 2026-03-27 | score 49.3 | vol 4,118 | V/OI 4.69x | Flujo ALCISTA extremo: 98.8% en una direccion | V/OI 4.7x — flujo de posiciones 
-    - Strike $10.5 exp 2026-04-10 | score 48.7 | vol 474 | V/OI 1.0x | Flujo BAJISTA extremo: 89.4% en una direccion | OI concentrado: 32,556 contratos
-
   EQT — EQT Corporation
-  Precio: $65.53
-  Score: 65.2
-  Notional total: $108,105
-  Contratos inusuales: 1
-    - Strike $72.0 exp 2026-03-27 | score 65.2 | vol 7,207 | V/OI 141.31x | Volumen 3.4x sobre lo normal | Flujo ALCISTA extremo: 98.7% en una direccion | V
-
-  COIN — Coinbase Global, Inc.
-  Precio: $196.25
-  Score: 63.4
-  Notional total: $10,845,077
-  Contratos inusuales: 8
-    - Strike $215.0 exp 2026-03-27 | score 63.4 | vol 14,289 | V/OI 12.56x | Flujo ALCISTA: 81.5% direccional | V/OI 13x — posiciones mayoritariamente nuevas
-    - Strike $205.0 exp 2026-03-27 | score 61.0 | vol 15,599 | V/OI 19.8x | Flujo ALCISTA: 81.5% direccional | V/OI 20x — posiciones mayoritariamente nuevas
-    - Strike $227.5 exp 2026-03-27 | score 42.0 | vol 192 | V/OI 0.83x | Flujo ALCISTA: 81.5% direccional | Expira en 6 dias — maximo apalancamiento | 16
-
-  ALLY — Ally Financial Inc.
-  Precio: $38.66
-  Score: 61.2
-  Notional total: $425,765
-  Contratos inusuales: 1
-    - Strike $41.0 exp 2026-04-17 | score 61.2 | vol 5,009 | V/OI 54.45x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.4% en una direccion | V/O
-
-  MSTR — Strategy Inc
-  Precio: $135.53
-  Score: 61.0
-  Notional total: $22,297,832
-  Contratos inusuales: 12
-    - Strike $141.0 exp 2026-03-27 | score 61.0 | vol 8,858 | V/OI 18.26x | Flujo ALCISTA: 75.7% direccional | V/OI 18x — posiciones mayoritariamente nuevas
-    - Strike $149.0 exp 2026-03-27 | score 54.3 | vol 25,622 | V/OI 2.1x | Flujo ALCISTA: 75.7% direccional | V/OI 2.1x — flujo de posiciones nuevas | Apue
-    - Strike $148.0 exp 2026-03-27 | score 52.3 | vol 9,950 | V/OI 3.86x | Flujo ALCISTA: 75.7% direccional | V/OI 3.9x — flujo de posiciones nuevas | Apue
-
-  AI — C3.ai, Inc.
-  Precio: $8.35
-  Score: 60.6
-  Notional total: $1,343,456
-  Contratos inusuales: 5
-    - Strike $8.5 exp 2026-03-27 | score 60.6 | vol 26,532 | V/OI 353.76x | Flujo ALCISTA extremo: 99.7% en una direccion | V/OI 354x — posiciones mayoritar
-    - Strike $10.0 exp 2026-03-27 | score 54.7 | vol 8,628 | V/OI 0.77x | Flujo ALCISTA extremo: 99.7% en una direccion | OI concentrado: 48,675 contratos
-    - Strike $9.0 exp 2026-03-27 | score 51.8 | vol 35,178 | V/OI 3.1x | Flujo ALCISTA extremo: 99.7% en una direccion | V/OI 3.1x — flujo de posiciones 
+  Precio: $64.74
+  Score: 65.3
+  Notional total: $127,713
+  Contratos inusuales: 2
+    - Strike $72.0 exp 2026-03-27 | score 65.3 | vol 7,263 | V/OI 142.41x | Volumen 3.4x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V
+    - Strike $69.0 exp 2026-03-27 | score 42.8 | vol 101 | V/OI 0.13x | Flujo ALCISTA extremo: 97.9% en una direccion | OI concentrado: 6,037 contratos 
