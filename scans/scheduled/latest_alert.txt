@@ -1,16 +1,16 @@
-Scan: 2026-03-23T15:57:29.446215
+Scan: 2026-03-23T18:03:14.137158
 Tickers escaneados: 2395
-Total alertas: 248
+Total alertas: 363
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   PDD — PDD Holdings Inc.
-  Precio: $96.09
-  Score: 64.4
-  Notional total: $1,148,098
-  Contratos inusuales: 9
-    - Strike $121.0 exp 2026-03-27 | score 64.4 | vol 111 | V/OI 37.0x | Flujo ALCISTA: 79.6% direccional | V/OI 37x — posiciones mayoritariamente nuevas
-    - Strike $115.0 exp 2026-03-27 | score 53.2 | vol 1,589 | V/OI 1.61x | Flujo ALCISTA: 79.6% direccional | OI concentrado: 34,916 contratos (27% del tot
-    - Strike $100.0 exp 2026-03-27 | score 52.0 | vol 4,029 | V/OI 2.76x | Flujo ALCISTA: 79.6% direccional | V/OI 2.8x — flujo de posiciones nuevas | OI c
+  Precio: $95.75
+  Score: 60.4
+  Notional total: $1,715,759
+  Contratos inusuales: 8
+    - Strike $121.0 exp 2026-03-27 | score 60.4 | vol 112 | V/OI 37.33x | V/OI 37x — posiciones mayoritariamente nuevas | OI concentrado: 34,916 contratos
+    - Strike $100.0 exp 2026-03-27 | score 52.8 | vol 6,623 | V/OI 4.54x | V/OI 4.5x — flujo de posiciones nuevas | OI concentrado: 34,916 contratos (27% d
+    - Strike $115.0 exp 2026-03-27 | score 49.3 | vol 1,696 | V/OI 1.72x | OI concentrado: 34,916 contratos (27% del total) | Expira en 3 dias — maximo apa
