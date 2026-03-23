@@ -1,15 +1,16 @@
-Scan: 2026-03-20T20:12:16.681966
+Scan: 2026-03-23T15:57:29.446215
 Tickers escaneados: 2395
-Total alertas: 272
+Total alertas: 248
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  EQT — EQT Corporation
-  Precio: $64.74
-  Score: 65.3
-  Notional total: $127,713
-  Contratos inusuales: 2
-    - Strike $72.0 exp 2026-03-27 | score 65.3 | vol 7,263 | V/OI 142.41x | Volumen 3.4x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V
-    - Strike $69.0 exp 2026-03-27 | score 42.8 | vol 101 | V/OI 0.13x | Flujo ALCISTA extremo: 97.9% en una direccion | OI concentrado: 6,037 contratos 
+  PDD — PDD Holdings Inc.
+  Precio: $96.09
+  Score: 64.4
+  Notional total: $1,148,098
+  Contratos inusuales: 9
+    - Strike $121.0 exp 2026-03-27 | score 64.4 | vol 111 | V/OI 37.0x | Flujo ALCISTA: 79.6% direccional | V/OI 37x — posiciones mayoritariamente nuevas
+    - Strike $115.0 exp 2026-03-27 | score 53.2 | vol 1,589 | V/OI 1.61x | Flujo ALCISTA: 79.6% direccional | OI concentrado: 34,916 contratos (27% del tot
+    - Strike $100.0 exp 2026-03-27 | score 52.0 | vol 4,029 | V/OI 2.76x | Flujo ALCISTA: 79.6% direccional | V/OI 2.8x — flujo de posiciones nuevas | OI c
