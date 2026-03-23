@@ -1,16 +1,32 @@
-Scan: 2026-03-23T18:03:14.137158
+Scan: 2026-03-23T20:24:44.680596
 Tickers escaneados: 2395
-Total alertas: 363
+Total alertas: 489
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
+  JBL — Jabil Inc.
+  Precio: $266.55
+  Score: 67.7
+  Notional total: $2,245,628
+  Contratos inusuales: 6
+    - Strike $310.0 exp 2026-04-17 | score 67.7 | vol 3,692 | V/OI 56.8x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V/O
+    - Strike $300.0 exp 2026-04-17 | score 61.9 | vol 4,185 | V/OI 7.2x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V/O
+    - Strike $300.0 exp 2026-03-27 | score 56.0 | vol 108 | V/OI 18.0x | V/OI 18x — posiciones mayoritariamente nuevas | OI concentrado: 1,817 contratos 
+
+  CHRW — C.H. Robinson Worldwide, Inc.
+  Precio: $166.84
+  Score: 62.2
+  Notional total: $204,760
+  Contratos inusuales: 1
+    - Strike $195.0 exp 2026-04-17 | score 62.2 | vol 5,119 | V/OI 16.89x | Volumen 8x sobre lo normal | Flujo ALCISTA extremo: 98.5% en una direccion | V/O
+
   PDD — PDD Holdings Inc.
-  Precio: $95.75
+  Precio: $96.25
   Score: 60.4
-  Notional total: $1,715,759
-  Contratos inusuales: 8
-    - Strike $121.0 exp 2026-03-27 | score 60.4 | vol 112 | V/OI 37.33x | V/OI 37x — posiciones mayoritariamente nuevas | OI concentrado: 34,916 contratos
-    - Strike $100.0 exp 2026-03-27 | score 52.8 | vol 6,623 | V/OI 4.54x | V/OI 4.5x — flujo de posiciones nuevas | OI concentrado: 34,916 contratos (27% d
-    - Strike $115.0 exp 2026-03-27 | score 49.3 | vol 1,696 | V/OI 1.72x | OI concentrado: 34,916 contratos (27% del total) | Expira en 3 dias — maximo apa
+  Notional total: $2,310,312
+  Contratos inusuales: 16
+    - Strike $121.0 exp 2026-03-27 | score 60.4 | vol 132 | V/OI 44.0x | V/OI 44x — posiciones mayoritariamente nuevas | OI concentrado: 34,916 contratos
+    - Strike $100.0 exp 2026-03-27 | score 53.4 | vol 6,668 | V/OI 4.57x | V/OI 4.6x — flujo de posiciones nuevas | OI concentrado: 34,916 contratos (27% d
+    - Strike $115.0 exp 2026-03-27 | score 50.7 | vol 2,963 | V/OI 3.01x | V/OI 3.0x — flujo de posiciones nuevas | OI concentrado: 34,916 contratos (27% d
