@@ -1,16 +1,16 @@
-Scan: 2026-03-24T18:08:20.096349
+Scan: 2026-03-24T20:20:38.444178
 Tickers escaneados: 2395
-Total alertas: 233
+Total alertas: 292
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   ARM — Arm Holdings plc
-  Precio: $139.32
+  Precio: $134.96
   Score: 61.0
-  Notional total: $1,816,777
-  Contratos inusuales: 8
-    - Strike $170.0 exp 2026-03-27 | score 61.0 | vol 596 | V/OI 49.67x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 50x — posiciones mayoritari
-    - Strike $155.0 exp 2026-03-27 | score 46.0 | vol 957 | V/OI 2.87x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 2.9x — flujo de posiciones 
-    - Strike $146.0 exp 2026-03-27 | score 44.4 | vol 267 | V/OI 5.68x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 6x — posiciones mayoritaria
+  Notional total: $2,743,015
+  Contratos inusuales: 14
+    - Strike $170.0 exp 2026-03-27 | score 61.0 | vol 596 | V/OI 49.67x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 50x — posiciones mayoritari
+    - Strike $160.0 exp 2026-03-27 | score 50.3 | vol 248 | V/OI 2.67x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 2.7x — flujo de posiciones 
+    - Strike $146.0 exp 2026-03-27 | score 48.6 | vol 278 | V/OI 5.91x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 6x — posiciones mayoritaria
