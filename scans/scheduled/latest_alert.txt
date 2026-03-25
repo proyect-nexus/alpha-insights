@@ -1,16 +1,50 @@
-Scan: 2026-03-24T20:20:38.444178
+Scan: 2026-03-25T18:17:08.192193
 Tickers escaneados: 2395
-Total alertas: 292
+Total alertas: 628
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  ARM — Arm Holdings plc
-  Precio: $134.96
+  M — Macy's Inc
+  Precio: $18.54
+  Score: 62.9
+  Notional total: $59,003
+  Contratos inusuales: 1
+    - Strike $19.5 exp 2026-03-27 | score 62.9 | vol 8,429 | V/OI 105.36x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 97.1% en una direccion | V/O
+
+  COIN — Coinbase Global, Inc.
+  Precio: $180.36
+  Score: 61.4
+  Notional total: $9,054,784
+  Contratos inusuales: 26
+    - Strike $202.5 exp 2026-04-02 | score 61.4 | vol 7,623 | V/OI 40.98x | Flujo ALCISTA: 82.6% direccional | V/OI 41x — posiciones mayoritariamente nuevas
+    - Strike $192.5 exp 2026-04-02 | score 61.0 | vol 7,246 | V/OI 49.97x | Flujo ALCISTA: 82.6% direccional | V/OI 50x — posiciones mayoritariamente nuevas
+    - Strike $207.5 exp 2026-04-02 | score 46.9 | vol 1,106 | V/OI 4.41x | Flujo ALCISTA: 82.6% direccional | V/OI 4.4x — flujo de posiciones nuevas | Apue
+
+  SRPT — Sarepta Therapeutics, Inc.
+  Precio: $22.63
   Score: 61.0
-  Notional total: $2,743,015
-  Contratos inusuales: 14
-    - Strike $170.0 exp 2026-03-27 | score 61.0 | vol 596 | V/OI 49.67x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 50x — posiciones mayoritari
-    - Strike $160.0 exp 2026-03-27 | score 50.3 | vol 248 | V/OI 2.67x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 2.7x — flujo de posiciones 
-    - Strike $146.0 exp 2026-03-27 | score 48.6 | vol 278 | V/OI 5.91x | Flujo ALCISTA extremo: 88.0% en una direccion | V/OI 6x — posiciones mayoritaria
+  Notional total: $223,161
+  Contratos inusuales: 7
+    - Strike $27.0 exp 2026-03-27 | score 61.0 | vol 301 | V/OI 75.25x | Flujo ALCISTA extremo: 88.7% en una direccion | V/OI 75x — posiciones mayoritari
+    - Strike $25.0 exp 2026-03-27 | score 56.5 | vol 561 | V/OI 93.5x | Flujo ALCISTA extremo: 88.7% en una direccion | V/OI 94x — posiciones mayoritari
+    - Strike $24.5 exp 2026-03-27 | score 52.8 | vol 836 | V/OI 10.72x | Flujo ALCISTA extremo: 88.7% en una direccion | V/OI 11x — posiciones mayoritari
+
+  DKNG — DraftKings Inc.
+  Precio: $21.74
+  Score: 60.7
+  Notional total: $211,453
+  Contratos inusuales: 20
+    - Strike $26.0 exp 2026-04-10 | score 60.7 | vol 3,155 | V/OI 15.62x | Flujo ALCISTA extremo: 90.1% en una direccion | V/OI 16x — posiciones mayoritari
+    - Strike $22.5 exp 2026-03-27 | score 54.1 | vol 279 | V/OI 12.68x | Flujo ALCISTA: 76.0% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+    - Strike $25.0 exp 2026-03-27 | score 52.2 | vol 898 | V/OI 0.24x | Flujo ALCISTA: 76.0% direccional | OI concentrado: 16,067 contratos (30% del tot
+
+  ARM — Arm Holdings plc
+  Precio: $159.96
+  Score: 60.1
+  Notional total: $9,813,717
+  Contratos inusuales: 13
+    - Strike $165.0 exp 2026-04-02 | score 60.1 | vol 3,366 | V/OI 29.79x | Flujo ALCISTA extremo: 89.4% en una direccion | V/OI 30x — posiciones mayoritari
+    - Strike $160.0 exp 2026-03-27 | score 59.5 | vol 7,996 | V/OI 26.39x | Flujo ALCISTA: 82.7% direccional | V/OI 26x — posiciones mayoritariamente nuevas
+    - Strike $175.0 exp 2026-04-02 | score 56.7 | vol 2,561 | V/OI 106.71x | Flujo ALCISTA extremo: 89.4% en una direccion | V/OI 107x — posiciones mayoritar
