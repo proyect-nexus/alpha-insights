@@ -1,14 +1,15 @@
-Scan: 2026-03-26T16:11:38.073289
+Scan: 2026-03-26T18:12:10.184571
 Tickers escaneados: 2395
-Total alertas: 86
+Total alertas: 141
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   DAL — Delta Air Lines, Inc.
-  Precio: $66.99
+  Precio: $66.82
   Score: 60.9
-  Notional total: $3,660
-  Contratos inusuales: 1
-    - Strike $76.0 exp 2026-04-02 | score 60.9 | vol 305 | V/OI 20.33x | Flujo BAJISTA extremo: 88.9% en una direccion | V/OI 20x — posiciones mayoritari
+  Notional total: $15,024
+  Contratos inusuales: 2
+    - Strike $76.0 exp 2026-04-02 | score 60.9 | vol 323 | V/OI 21.53x | Flujo BAJISTA extremo: 88.3% en una direccion | V/OI 22x — posiciones mayoritari
+    - Strike $70.0 exp 2026-04-02 | score 43.4 | vol 118 | V/OI 0.02x | Flujo BAJISTA extremo: 88.3% en una direccion | OI concentrado: 78,996 contratos
