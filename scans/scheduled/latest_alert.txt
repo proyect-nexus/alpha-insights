@@ -1,15 +1,47 @@
-Scan: 2026-03-26T18:12:10.184571
+Scan: 2026-03-26T20:27:54.876952
 Tickers escaneados: 2395
-Total alertas: 141
+Total alertas: 514
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  DAL — Delta Air Lines, Inc.
-  Precio: $66.82
-  Score: 60.9
-  Notional total: $15,024
+  ROK — Rockwell Automation, Inc.
+  Precio: $354.91
+  Score: 63.1
+  Notional total: $95,985
+  Contratos inusuales: 1
+    - Strike $410.0 exp 2026-04-17 | score 63.1 | vol 2,133 | V/OI 24.8x | Volumen 7x sobre lo normal | Flujo ALCISTA extremo: 94.7% en una direccion | V/O
+
+  CRK — Comstock Resources, Inc.
+  Precio: $22.33
+  Score: 62.8
+  Notional total: $234,162
   Contratos inusuales: 2
-    - Strike $76.0 exp 2026-04-02 | score 60.9 | vol 323 | V/OI 21.53x | Flujo BAJISTA extremo: 88.3% en una direccion | V/OI 22x — posiciones mayoritari
-    - Strike $70.0 exp 2026-04-02 | score 43.4 | vol 118 | V/OI 0.02x | Flujo BAJISTA extremo: 88.3% en una direccion | OI concentrado: 78,996 contratos
+    - Strike $27.0 exp 2026-04-17 | score 62.8 | vol 2,034 | V/OI 49.61x | Volumen 3.7x sobre lo normal | Flujo ALCISTA extremo: 90.5% en una direccion | V
+    - Strike $24.0 exp 2026-04-17 | score 44.0 | vol 2,088 | V/OI 2.76x | Volumen 3.8x sobre lo normal | Flujo ALCISTA extremo: 90.5% en una direccion | V
+
+  DAL — Delta Air Lines, Inc.
+  Precio: $66.86
+  Score: 60.9
+  Notional total: $35,100
+  Contratos inusuales: 3
+    - Strike $76.0 exp 2026-04-02 | score 60.9 | vol 323 | V/OI 21.53x | Flujo BAJISTA extremo: 87.9% en una direccion | V/OI 22x — posiciones mayoritari
+    - Strike $69.0 exp 2026-04-02 | score 43.4 | vol 166 | V/OI 0.36x | Flujo BAJISTA extremo: 87.9% en una direccion | OI concentrado: 78,996 contratos
+    - Strike $70.0 exp 2026-04-02 | score 43.4 | vol 123 | V/OI 0.02x | Flujo BAJISTA extremo: 87.9% en una direccion | OI concentrado: 78,996 contratos
+
+  GILD — Gilead Sciences, Inc.
+  Precio: $136.88
+  Score: 60.8
+  Notional total: $278,168
+  Contratos inusuales: 1
+    - Strike $155.0 exp 2026-04-17 | score 60.8 | vol 12,644 | V/OI 7.83x | Volumen 12x sobre lo normal | Flujo ALCISTA extremo: 99.1% en una direccion | V/
+
+  MSTR — Strategy Inc
+  Precio: $132.96
+  Score: 60.8
+  Notional total: $8,087,841
+  Contratos inusuales: 4
+    - Strike $146.0 exp 2026-04-02 | score 60.8 | vol 14,597 | V/OI 37.91x | V/OI 38x — posiciones mayoritariamente nuevas | Apuesta de $1.9M | Expira en 6 d
+    - Strike $139.0 exp 2026-04-02 | score 57.0 | vol 14,481 | V/OI 41.61x | V/OI 42x — posiciones mayoritariamente nuevas | Apuesta de $4.2M | Expira en 6 d
+    - Strike $138.0 exp 2026-04-02 | score 48.4 | vol 3,245 | V/OI 12.73x | V/OI 13x — posiciones mayoritariamente nuevas | Apuesta de $1.1M | Expira en 6 d
