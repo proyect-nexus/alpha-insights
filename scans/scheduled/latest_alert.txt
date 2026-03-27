@@ -1,47 +1,43 @@
-Scan: 2026-03-26T20:27:54.876952
+Scan: 2026-03-27T15:47:16.863217
 Tickers escaneados: 2395
-Total alertas: 514
+Total alertas: 165
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  ROK — Rockwell Automation, Inc.
-  Precio: $354.91
-  Score: 63.1
-  Notional total: $95,985
-  Contratos inusuales: 1
-    - Strike $410.0 exp 2026-04-17 | score 63.1 | vol 2,133 | V/OI 24.8x | Volumen 7x sobre lo normal | Flujo ALCISTA extremo: 94.7% en una direccion | V/O
-
-  CRK — Comstock Resources, Inc.
-  Precio: $22.33
-  Score: 62.8
-  Notional total: $234,162
-  Contratos inusuales: 2
-    - Strike $27.0 exp 2026-04-17 | score 62.8 | vol 2,034 | V/OI 49.61x | Volumen 3.7x sobre lo normal | Flujo ALCISTA extremo: 90.5% en una direccion | V
-    - Strike $24.0 exp 2026-04-17 | score 44.0 | vol 2,088 | V/OI 2.76x | Volumen 3.8x sobre lo normal | Flujo ALCISTA extremo: 90.5% en una direccion | V
-
-  DAL — Delta Air Lines, Inc.
-  Precio: $66.86
-  Score: 60.9
-  Notional total: $35,100
-  Contratos inusuales: 3
-    - Strike $76.0 exp 2026-04-02 | score 60.9 | vol 323 | V/OI 21.53x | Flujo BAJISTA extremo: 87.9% en una direccion | V/OI 22x — posiciones mayoritari
-    - Strike $69.0 exp 2026-04-02 | score 43.4 | vol 166 | V/OI 0.36x | Flujo BAJISTA extremo: 87.9% en una direccion | OI concentrado: 78,996 contratos
-    - Strike $70.0 exp 2026-04-02 | score 43.4 | vol 123 | V/OI 0.02x | Flujo BAJISTA extremo: 87.9% en una direccion | OI concentrado: 78,996 contratos
-
-  GILD — Gilead Sciences, Inc.
-  Precio: $136.88
-  Score: 60.8
-  Notional total: $278,168
-  Contratos inusuales: 1
-    - Strike $155.0 exp 2026-04-17 | score 60.8 | vol 12,644 | V/OI 7.83x | Volumen 12x sobre lo normal | Flujo ALCISTA extremo: 99.1% en una direccion | V/
-
-  MSTR — Strategy Inc
-  Precio: $132.96
-  Score: 60.8
-  Notional total: $8,087,841
+  KHC — The Kraft Heinz Company
+  Precio: $22.19
+  Score: 64.2
+  Notional total: $171,277
   Contratos inusuales: 4
-    - Strike $146.0 exp 2026-04-02 | score 60.8 | vol 14,597 | V/OI 37.91x | V/OI 38x — posiciones mayoritariamente nuevas | Apuesta de $1.9M | Expira en 6 d
-    - Strike $139.0 exp 2026-04-02 | score 57.0 | vol 14,481 | V/OI 41.61x | V/OI 42x — posiciones mayoritariamente nuevas | Apuesta de $4.2M | Expira en 6 d
-    - Strike $138.0 exp 2026-04-02 | score 48.4 | vol 3,245 | V/OI 12.73x | V/OI 13x — posiciones mayoritariamente nuevas | Apuesta de $1.1M | Expira en 6 d
+    - Strike $23.0 exp 2026-04-02 | score 64.2 | vol 12,514 | V/OI 13.31x | Volumen 3.0x sobre lo normal | Flujo ALCISTA extremo: 97.4% en una direccion | V
+    - Strike $22.0 exp 2026-04-02 | score 43.4 | vol 234 | V/OI 0.54x | Flujo ALCISTA extremo: 97.4% en una direccion | OI concentrado: 15,261 contratos
+    - Strike $22.5 exp 2026-04-02 | score 43.4 | vol 365 | V/OI 0.41x | Flujo ALCISTA extremo: 97.4% en una direccion | OI concentrado: 15,261 contratos
+
+  META — Meta Platforms, Inc.
+  Precio: $529.66
+  Score: 62.5
+  Notional total: $17,711,005
+  Contratos inusuales: 15
+    - Strike $645.0 exp 2026-05-01 | score 62.5 | vol 7,103 | V/OI 24.92x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 25x — posiciones mayoritari
+    - Strike $600.0 exp 2026-05-01 | score 54.0 | vol 7,273 | V/OI 10.4x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 10x — posiciones mayoritari
+    - Strike $520.0 exp 2026-04-02 | score 50.4 | vol 923 | V/OI 20.51x | V/OI 21x — posiciones mayoritariamente nuevas | Apuesta de $1.7M | Expira en 5 d
+
+  MSFT — Microsoft Corporation
+  Precio: $360.32
+  Score: 62.3
+  Notional total: $23,079,620
+  Contratos inusuales: 15
+    - Strike $445.0 exp 2026-05-01 | score 62.3 | vol 35,178 | V/OI 161.37x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 161x — posiciones mayoritar
+    - Strike $405.0 exp 2026-05-01 | score 58.0 | vol 35,268 | V/OI 99.07x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 99x — posiciones mayoritari
+    - Strike $360.0 exp 2026-04-02 | score 55.5 | vol 5,168 | V/OI 49.69x | V/OI 50x — posiciones mayoritariamente nuevas | Apuesta de $3.0M | Expira en 5 d
+
+  MRNA — Moderna, Inc.
+  Precio: $51.33
+  Score: 61.2
+  Notional total: $1,792,664
+  Contratos inusuales: 5
+    - Strike $53.0 exp 2026-04-02 | score 61.2 | vol 8,935 | V/OI 270.76x | Flujo ALCISTA extremo: 91.5% en una direccion | V/OI 271x — posiciones mayoritar
+    - Strike $56.0 exp 2026-04-02 | score 60.3 | vol 8,290 | V/OI 56.39x | Flujo ALCISTA extremo: 91.5% en una direccion | V/OI 56x — posiciones mayoritari
+    - Strike $62.0 exp 2026-04-02 | score 48.0 | vol 236 | V/OI 0.98x | Flujo ALCISTA extremo: 91.5% en una direccion | Expira en 5 dias — maximo apalan
