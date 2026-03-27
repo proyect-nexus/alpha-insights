@@ -1,51 +1,51 @@
-Scan: 2026-03-27T18:03:54.207556
+Scan: 2026-03-27T20:15:04.534150
 Tickers escaneados: 2395
-Total alertas: 273
+Total alertas: 339
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   KHC — The Kraft Heinz Company
-  Precio: $22.24
+  Precio: $22.03
   Score: 66.5
-  Notional total: $199,682
+  Notional total: $174,001
   Contratos inusuales: 3
-    - Strike $23.0 exp 2026-04-02 | score 66.5 | vol 14,982 | V/OI 15.94x | Volumen 3.6x sobre lo normal | Flujo ALCISTA extremo: 96.5% en una direccion | V
-    - Strike $22.0 exp 2026-04-02 | score 43.4 | vol 350 | V/OI 0.81x | Flujo ALCISTA extremo: 96.5% en una direccion | OI concentrado: 15,261 contratos
-    - Strike $22.5 exp 2026-04-02 | score 43.4 | vol 695 | V/OI 0.77x | Flujo ALCISTA extremo: 96.5% en una direccion | OI concentrado: 15,261 contratos
+    - Strike $23.0 exp 2026-04-02 | score 66.5 | vol 15,725 | V/OI 16.73x | Volumen 3.8x sobre lo normal | Flujo ALCISTA extremo: 95.9% en una direccion | V
+    - Strike $22.0 exp 2026-04-02 | score 43.4 | vol 388 | V/OI 0.9x | Flujo ALCISTA extremo: 95.9% en una direccion | OI concentrado: 15,261 contratos
+    - Strike $22.5 exp 2026-04-02 | score 43.4 | vol 872 | V/OI 0.97x | Flujo ALCISTA extremo: 95.9% en una direccion | OI concentrado: 15,261 contratos
 
   MRNA — Moderna, Inc.
-  Precio: $50.92
-  Score: 63.8
-  Notional total: $3,860,736
-  Contratos inusuales: 8
-    - Strike $53.0 exp 2026-04-02 | score 63.8 | vol 17,039 | V/OI 516.33x | Flujo ALCISTA extremo: 95.3% en una direccion | V/OI 516x — posiciones mayoritar
-    - Strike $56.0 exp 2026-04-02 | score 60.8 | vol 16,230 | V/OI 110.41x | Flujo ALCISTA extremo: 95.3% en una direccion | V/OI 110x — posiciones mayoritar
-    - Strike $54.0 exp 2026-04-02 | score 54.4 | vol 4,547 | V/OI 17.49x | Flujo ALCISTA extremo: 95.3% en una direccion | V/OI 17x — posiciones mayoritari
+  Precio: $49.52
+  Score: 63.7
+  Notional total: $4,339,389
+  Contratos inusuales: 9
+    - Strike $53.0 exp 2026-04-02 | score 63.7 | vol 17,099 | V/OI 518.15x | Flujo ALCISTA extremo: 95.1% en una direccion | V/OI 518x — posiciones mayoritar
+    - Strike $56.0 exp 2026-04-02 | score 61.4 | vol 16,253 | V/OI 110.56x | Flujo ALCISTA extremo: 95.1% en una direccion | V/OI 111x — posiciones mayoritar
+    - Strike $54.0 exp 2026-04-02 | score 58.6 | vol 4,597 | V/OI 17.68x | Flujo ALCISTA extremo: 95.1% en una direccion | V/OI 18x — posiciones mayoritari
 
   HSY — The Hershey Company
-  Precio: $215.3
-  Score: 62.7
-  Notional total: $818,971
+  Precio: $213.5
+  Score: 63.2
+  Notional total: $823,805
   Contratos inusuales: 2
-    - Strike $225.0 exp 2026-04-02 | score 62.7 | vol 1,861 | V/OI 37.98x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 98.4% en una direccion | V/
-    - Strike $217.5 exp 2026-04-02 | score 61.7 | vol 1,856 | V/OI 154.67x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 98.4% en una direccion | V/
-
-  MSFT — Microsoft Corporation
-  Precio: $358.97
-  Score: 62.5
-  Notional total: $30,311,135
-  Contratos inusuales: 12
-    - Strike $445.0 exp 2026-05-01 | score 62.5 | vol 35,530 | V/OI 162.98x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 163x — posiciones mayoritar
-    - Strike $405.0 exp 2026-05-01 | score 58.0 | vol 36,250 | V/OI 101.83x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 102x — posiciones mayoritar
-    - Strike $360.0 exp 2026-04-02 | score 55.5 | vol 6,638 | V/OI 63.83x | V/OI 64x — posiciones mayoritariamente nuevas | Apuesta de $3.5M | Expira en 5 d
+    - Strike $225.0 exp 2026-04-02 | score 63.2 | vol 1,873 | V/OI 38.22x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 98.5% en una direccion | V/
+    - Strike $217.5 exp 2026-04-02 | score 61.4 | vol 1,872 | V/OI 156.0x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 98.5% en una direccion | V/
 
   META — Meta Platforms, Inc.
-  Precio: $523.72
-  Score: 61.7
-  Notional total: $26,182,802
-  Contratos inusuales: 25
-    - Strike $645.0 exp 2026-05-01 | score 61.7 | vol 7,268 | V/OI 25.5x | Flujo ALCISTA extremo: 93.1% en una direccion | V/OI 26x — posiciones mayoritari
-    - Strike $600.0 exp 2026-05-01 | score 54.5 | vol 7,677 | V/OI 10.98x | Flujo ALCISTA extremo: 93.1% en una direccion | V/OI 11x — posiciones mayoritari
-    - Strike $520.0 exp 2026-04-02 | score 52.5 | vol 2,339 | V/OI 51.98x | V/OI 52x — posiciones mayoritariamente nuevas | Apuesta de $3.9M | Expira en 5 d
+  Precio: $524.94
+  Score: 62.5
+  Notional total: $33,993,817
+  Contratos inusuales: 31
+    - Strike $645.0 exp 2026-05-01 | score 62.5 | vol 7,426 | V/OI 26.06x | Flujo ALCISTA extremo: 91.5% en una direccion | V/OI 26x — posiciones mayoritari
+    - Strike $600.0 exp 2026-05-01 | score 54.9 | vol 7,989 | V/OI 11.43x | Flujo ALCISTA extremo: 91.5% en una direccion | V/OI 11x — posiciones mayoritari
+    - Strike $535.0 exp 2026-03-30 | score 53.6 | vol 4,839 | V/OI 219.95x | V/OI 220x — posiciones mayoritariamente nuevas | Apuesta de $1.7M | Expira en 2 
+
+  MSFT — Microsoft Corporation
+  Precio: $356.86
+  Score: 62.5
+  Notional total: $22,644,464
+  Contratos inusuales: 12
+    - Strike $445.0 exp 2026-05-01 | score 62.5 | vol 35,981 | V/OI 165.05x | Flujo ALCISTA extremo: 96.5% en una direccion | V/OI 165x — posiciones mayoritar
+    - Strike $405.0 exp 2026-05-01 | score 58.0 | vol 36,595 | V/OI 102.79x | Flujo ALCISTA extremo: 96.5% en una direccion | V/OI 103x — posiciones mayoritar
+    - Strike $360.0 exp 2026-04-02 | score 55.5 | vol 8,082 | V/OI 77.71x | V/OI 78x — posiciones mayoritariamente nuevas | Apuesta de $3.9M | Expira en 5 d
