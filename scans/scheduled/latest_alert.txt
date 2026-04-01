@@ -1,25 +1,15 @@
-Scan: 2026-03-30T20:22:46.573209
+Scan: 2026-04-01T18:05:39.151354
 Tickers escaneados: 2395
-Total alertas: 369
+Total alertas: 123
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  META — Meta Platforms, Inc.
-  Precio: $536.38
-  Score: 62.5
-  Notional total: $37,495,143
-  Contratos inusuales: 21
-    - Strike $620.0 exp 2026-05-01 | score 62.5 | vol 6,964 | V/OI 22.46x | Flujo ALCISTA extremo: 89.6% en una direccion | V/OI 22x — posiciones mayoritari
-    - Strike $537.5 exp 2026-04-01 | score 52.5 | vol 5,376 | V/OI 25.97x | V/OI 26x — posiciones mayoritariamente nuevas | Apuesta de $2.9M | Expira en 1 d
-    - Strike $657.5 exp 2026-04-01 | score 51.0 | vol 100 | V/OI 33.33x | V/OI 33x — posiciones mayoritariamente nuevas | Expira en 1 dias — maximo apalan
-
-  DAL — Delta Air Lines, Inc.
-  Precio: $63.19
-  Score: 60.0
-  Notional total: $44,518
-  Contratos inusuales: 6
-    - Strike $77.0 exp 2026-04-02 | score 60.0 | vol 1,022 | V/OI 18.25x | V/OI 18x — posiciones mayoritariamente nuevas | OI concentrado: 78,827 contratos
-    - Strike $78.0 exp 2026-04-02 | score 60.0 | vol 1,019 | V/OI 16.44x | V/OI 16x — posiciones mayoritariamente nuevas | OI concentrado: 78,827 contratos
-    - Strike $69.0 exp 2026-04-02 | score 42.5 | vol 277 | V/OI 0.4x | OI concentrado: 78,827 contratos (25% del total) | Expira en 2 dias — maximo apa
+  SGI — Somnigroup International Inc.
+  Precio: $74.0
+  Score: 62.1
+  Notional total: $81,831
+  Contratos inusuales: 2
+    - Strike $95.0 exp 2026-04-17 | score 62.1 | vol 2,501 | V/OI 9.96x | Volumen 4.3x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V
+    - Strike $85.0 exp 2026-04-17 | score 43.2 | vol 172 | V/OI 0.47x | Flujo ALCISTA extremo: 98.2% en una direccion | OI concentrado: 4,153 contratos 
