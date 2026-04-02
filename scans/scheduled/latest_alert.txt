@@ -1,15 +1,16 @@
-Scan: 2026-04-01T18:05:39.151354
+Scan: 2026-04-02T15:55:14.825028
 Tickers escaneados: 2395
-Total alertas: 123
+Total alertas: 78
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  SGI — Somnigroup International Inc.
-  Precio: $74.0
-  Score: 62.1
-  Notional total: $81,831
-  Contratos inusuales: 2
-    - Strike $95.0 exp 2026-04-17 | score 62.1 | vol 2,501 | V/OI 9.96x | Volumen 4.3x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V
-    - Strike $85.0 exp 2026-04-17 | score 43.2 | vol 172 | V/OI 0.47x | Flujo ALCISTA extremo: 98.2% en una direccion | OI concentrado: 4,153 contratos 
+  MRNA — Moderna, Inc.
+  Precio: $49.12
+  Score: 64.4
+  Notional total: $4,840,750
+  Contratos inusuales: 7
+    - Strike $50.0 exp 2026-04-10 | score 64.4 | vol 11,080 | V/OI 30.19x | Flujo ALCISTA extremo: 90.3% en una direccion | V/OI 30x — posiciones mayoritari
+    - Strike $53.0 exp 2026-04-10 | score 62.7 | vol 11,482 | V/OI 78.64x | Flujo ALCISTA extremo: 90.3% en una direccion | V/OI 79x — posiciones mayoritari
+    - Strike $54.0 exp 2026-04-10 | score 59.5 | vol 5,328 | V/OI 12.9x | Flujo ALCISTA extremo: 90.3% en una direccion | V/OI 13x — posiciones mayoritari
