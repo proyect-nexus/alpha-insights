@@ -1,16 +1,42 @@
-Scan: 2026-04-02T18:00:19.523482
+Scan: 2026-04-02T20:27:57.352460
 Tickers escaneados: 2395
-Total alertas: 119
+Total alertas: 430
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   MRNA — Moderna, Inc.
-  Precio: $48.68
-  Score: 67.8
-  Notional total: $4,940,988
-  Contratos inusuales: 9
-    - Strike $53.0 exp 2026-04-10 | score 67.8 | vol 20,544 | V/OI 140.71x | Flujo ALCISTA extremo: 97.3% en una direccion | V/OI 141x — posiciones mayoritar
-    - Strike $50.0 exp 2026-04-10 | score 64.4 | vol 20,194 | V/OI 55.02x | Flujo ALCISTA extremo: 97.3% en una direccion | V/OI 55x — posiciones mayoritari
-    - Strike $54.0 exp 2026-04-10 | score 59.8 | vol 5,742 | V/OI 13.9x | Flujo ALCISTA extremo: 97.3% en una direccion | V/OI 14x — posiciones mayoritari
+  Precio: $49.2
+  Score: 64.4
+  Notional total: $4,841,263
+  Contratos inusuales: 11
+    - Strike $50.0 exp 2026-04-10 | score 64.4 | vol 21,111 | V/OI 57.52x | Flujo ALCISTA extremo: 96.9% en una direccion | V/OI 58x — posiciones mayoritari
+    - Strike $53.0 exp 2026-04-10 | score 63.0 | vol 21,458 | V/OI 146.97x | Flujo ALCISTA extremo: 96.9% en una direccion | V/OI 147x — posiciones mayoritar
+    - Strike $54.0 exp 2026-04-10 | score 59.2 | vol 5,754 | V/OI 13.93x | Flujo ALCISTA extremo: 96.9% en una direccion | V/OI 14x — posiciones mayoritari
+
+  AI — C3.ai, Inc.
+  Precio: $8.65
+  Score: 64.0
+  Notional total: $1,532,784
+  Contratos inusuales: 6
+    - Strike $8.5 exp 2026-04-10 | score 64.0 | vol 28,661 | V/OI 51.0x | Flujo ALCISTA extremo: 98.9% en una direccion | V/OI 51x — posiciones mayoritari
+    - Strike $9.0 exp 2026-04-10 | score 63.5 | vol 30,304 | V/OI 32.87x | Flujo ALCISTA extremo: 98.9% en una direccion | V/OI 33x — posiciones mayoritari
+    - Strike $9.5 exp 2026-04-10 | score 54.5 | vol 2,231 | V/OI 2.88x | Flujo ALCISTA extremo: 98.9% en una direccion | V/OI 2.9x — flujo de posiciones 
+
+  KHC — The Kraft Heinz Company
+  Precio: $22.79
+  Score: 62.8
+  Notional total: $672,073
+  Contratos inusuales: 2
+    - Strike $23.5 exp 2026-04-10 | score 62.8 | vol 22,354 | V/OI 16.92x | Volumen 4.2x sobre lo normal | Flujo ALCISTA extremo: 98.8% en una direccion | V
+    - Strike $23.0 exp 2026-04-10 | score 52.7 | vol 13,925 | V/OI 13.1x | Flujo ALCISTA extremo: 98.8% en una direccion | V/OI 13x — posiciones mayoritari
+
+  ETSY — Etsy, Inc.
+  Precio: $51.66
+  Score: 61.5
+  Notional total: $55,676
+  Contratos inusuales: 6
+    - Strike $58.0 exp 2026-04-10 | score 61.5 | vol 359 | V/OI 14.96x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 15x — posiciones mayoritari
+    - Strike $55.0 exp 2026-04-10 | score 51.1 | vol 187 | V/OI 8.13x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 8x — posiciones mayoritaria
+    - Strike $56.0 exp 2026-04-10 | score 48.5 | vol 123 | V/OI 0.69x | Flujo ALCISTA extremo: 85.0% en una direccion | OI concentrado: 11,331 contratos
