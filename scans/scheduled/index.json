@@ -1,5 +1,13 @@
 [
   {
+    "filename": "2026-04-03_15-41.json",
+    "date": "2026-04-03",
+    "time": "15:41",
+    "total_alerts": 195,
+    "tickers_scanned": 2395,
+    "tickers_with_alerts": 59
+  },
+  {
     "filename": "2026-04-02_20-27.json",
     "date": "2026-04-02",
     "time": "20:27",
