@@ -1,24 +1,24 @@
-Scan: 2026-04-06T17:58:56.809924
+Scan: 2026-04-06T20:21:35.812259
 Tickers escaneados: 2395
-Total alertas: 235
+Total alertas: 296
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   EA — Electronic Arts Inc.
-  Precio: $203.8
-  Score: 70.3
-  Notional total: $56,774
-  Contratos inusuales: 3
-    - Strike $210.0 exp 2026-04-10 | score 70.3 | vol 5,606 | V/OI 5606.0x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | V/
-    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 583 | V/OI 23.32x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $210.0 exp 2026-04-17 | score 42.1 | vol 678 | V/OI 3.2x | Flujo BAJISTA: 84.7% direccional | V/OI 3.2x — flujo de posiciones nuevas | OI c
+  Precio: $204.16
+  Score: 65.8
+  Notional total: $64,550
+  Contratos inusuales: 4
+    - Strike $210.0 exp 2026-04-10 | score 65.8 | vol 5,801 | V/OI 5801.0x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | V/
+    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 584 | V/OI 23.36x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $210.0 exp 2026-04-24 | score 46.3 | vol 720 | V/OI 720.0x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 720x — posiciones mayoritar
 
   FSLR — First Solar, Inc.
-  Precio: $195.38
-  Score: 60.7
-  Notional total: $2,293,191
+  Precio: $195.57
+  Score: 61.7
+  Notional total: $2,607,360
   Contratos inusuales: 2
-    - Strike $202.5 exp 2026-04-17 | score 60.7 | vol 3,988 | V/OI 72.51x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 73x — posiciones mayoritari
-    - Strike $200.0 exp 2026-04-10 | score 53.0 | vol 3,671 | V/OI 17.65x | Flujo ALCISTA extremo: 91.8% en una direccion | V/OI 18x — posiciones mayoritari
+    - Strike $202.5 exp 2026-04-17 | score 61.7 | vol 4,045 | V/OI 73.55x | Flujo ALCISTA extremo: 89.5% en una direccion | V/OI 74x — posiciones mayoritari
+    - Strike $200.0 exp 2026-04-10 | score 54.3 | vol 3,708 | V/OI 17.83x | Flujo ALCISTA extremo: 90.5% en una direccion | V/OI 18x — posiciones mayoritari
