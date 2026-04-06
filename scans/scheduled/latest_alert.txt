@@ -1,34 +1,65 @@
-Scan: 2026-04-03T20:15:50.931501
+Scan: 2026-04-06T15:53:38.042531
 Tickers escaneados: 2395
-Total alertas: 195
+Total alertas: 508
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  MRNA — Moderna, Inc.
-  Precio: $49.2
-  Score: 64.9
-  Notional total: $5,721,650
-  Contratos inusuales: 12
-    - Strike $53.0 exp 2026-04-10 | score 64.9 | vol 21,562 | V/OI 147.68x | Flujo ALCISTA extremo: 96.7% en una direccion | V/OI 148x — posiciones mayoritar
-    - Strike $50.0 exp 2026-04-10 | score 64.4 | vol 21,155 | V/OI 57.64x | Flujo ALCISTA extremo: 96.7% en una direccion | V/OI 58x — posiciones mayoritari
-    - Strike $54.0 exp 2026-04-10 | score 59.3 | vol 5,758 | V/OI 13.94x | Flujo ALCISTA extremo: 96.7% en una direccion | V/OI 14x — posiciones mayoritari
-
-  KHC — The Kraft Heinz Company
-  Precio: $22.79
-  Score: 62.8
-  Notional total: $658,183
+  EA — Electronic Arts Inc.
+  Precio: $203.73
+  Score: 68.7
+  Notional total: $53,725
   Contratos inusuales: 3
-    - Strike $23.5 exp 2026-04-10 | score 62.8 | vol 22,971 | V/OI 17.39x | Volumen 4.3x sobre lo normal | Flujo ALCISTA extremo: 98.8% en una direccion | V
-    - Strike $23.0 exp 2026-04-10 | score 52.7 | vol 13,958 | V/OI 13.13x | Flujo ALCISTA extremo: 98.8% en una direccion | V/OI 13x — posiciones mayoritari
-    - Strike $24.0 exp 2026-04-10 | score 42.8 | vol 144 | V/OI 0.36x | Flujo ALCISTA extremo: 98.8% en una direccion | OI concentrado: 15,244 contratos
+    - Strike $210.0 exp 2026-04-10 | score 68.7 | vol 4,773 | V/OI 4773.0x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
+    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 516 | V/OI 20.64x | Flujo ALCISTA extremo: 99.8% en una direccion | V/OI 21x — posiciones mayoritari
+    - Strike $210.0 exp 2026-04-17 | score 42.3 | vol 148 | V/OI 0.7x | Flujo BAJISTA extremo: 94.4% en una direccion | OI concentrado: 2,011 contratos 
 
-  ETSY — Etsy, Inc.
-  Precio: $51.64
-  Score: 61.5
-  Notional total: $58,155
-  Contratos inusuales: 6
-    - Strike $58.0 exp 2026-04-10 | score 61.5 | vol 359 | V/OI 14.96x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 15x — posiciones mayoritari
-    - Strike $55.0 exp 2026-04-10 | score 51.1 | vol 188 | V/OI 8.17x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 8x — posiciones mayoritaria
-    - Strike $56.0 exp 2026-04-10 | score 48.5 | vol 123 | V/OI 0.69x | Flujo ALCISTA extremo: 85.8% en una direccion | OI concentrado: 11,331 contratos
+  UAL — United Airlines Holdings, Inc.
+  Precio: $91.31
+  Score: 67.8
+  Notional total: $7,621,780
+  Contratos inusuales: 3
+    - Strike $105.0 exp 2026-04-17 | score 67.8 | vol 128,145 | V/OI 0.97x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 99.0% en una direccion | O
+    - Strike $91.0 exp 2026-04-17 | score 42.9 | vol 407 | V/OI 1.83x | Flujo ALCISTA extremo: 99.0% en una direccion | OI concentrado: 132,245 contrato
+    - Strike $90.0 exp 2026-04-17 | score 40.7 | vol 231 | V/OI 0.15x | Flujo ALCISTA extremo: 99.0% en una direccion | OI concentrado: 132,245 contrato
+
+  SGI — Somnigroup International Inc.
+  Precio: $73.98
+  Score: 65.5
+  Notional total: $81,831
+  Contratos inusuales: 2
+    - Strike $95.0 exp 2026-04-17 | score 65.5 | vol 2,501 | V/OI 9.96x | Volumen 3.4x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V
+    - Strike $85.0 exp 2026-04-17 | score 47.7 | vol 172 | V/OI 0.47x | Flujo ALCISTA extremo: 98.2% en una direccion | OI concentrado: 4,169 contratos 
+
+  FSLR — First Solar, Inc.
+  Precio: $195.39
+  Score: 61.6
+  Notional total: $2,713,292
+  Contratos inusuales: 2
+    - Strike $202.5 exp 2026-04-17 | score 61.6 | vol 3,650 | V/OI 66.36x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 66x — posiciones mayoritari
+    - Strike $200.0 exp 2026-04-10 | score 55.3 | vol 3,518 | V/OI 16.91x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 17x — posiciones mayoritari
+
+  PCG — Pacific Gas & Electric Co.
+  Precio: $17.74
+  Score: 61.2
+  Notional total: $19,694
+  Contratos inusuales: 2
+    - Strike $18.5 exp 2026-04-10 | score 61.2 | vol 2,241 | V/OI 19.83x | Flujo ALCISTA extremo: 91.2% en una direccion | V/OI 20x — posiciones mayoritari
+    - Strike $18.0 exp 2026-04-10 | score 43.7 | vol 284 | V/OI 0.5x | Flujo ALCISTA extremo: 91.2% en una direccion | OI concentrado: 22,308 contratos
+
+  VKTX — Viking Therapeutics, Inc.
+  Precio: $34.82
+  Score: 61.0
+  Notional total: $8,065
+  Contratos inusuales: 3
+    - Strike $41.5 exp 2026-04-10 | score 61.0 | vol 122 | V/OI 122.0x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 122x — posiciones mayoritar
+    - Strike $42.0 exp 2026-04-10 | score 48.0 | vol 201 | V/OI 0.99x | Flujo ALCISTA extremo: 91.1% en una direccion | Expira en 3 dias — maximo apalan
+    - Strike $42.5 exp 2026-04-10 | score 48.0 | vol 500 | V/OI 1.0x | Flujo ALCISTA extremo: 91.1% en una direccion | Expira en 3 dias — maximo apalan
+
+  ASTH — Astrana Health Inc.
+  Precio: $25.91
+  Score: 60.1
+  Notional total: $77,955
+  Contratos inusuales: 1
+    - Strike $30.0 exp 2026-04-17 | score 60.1 | vol 5,197 | V/OI 0.98x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | OI 
