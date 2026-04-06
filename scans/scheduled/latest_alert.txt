@@ -1,65 +1,24 @@
-Scan: 2026-04-06T15:53:38.042531
+Scan: 2026-04-06T17:58:56.809924
 Tickers escaneados: 2395
-Total alertas: 508
+Total alertas: 235
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   EA — Electronic Arts Inc.
-  Precio: $203.73
-  Score: 68.7
-  Notional total: $53,725
+  Precio: $203.8
+  Score: 70.3
+  Notional total: $56,774
   Contratos inusuales: 3
-    - Strike $210.0 exp 2026-04-10 | score 68.7 | vol 4,773 | V/OI 4773.0x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 99.8% en una direccion | V/O
-    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 516 | V/OI 20.64x | Flujo ALCISTA extremo: 99.8% en una direccion | V/OI 21x — posiciones mayoritari
-    - Strike $210.0 exp 2026-04-17 | score 42.3 | vol 148 | V/OI 0.7x | Flujo BAJISTA extremo: 94.4% en una direccion | OI concentrado: 2,011 contratos 
-
-  UAL — United Airlines Holdings, Inc.
-  Precio: $91.31
-  Score: 67.8
-  Notional total: $7,621,780
-  Contratos inusuales: 3
-    - Strike $105.0 exp 2026-04-17 | score 67.8 | vol 128,145 | V/OI 0.97x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 99.0% en una direccion | O
-    - Strike $91.0 exp 2026-04-17 | score 42.9 | vol 407 | V/OI 1.83x | Flujo ALCISTA extremo: 99.0% en una direccion | OI concentrado: 132,245 contrato
-    - Strike $90.0 exp 2026-04-17 | score 40.7 | vol 231 | V/OI 0.15x | Flujo ALCISTA extremo: 99.0% en una direccion | OI concentrado: 132,245 contrato
-
-  SGI — Somnigroup International Inc.
-  Precio: $73.98
-  Score: 65.5
-  Notional total: $81,831
-  Contratos inusuales: 2
-    - Strike $95.0 exp 2026-04-17 | score 65.5 | vol 2,501 | V/OI 9.96x | Volumen 3.4x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V
-    - Strike $85.0 exp 2026-04-17 | score 47.7 | vol 172 | V/OI 0.47x | Flujo ALCISTA extremo: 98.2% en una direccion | OI concentrado: 4,169 contratos 
+    - Strike $210.0 exp 2026-04-10 | score 70.3 | vol 5,606 | V/OI 5606.0x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | V/
+    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 583 | V/OI 23.32x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $210.0 exp 2026-04-17 | score 42.1 | vol 678 | V/OI 3.2x | Flujo BAJISTA: 84.7% direccional | V/OI 3.2x — flujo de posiciones nuevas | OI c
 
   FSLR — First Solar, Inc.
-  Precio: $195.39
-  Score: 61.6
-  Notional total: $2,713,292
+  Precio: $195.38
+  Score: 60.7
+  Notional total: $2,293,191
   Contratos inusuales: 2
-    - Strike $202.5 exp 2026-04-17 | score 61.6 | vol 3,650 | V/OI 66.36x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 66x — posiciones mayoritari
-    - Strike $200.0 exp 2026-04-10 | score 55.3 | vol 3,518 | V/OI 16.91x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 17x — posiciones mayoritari
-
-  PCG — Pacific Gas & Electric Co.
-  Precio: $17.74
-  Score: 61.2
-  Notional total: $19,694
-  Contratos inusuales: 2
-    - Strike $18.5 exp 2026-04-10 | score 61.2 | vol 2,241 | V/OI 19.83x | Flujo ALCISTA extremo: 91.2% en una direccion | V/OI 20x — posiciones mayoritari
-    - Strike $18.0 exp 2026-04-10 | score 43.7 | vol 284 | V/OI 0.5x | Flujo ALCISTA extremo: 91.2% en una direccion | OI concentrado: 22,308 contratos
-
-  VKTX — Viking Therapeutics, Inc.
-  Precio: $34.82
-  Score: 61.0
-  Notional total: $8,065
-  Contratos inusuales: 3
-    - Strike $41.5 exp 2026-04-10 | score 61.0 | vol 122 | V/OI 122.0x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 122x — posiciones mayoritar
-    - Strike $42.0 exp 2026-04-10 | score 48.0 | vol 201 | V/OI 0.99x | Flujo ALCISTA extremo: 91.1% en una direccion | Expira en 3 dias — maximo apalan
-    - Strike $42.5 exp 2026-04-10 | score 48.0 | vol 500 | V/OI 1.0x | Flujo ALCISTA extremo: 91.1% en una direccion | Expira en 3 dias — maximo apalan
-
-  ASTH — Astrana Health Inc.
-  Precio: $25.91
-  Score: 60.1
-  Notional total: $77,955
-  Contratos inusuales: 1
-    - Strike $30.0 exp 2026-04-17 | score 60.1 | vol 5,197 | V/OI 0.98x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | OI 
+    - Strike $202.5 exp 2026-04-17 | score 60.7 | vol 3,988 | V/OI 72.51x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 73x — posiciones mayoritari
+    - Strike $200.0 exp 2026-04-10 | score 53.0 | vol 3,671 | V/OI 17.65x | Flujo ALCISTA extremo: 91.8% en una direccion | V/OI 18x — posiciones mayoritari
