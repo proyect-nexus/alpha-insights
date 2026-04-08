@@ -1,24 +1,14 @@
-Scan: 2026-04-06T20:21:35.812259
+Scan: 2026-04-08T18:17:30.645448
 Tickers escaneados: 2395
-Total alertas: 296
+Total alertas: 265
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  EA — Electronic Arts Inc.
-  Precio: $204.16
-  Score: 65.8
-  Notional total: $64,550
-  Contratos inusuales: 4
-    - Strike $210.0 exp 2026-04-10 | score 65.8 | vol 5,801 | V/OI 5801.0x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 99.9% en una direccion | V/
-    - Strike $205.0 exp 2026-04-10 | score 53.8 | vol 584 | V/OI 23.36x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $210.0 exp 2026-04-24 | score 46.3 | vol 720 | V/OI 720.0x | Flujo ALCISTA extremo: 99.9% en una direccion | V/OI 720x — posiciones mayoritar
-
-  FSLR — First Solar, Inc.
-  Precio: $195.57
-  Score: 61.7
-  Notional total: $2,607,360
-  Contratos inusuales: 2
-    - Strike $202.5 exp 2026-04-17 | score 61.7 | vol 4,045 | V/OI 73.55x | Flujo ALCISTA extremo: 89.5% en una direccion | V/OI 74x — posiciones mayoritari
-    - Strike $200.0 exp 2026-04-10 | score 54.3 | vol 3,708 | V/OI 17.83x | Flujo ALCISTA extremo: 90.5% en una direccion | V/OI 18x — posiciones mayoritari
+  CSGP — CoStar Group, Inc.
+  Precio: $38.96
+  Score: 60.0
+  Notional total: $659,490
+  Contratos inusuales: 1
+    - Strike $40.0 exp 2026-04-17 | score 60.0 | vol 5,073 | V/OI 64.22x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 87.9% en una direccion | V/O
