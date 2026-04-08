@@ -1,14 +1,14 @@
-Scan: 2026-04-08T18:17:30.645448
+Scan: 2026-04-08T20:28:52.650133
 Tickers escaneados: 2395
-Total alertas: 265
+Total alertas: 297
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   CSGP — CoStar Group, Inc.
-  Precio: $38.96
-  Score: 60.0
-  Notional total: $659,490
+  Precio: $38.82
+  Score: 62.9
+  Notional total: $451,675
   Contratos inusuales: 1
-    - Strike $40.0 exp 2026-04-17 | score 60.0 | vol 5,073 | V/OI 64.22x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 87.9% en una direccion | V/O
+    - Strike $40.0 exp 2026-04-17 | score 62.9 | vol 5,075 | V/OI 64.24x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 87.7% en una direccion | V/O
