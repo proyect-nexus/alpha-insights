@@ -1,14 +1,14 @@
-Scan: 2026-04-09T18:13:25.335098
-Tickers escaneados: 2394
-Total alertas: 128
+Scan: 2026-04-09T20:30:25.431144
+Tickers escaneados: 2395
+Total alertas: 149
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   ANET — Arista Networks, Inc.
-  Precio: $144.05
-  Score: 60.7
-  Notional total: $1,800,900
+  Precio: $146.06
+  Score: 62.5
+  Notional total: $3,035,670
   Contratos inusuales: 1
-    - Strike $170.0 exp 2026-05-15 | score 60.7 | vol 6,003 | V/OI 14.61x | Flujo ALCISTA extremo: 95.5% en una direccion | V/OI 15x — posiciones mayoritari
+    - Strike $170.0 exp 2026-05-15 | score 62.5 | vol 9,199 | V/OI 22.38x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 22x — posiciones mayoritari
