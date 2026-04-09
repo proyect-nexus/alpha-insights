@@ -1,14 +1,22 @@
-Scan: 2026-04-08T20:28:52.650133
+Scan: 2026-04-09T16:31:50.355661
 Tickers escaneados: 2395
-Total alertas: 297
+Total alertas: 205
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  CSGP — CoStar Group, Inc.
-  Precio: $38.82
-  Score: 62.9
-  Notional total: $451,675
+  GTX — Garrett Motion Inc.
+  Precio: $19.14
+  Score: 63.9
+  Notional total: $12,257
+  Contratos inusuales: 2
+    - Strike $23.0 exp 2026-04-17 | score 63.9 | vol 250 | V/OI 250.0x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 250x — posiciones mayoritar
+    - Strike $22.0 exp 2026-04-17 | score 59.4 | vol 181 | V/OI 181.0x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 181x — posiciones mayoritar
+
+  SGI — Somnigroup International Inc.
+  Precio: $77.57
+  Score: 61.9
+  Notional total: $77,531
   Contratos inusuales: 1
-    - Strike $40.0 exp 2026-04-17 | score 62.9 | vol 5,075 | V/OI 64.24x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 87.7% en una direccion | V/O
+    - Strike $95.0 exp 2026-04-17 | score 61.9 | vol 2,501 | V/OI 9.96x | Volumen 3.1x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V
