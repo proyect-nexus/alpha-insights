@@ -1,22 +1,14 @@
-Scan: 2026-04-09T16:31:50.355661
-Tickers escaneados: 2395
-Total alertas: 205
+Scan: 2026-04-09T18:13:25.335098
+Tickers escaneados: 2394
+Total alertas: 128
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  GTX — Garrett Motion Inc.
-  Precio: $19.14
-  Score: 63.9
-  Notional total: $12,257
-  Contratos inusuales: 2
-    - Strike $23.0 exp 2026-04-17 | score 63.9 | vol 250 | V/OI 250.0x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 250x — posiciones mayoritar
-    - Strike $22.0 exp 2026-04-17 | score 59.4 | vol 181 | V/OI 181.0x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 181x — posiciones mayoritar
-
-  SGI — Somnigroup International Inc.
-  Precio: $77.57
-  Score: 61.9
-  Notional total: $77,531
+  ANET — Arista Networks, Inc.
+  Precio: $144.05
+  Score: 60.7
+  Notional total: $1,800,900
   Contratos inusuales: 1
-    - Strike $95.0 exp 2026-04-17 | score 61.9 | vol 2,501 | V/OI 9.96x | Volumen 3.1x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V
+    - Strike $170.0 exp 2026-05-15 | score 60.7 | vol 6,003 | V/OI 14.61x | Flujo ALCISTA extremo: 95.5% en una direccion | V/OI 15x — posiciones mayoritari
