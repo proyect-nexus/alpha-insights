@@ -1,25 +1,34 @@
-Scan: 2026-04-10T18:02:34.291268
+Scan: 2026-04-10T20:19:32.433303
 Tickers escaneados: 2395
-Total alertas: 142
+Total alertas: 187
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  META — Meta Platforms, Inc.
-  Precio: $627.13
-  Score: 64.0
-  Notional total: $41,171,280
-  Contratos inusuales: 11
-    - Strike $710.0 exp 2026-05-01 | score 64.0 | vol 10,861 | V/OI 40.38x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 40x — posiciones mayoritari
-    - Strike $665.0 exp 2026-05-01 | score 59.5 | vol 10,938 | V/OI 23.22x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $700.0 exp 2026-05-01 | score 51.0 | vol 8,522 | V/OI 0.83x | Flujo ALCISTA extremo: 93.6% en una direccion | Apuesta de $3.7M | 12% fuera del
-
   MRNA — Moderna, Inc.
-  Precio: $52.18
-  Score: 61.1
-  Notional total: $4,204,727
-  Contratos inusuales: 7
-    - Strike $53.0 exp 2026-04-17 | score 61.1 | vol 9,655 | V/OI 34.86x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 35x — posiciones mayoritari
-    - Strike $56.0 exp 2026-04-17 | score 59.0 | vol 10,173 | V/OI 39.89x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 40x — posiciones mayoritari
-    - Strike $57.0 exp 2026-04-17 | score 54.9 | vol 4,355 | V/OI 8.61x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 9x — posiciones mayoritaria
+  Precio: $50.96
+  Score: 66.8
+  Notional total: $3,788,572
+  Contratos inusuales: 8
+    - Strike $53.0 exp 2026-04-17 | score 66.8 | vol 17,968 | V/OI 64.87x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 65x — posiciones mayoritari
+    - Strike $56.0 exp 2026-04-17 | score 64.0 | vol 18,325 | V/OI 71.86x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 72x — posiciones mayoritari
+    - Strike $57.0 exp 2026-04-17 | score 54.1 | vol 4,380 | V/OI 8.66x | Flujo ALCISTA extremo: 91.1% en una direccion | V/OI 9x — posiciones mayoritaria
+
+  META — Meta Platforms, Inc.
+  Precio: $629.86
+  Score: 64.0
+  Notional total: $42,583,833
+  Contratos inusuales: 12
+    - Strike $710.0 exp 2026-05-01 | score 64.0 | vol 10,885 | V/OI 40.46x | Flujo ALCISTA extremo: 92.4% en una direccion | V/OI 40x — posiciones mayoritari
+    - Strike $665.0 exp 2026-05-01 | score 59.5 | vol 10,962 | V/OI 23.27x | Flujo ALCISTA extremo: 92.4% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $700.0 exp 2026-05-01 | score 51.0 | vol 8,716 | V/OI 0.85x | Flujo ALCISTA extremo: 92.4% en una direccion | Apuesta de $3.9M | 11% fuera del
+
+  SMCI — Super Micro Computer, Inc.
+  Precio: $25.26
+  Score: 60.0
+  Notional total: $7,774,690
+  Contratos inusuales: 14
+    - Strike $27.5 exp 2026-04-17 | score 60.0 | vol 31,068 | V/OI 83.07x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 83x — posiciones mayoritari
+    - Strike $25.5 exp 2026-04-17 | score 57.4 | vol 23,046 | V/OI 12.98x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 13x — posiciones mayoritari
+    - Strike $26.0 exp 2026-04-17 | score 52.3 | vol 38,370 | V/OI 6.66x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 7x — posiciones mayoritaria
