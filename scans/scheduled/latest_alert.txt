@@ -1,16 +1,25 @@
-Scan: 2026-04-10T15:46:21.822469
+Scan: 2026-04-10T18:02:34.291268
 Tickers escaneados: 2395
-Total alertas: 68
+Total alertas: 142
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   META — Meta Platforms, Inc.
-  Precio: $630.9
+  Precio: $627.13
   Score: 64.0
-  Notional total: $42,354,862
-  Contratos inusuales: 8
-    - Strike $710.0 exp 2026-05-01 | score 64.0 | vol 10,800 | V/OI 40.15x | Flujo ALCISTA extremo: 96.1% en una direccion | V/OI 40x — posiciones mayoritari
-    - Strike $665.0 exp 2026-05-01 | score 59.5 | vol 10,793 | V/OI 22.92x | Flujo ALCISTA extremo: 96.1% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $700.0 exp 2026-05-01 | score 51.0 | vol 8,260 | V/OI 0.81x | Flujo ALCISTA extremo: 96.1% en una direccion | Apuesta de $4.3M | 11% fuera del
+  Notional total: $41,171,280
+  Contratos inusuales: 11
+    - Strike $710.0 exp 2026-05-01 | score 64.0 | vol 10,861 | V/OI 40.38x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 40x — posiciones mayoritari
+    - Strike $665.0 exp 2026-05-01 | score 59.5 | vol 10,938 | V/OI 23.22x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $700.0 exp 2026-05-01 | score 51.0 | vol 8,522 | V/OI 0.83x | Flujo ALCISTA extremo: 93.6% en una direccion | Apuesta de $3.7M | 12% fuera del
+
+  MRNA — Moderna, Inc.
+  Precio: $52.18
+  Score: 61.1
+  Notional total: $4,204,727
+  Contratos inusuales: 7
+    - Strike $53.0 exp 2026-04-17 | score 61.1 | vol 9,655 | V/OI 34.86x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 35x — posiciones mayoritari
+    - Strike $56.0 exp 2026-04-17 | score 59.0 | vol 10,173 | V/OI 39.89x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 40x — posiciones mayoritari
+    - Strike $57.0 exp 2026-04-17 | score 54.9 | vol 4,355 | V/OI 8.61x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 9x — posiciones mayoritaria
