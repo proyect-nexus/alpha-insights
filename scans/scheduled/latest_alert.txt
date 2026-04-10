@@ -1,14 +1,16 @@
-Scan: 2026-04-09T20:30:25.431144
+Scan: 2026-04-10T15:46:21.822469
 Tickers escaneados: 2395
-Total alertas: 149
+Total alertas: 68
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  ANET — Arista Networks, Inc.
-  Precio: $146.06
-  Score: 62.5
-  Notional total: $3,035,670
-  Contratos inusuales: 1
-    - Strike $170.0 exp 2026-05-15 | score 62.5 | vol 9,199 | V/OI 22.38x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 22x — posiciones mayoritari
+  META — Meta Platforms, Inc.
+  Precio: $630.9
+  Score: 64.0
+  Notional total: $42,354,862
+  Contratos inusuales: 8
+    - Strike $710.0 exp 2026-05-01 | score 64.0 | vol 10,800 | V/OI 40.15x | Flujo ALCISTA extremo: 96.1% en una direccion | V/OI 40x — posiciones mayoritari
+    - Strike $665.0 exp 2026-05-01 | score 59.5 | vol 10,793 | V/OI 22.92x | Flujo ALCISTA extremo: 96.1% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $700.0 exp 2026-05-01 | score 51.0 | vol 8,260 | V/OI 0.81x | Flujo ALCISTA extremo: 96.1% en una direccion | Apuesta de $4.3M | 11% fuera del
