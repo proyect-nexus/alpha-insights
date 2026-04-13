@@ -1,23 +1,23 @@
-Scan: 2026-04-13T18:11:56.641011
+Scan: 2026-04-13T20:48:53.714898
 Tickers escaneados: 2395
-Total alertas: 271
+Total alertas: 400
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   GRMN — Garmin Ltd.
-  Precio: $260.56
-  Score: 64.4
-  Notional total: $208,430
+  Precio: $261.57
+  Score: 65.0
+  Notional total: $281,880
   Contratos inusuales: 1
-    - Strike $270.0 exp 2026-04-17 | score 64.4 | vol 5,485 | V/OI 17.92x | Volumen 19x sobre lo normal | Flujo ALCISTA: 79.7% direccional | V/OI 18x — posi
+    - Strike $270.0 exp 2026-04-17 | score 65.0 | vol 6,264 | V/OI 20.47x | Volumen 21x sobre lo normal | Flujo ALCISTA: 81.8% direccional | V/OI 20x — posi
 
   HPE — Hewlett Packard Enterprise Comp
-  Precio: $24.74
+  Precio: $24.81
   Score: 63.5
-  Notional total: $114,109
+  Notional total: $84,410
   Contratos inusuales: 8
-    - Strike $29.0 exp 2026-04-17 | score 63.5 | vol 4,217 | V/OI 36.99x | Flujo ALCISTA: 75.8% direccional | V/OI 37x — posiciones mayoritariamente nuevas
-    - Strike $27.0 exp 2026-04-17 | score 46.0 | vol 205 | V/OI 0.21x | Flujo ALCISTA: 75.8% direccional | OI concentrado: 19,228 contratos (23% del tot
-    - Strike $24.5 exp 2026-04-24 | score 43.0 | vol 429 | V/OI 6.92x | Flujo ALCISTA extremo: 88.2% en una direccion | V/OI 7x — posiciones mayoritaria
+    - Strike $29.0 exp 2026-04-17 | score 63.5 | vol 4,221 | V/OI 37.03x | Flujo ALCISTA: 78.6% direccional | V/OI 37x — posiciones mayoritariamente nuevas
+    - Strike $26.5 exp 2026-05-01 | score 47.5 | vol 266 | V/OI 12.09x | Flujo ALCISTA extremo: 87.6% en una direccion | V/OI 12x — posiciones mayoritari
+    - Strike $27.0 exp 2026-04-17 | score 46.0 | vol 264 | V/OI 0.27x | Flujo ALCISTA: 78.6% direccional | OI concentrado: 19,228 contratos (23% del tot
