@@ -1,23 +1,25 @@
-Scan: 2026-04-13T20:48:53.714898
+Scan: 2026-04-14T16:11:49.036411
 Tickers escaneados: 2395
-Total alertas: 400
+Total alertas: 214
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  GRMN — Garmin Ltd.
-  Precio: $261.57
-  Score: 65.0
-  Notional total: $281,880
-  Contratos inusuales: 1
-    - Strike $270.0 exp 2026-04-17 | score 65.0 | vol 6,264 | V/OI 20.47x | Volumen 21x sobre lo normal | Flujo ALCISTA: 81.8% direccional | V/OI 20x — posi
+  AMZN — Amazon.com, Inc.
+  Precio: $248.56
+  Score: 64.8
+  Notional total: $47,874,381
+  Contratos inusuales: 6
+    - Strike $290.0 exp 2026-05-08 | score 64.8 | vol 37,732 | V/OI 471.65x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 472x — posiciones mayoritar
+    - Strike $260.0 exp 2026-05-08 | score 55.8 | vol 38,170 | V/OI 59.0x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 59x — posiciones mayoritari
+    - Strike $270.0 exp 2026-05-15 | score 44.2 | vol 14,918 | V/OI 1.01x | Flujo ALCISTA: 79.4% direccional | Apuesta de $6.3M | 9% fuera del dinero | 64 c
 
-  HPE — Hewlett Packard Enterprise Comp
-  Precio: $24.81
-  Score: 63.5
-  Notional total: $84,410
-  Contratos inusuales: 8
-    - Strike $29.0 exp 2026-04-17 | score 63.5 | vol 4,221 | V/OI 37.03x | Flujo ALCISTA: 78.6% direccional | V/OI 37x — posiciones mayoritariamente nuevas
-    - Strike $26.5 exp 2026-05-01 | score 47.5 | vol 266 | V/OI 12.09x | Flujo ALCISTA extremo: 87.6% en una direccion | V/OI 12x — posiciones mayoritari
-    - Strike $27.0 exp 2026-04-17 | score 46.0 | vol 264 | V/OI 0.27x | Flujo ALCISTA: 78.6% direccional | OI concentrado: 19,228 contratos (23% del tot
+  NVDA — NVIDIA Corporation
+  Precio: $194.27
+  Score: 62.5
+  Notional total: $76,784,712
+  Contratos inusuales: 10
+    - Strike $225.0 exp 2026-05-29 | score 62.5 | vol 48,107 | V/OI 528.65x | Flujo ALCISTA extremo: 97.9% en una direccion | V/OI 529x — posiciones mayoritar
+    - Strike $200.0 exp 2026-05-29 | score 49.0 | vol 48,757 | V/OI 36.58x | Flujo ALCISTA extremo: 97.9% en una direccion | V/OI 37x — posiciones mayoritari
+    - Strike $240.0 exp 2026-05-08 | score 47.3 | vol 1,403 | V/OI 12.2x | Flujo ALCISTA extremo: 85.6% en una direccion | V/OI 12x — posiciones mayoritari
