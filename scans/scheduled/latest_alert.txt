@@ -1,25 +1,41 @@
-Scan: 2026-04-14T16:11:49.036411
+Scan: 2026-04-14T18:16:42.916699
 Tickers escaneados: 2395
-Total alertas: 214
+Total alertas: 358
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
+  NFLX — Netflix, Inc.
+  Precio: $106.4
+  Score: 66.5
+  Notional total: $36,721,060
+  Contratos inusuales: 21
+    - Strike $112.0 exp 2026-04-17 | score 66.5 | vol 57,641 | V/OI 14.47x | Flujo ALCISTA extremo: 85.1% en una direccion | V/OI 14x — posiciones mayoritari
+    - Strike $120.0 exp 2026-04-17 | score 62.0 | vol 58,797 | V/OI 4.55x | Flujo ALCISTA extremo: 85.1% en una direccion | V/OI 4.5x — flujo de posiciones 
+    - Strike $110.0 exp 2026-04-17 | score 54.0 | vol 15,914 | V/OI 0.76x | Flujo ALCISTA extremo: 85.1% en una direccion | Apuesta de $3.4M | Expira en 2 d
+
   AMZN — Amazon.com, Inc.
-  Precio: $248.56
+  Precio: $251.55
   Score: 64.8
-  Notional total: $47,874,381
-  Contratos inusuales: 6
-    - Strike $290.0 exp 2026-05-08 | score 64.8 | vol 37,732 | V/OI 471.65x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 472x — posiciones mayoritar
-    - Strike $260.0 exp 2026-05-08 | score 55.8 | vol 38,170 | V/OI 59.0x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 59x — posiciones mayoritari
-    - Strike $270.0 exp 2026-05-15 | score 44.2 | vol 14,918 | V/OI 1.01x | Flujo ALCISTA: 79.4% direccional | Apuesta de $6.3M | 9% fuera del dinero | 64 c
+  Notional total: $76,462,257
+  Contratos inusuales: 15
+    - Strike $290.0 exp 2026-05-08 | score 64.8 | vol 38,362 | V/OI 479.52x | Flujo ALCISTA extremo: 95.5% en una direccion | V/OI 480x — posiciones mayoritar
+    - Strike $260.0 exp 2026-05-08 | score 55.8 | vol 39,027 | V/OI 60.32x | Flujo ALCISTA extremo: 95.5% en una direccion | V/OI 60x — posiciones mayoritari
+    - Strike $280.0 exp 2026-04-20 | score 49.5 | vol 201 | V/OI 40.2x | V/OI 40x — posiciones mayoritariamente nuevas | Expira en 5 dias — maximo apalan
+
+  AXP — American Express Company
+  Precio: $328.03
+  Score: 64.2
+  Notional total: $3,417,110
+  Contratos inusuales: 1
+    - Strike $360.0 exp 2026-05-15 | score 64.2 | vol 14,857 | V/OI 15.69x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 97.7% en una direccion | V
 
   NVDA — NVIDIA Corporation
-  Precio: $194.27
+  Precio: $194.74
   Score: 62.5
-  Notional total: $76,784,712
-  Contratos inusuales: 10
-    - Strike $225.0 exp 2026-05-29 | score 62.5 | vol 48,107 | V/OI 528.65x | Flujo ALCISTA extremo: 97.9% en una direccion | V/OI 529x — posiciones mayoritar
-    - Strike $200.0 exp 2026-05-29 | score 49.0 | vol 48,757 | V/OI 36.58x | Flujo ALCISTA extremo: 97.9% en una direccion | V/OI 37x — posiciones mayoritari
-    - Strike $240.0 exp 2026-05-08 | score 47.3 | vol 1,403 | V/OI 12.2x | Flujo ALCISTA extremo: 85.6% en una direccion | V/OI 12x — posiciones mayoritari
+  Notional total: $133,527,087
+  Contratos inusuales: 18
+    - Strike $225.0 exp 2026-05-29 | score 62.5 | vol 48,327 | V/OI 531.07x | Flujo ALCISTA extremo: 96.8% en una direccion | V/OI 531x — posiciones mayoritar
+    - Strike $225.0 exp 2026-04-22 | score 51.0 | vol 103 | V/OI 34.33x | V/OI 34x — posiciones mayoritariamente nuevas | Expira en 7 dias — maximo apalan
+    - Strike $200.0 exp 2026-05-29 | score 49.0 | vol 49,657 | V/OI 37.25x | Flujo ALCISTA extremo: 96.8% en una direccion | V/OI 37x — posiciones mayoritari
