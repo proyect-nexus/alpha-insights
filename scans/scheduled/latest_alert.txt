@@ -1,34 +1,32 @@
-Scan: 2026-04-16T16:29:14.403255
-Tickers escaneados: 2394
-Total alertas: 196
+Scan: 2026-04-16T20:28:56.623630
+Tickers escaneados: 2395
+Total alertas: 339
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   ORCL — Oracle Corporation
-  Precio: $178.82
-  Score: 63.9
-  Notional total: $12,231,662
+  Precio: $178.46
+  Score: 63.5
+  Notional total: $17,741,248
   Contratos inusuales: 15
-    - Strike $210.0 exp 2026-04-24 | score 63.9 | vol 17,202 | V/OI 22.57x | Flujo ALCISTA extremo: 88.2% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $200.0 exp 2026-04-24 | score 53.2 | vol 17,678 | V/OI 1.66x | Flujo ALCISTA extremo: 88.2% en una direccion | Apuesta de $1.5M | Expira en 7 d
-    - Strike $185.0 exp 2026-04-24 | score 47.3 | vol 4,135 | V/OI 1.59x | Flujo ALCISTA extremo: 88.2% en una direccion | Apuesta de $1.3M | Expira en 7 d
+    - Strike $210.0 exp 2026-04-24 | score 63.5 | vol 19,876 | V/OI 26.08x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 26x — posiciones mayoritari
+    - Strike $200.0 exp 2026-04-24 | score 57.6 | vol 26,012 | V/OI 2.44x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 2.4x — flujo de posiciones 
+    - Strike $185.0 exp 2026-04-24 | score 53.0 | vol 6,194 | V/OI 2.38x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 2.4x — flujo de posiciones 
+
+  CSX — CSX Corporation
+  Precio: $42.72
+  Score: 63.0
+  Notional total: $135,345
+  Contratos inusuales: 1
+    - Strike $46.0 exp 2026-04-24 | score 63.0 | vol 9,023 | V/OI 563.94x | Volumen 8x sobre lo normal | Flujo ALCISTA extremo: 99.1% en una direccion | V/O
 
   PDD — PDD Holdings Inc.
-  Precio: $106.28
+  Precio: $103.71
   Score: 62.7
-  Notional total: $6,572,673
-  Contratos inusuales: 6
-    - Strike $105.0 exp 2026-05-01 | score 62.7 | vol 10,410 | V/OI 23.71x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 24x — posiciones mayoritari
-    - Strike $130.0 exp 2026-04-24 | score 52.1 | vol 120 | V/OI 10.91x | V/OI 11x — posiciones mayoritariamente nuevas | OI concentrado: 51,395 contratos
-    - Strike $115.0 exp 2026-05-15 | score 49.7 | vol 13,134 | V/OI 0.43x | Flujo ALCISTA: 84.5% direccional | OI concentrado: 51,395 contratos (32% del tot
-
-  MSFT — Microsoft Corporation
-  Precio: $419.77
-  Score: 60.2
-  Notional total: $48,082,972
-  Contratos inusuales: 18
-    - Strike $475.0 exp 2026-05-15 | score 60.2 | vol 16,497 | V/OI 20.52x | Flujo ALCISTA extremo: 87.0% en una direccion | V/OI 21x — posiciones mayoritari
-    - Strike $455.0 exp 2026-05-01 | score 58.1 | vol 3,694 | V/OI 15.02x | Flujo ALCISTA: 80.1% direccional | V/OI 15x — posiciones mayoritariamente nuevas
-    - Strike $490.0 exp 2026-04-24 | score 55.0 | vol 705 | V/OI 35.25x | Flujo ALCISTA: 79.9% direccional | V/OI 35x — posiciones mayoritariamente nuevas
+  Notional total: $8,871,053
+  Contratos inusuales: 14
+    - Strike $105.0 exp 2026-05-01 | score 62.7 | vol 10,868 | V/OI 24.76x | Flujo ALCISTA extremo: 89.2% en una direccion | V/OI 25x — posiciones mayoritari
+    - Strike $120.0 exp 2026-05-15 | score 56.9 | vol 22,146 | V/OI 1.59x | Flujo ALCISTA extremo: 91.4% en una direccion | OI concentrado: 51,395 contratos
+    - Strike $130.0 exp 2026-04-24 | score 55.1 | vol 120 | V/OI 10.91x | V/OI 11x — posiciones mayoritariamente nuevas | OI concentrado: 51,395 contratos
