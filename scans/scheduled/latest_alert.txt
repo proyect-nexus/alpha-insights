@@ -1,31 +1,34 @@
-Scan: 2026-04-15T18:22:10.858088
-Tickers escaneados: 2395
-Total alertas: 382
+Scan: 2026-04-16T16:29:14.403255
+Tickers escaneados: 2394
+Total alertas: 196
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  ABNB — Airbnb, Inc.
-  Precio: $137.8
-  Score: 62.2
-  Notional total: $151,319
-  Contratos inusuales: 1
-    - Strike $150.0 exp 2026-04-17 | score 62.2 | vol 21,617 | V/OI 12.91x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 97.0% en una direccion | V/O
+  ORCL — Oracle Corporation
+  Precio: $178.82
+  Score: 63.9
+  Notional total: $12,231,662
+  Contratos inusuales: 15
+    - Strike $210.0 exp 2026-04-24 | score 63.9 | vol 17,202 | V/OI 22.57x | Flujo ALCISTA extremo: 88.2% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $200.0 exp 2026-04-24 | score 53.2 | vol 17,678 | V/OI 1.66x | Flujo ALCISTA extremo: 88.2% en una direccion | Apuesta de $1.5M | Expira en 7 d
+    - Strike $185.0 exp 2026-04-24 | score 47.3 | vol 4,135 | V/OI 1.59x | Flujo ALCISTA extremo: 88.2% en una direccion | Apuesta de $1.3M | Expira en 7 d
 
-  C — Citigroup, Inc.
-  Precio: $131.56
+  PDD — PDD Holdings Inc.
+  Precio: $106.28
+  Score: 62.7
+  Notional total: $6,572,673
+  Contratos inusuales: 6
+    - Strike $105.0 exp 2026-05-01 | score 62.7 | vol 10,410 | V/OI 23.71x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 24x — posiciones mayoritari
+    - Strike $130.0 exp 2026-04-24 | score 52.1 | vol 120 | V/OI 10.91x | V/OI 11x — posiciones mayoritariamente nuevas | OI concentrado: 51,395 contratos
+    - Strike $115.0 exp 2026-05-15 | score 49.7 | vol 13,134 | V/OI 0.43x | Flujo ALCISTA: 84.5% direccional | OI concentrado: 51,395 contratos (32% del tot
+
+  MSFT — Microsoft Corporation
+  Precio: $419.77
   Score: 60.2
-  Notional total: $15,623,330
-  Contratos inusuales: 2
-    - Strike $150.0 exp 2026-05-15 | score 60.2 | vol 62,392 | V/OI 186.24x | Flujo ALCISTA extremo: 95.9% en una direccion | V/OI 186x — posiciones mayoritar
-    - Strike $140.0 exp 2026-05-15 | score 59.7 | vol 75,930 | V/OI 26.47x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 95.9% en una direccion | V
-
-  TSLA — Tesla, Inc.
-  Precio: $387.72
-  Score: 60.0
-  Notional total: $455,888,475
-  Contratos inusuales: 59
-    - Strike $405.0 exp 2026-04-20 | score 60.0 | vol 16,998 | V/OI 42.49x | V/OI 42x — posiciones mayoritariamente nuevas | Apuesta de $5.0M | Expira en 4 d
-    - Strike $400.0 exp 2026-04-20 | score 57.8 | vol 24,758 | V/OI 12.44x | V/OI 12x — posiciones mayoritariamente nuevas | Apuesta de $9.7M | Expira en 4 d
-    - Strike $392.5 exp 2026-04-17 | score 55.5 | vol 27,213 | V/OI 18.9x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $13.1M | Expira en 1 
+  Notional total: $48,082,972
+  Contratos inusuales: 18
+    - Strike $475.0 exp 2026-05-15 | score 60.2 | vol 16,497 | V/OI 20.52x | Flujo ALCISTA extremo: 87.0% en una direccion | V/OI 21x — posiciones mayoritari
+    - Strike $455.0 exp 2026-05-01 | score 58.1 | vol 3,694 | V/OI 15.02x | Flujo ALCISTA: 80.1% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+    - Strike $490.0 exp 2026-04-24 | score 55.0 | vol 705 | V/OI 35.25x | Flujo ALCISTA: 79.9% direccional | V/OI 35x — posiciones mayoritariamente nuevas
