@@ -1,25 +1,34 @@
-Scan: 2026-04-17T15:58:17.220422
+Scan: 2026-04-17T17:59:48.926585
 Tickers escaneados: 2395
-Total alertas: 163
+Total alertas: 242
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   MSFT — Microsoft Corporation
-  Precio: $429.86
-  Score: 64.0
-  Notional total: $102,298,372
-  Contratos inusuales: 19
-    - Strike $490.0 exp 2026-05-01 | score 64.0 | vol 36,311 | V/OI 23.98x | Flujo ALCISTA extremo: 97.6% en una direccion | V/OI 24x — posiciones mayoritari
-    - Strike $460.0 exp 2026-05-01 | score 51.3 | vol 36,718 | V/OI 5.52x | Flujo ALCISTA extremo: 97.6% en una direccion | V/OI 6x — posiciones mayoritaria
-    - Strike $430.0 exp 2026-04-22 | score 51.2 | vol 3,811 | V/OI 1.91x | Flujo ALCISTA extremo: 95.5% en una direccion | Apuesta de $2.4M | Expira en 4 d
+  Precio: $424.65
+  Score: 68.5
+  Notional total: $83,448,394
+  Contratos inusuales: 27
+    - Strike $490.0 exp 2026-05-01 | score 68.5 | vol 37,115 | V/OI 24.51x | Flujo ALCISTA extremo: 96.0% en una direccion | V/OI 25x — posiciones mayoritari
+    - Strike $460.0 exp 2026-05-01 | score 55.9 | vol 37,823 | V/OI 5.68x | Flujo ALCISTA extremo: 96.0% en una direccion | V/OI 6x — posiciones mayoritaria
+    - Strike $430.0 exp 2026-04-20 | score 53.5 | vol 13,280 | V/OI 4.62x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 4.6x — flujo de posiciones 
 
   MRNA — Moderna, Inc.
-  Precio: $54.88
-  Score: 60.6
-  Notional total: $1,671,328
-  Contratos inusuales: 4
-    - Strike $59.0 exp 2026-04-24 | score 60.6 | vol 8,014 | V/OI 58.93x | Flujo ALCISTA extremo: 98.2% en una direccion | V/OI 59x — posiciones mayoritari
-    - Strike $56.0 exp 2026-04-24 | score 56.4 | vol 8,041 | V/OI 10.28x | Flujo ALCISTA extremo: 98.2% en una direccion | V/OI 10x — posiciones mayoritari
-    - Strike $60.0 exp 2026-04-24 | score 48.2 | vol 601 | V/OI 1.33x | Flujo ALCISTA extremo: 98.2% en una direccion | OI concentrado: 25,133 contratos
+  Precio: $54.56
+  Score: 67.6
+  Notional total: $3,369,107
+  Contratos inusuales: 6
+    - Strike $59.0 exp 2026-04-24 | score 67.6 | vol 13,057 | V/OI 96.01x | Flujo ALCISTA extremo: 97.2% en una direccion | V/OI 96x — posiciones mayoritari
+    - Strike $56.0 exp 2026-04-24 | score 66.2 | vol 13,361 | V/OI 17.09x | Flujo ALCISTA extremo: 97.2% en una direccion | V/OI 17x — posiciones mayoritari
+    - Strike $60.0 exp 2026-04-24 | score 57.8 | vol 4,186 | V/OI 9.26x | Flujo ALCISTA extremo: 97.2% en una direccion | V/OI 9x — posiciones mayoritaria
+
+  AAL — American Airlines Group, Inc.
+  Precio: $12.84
+  Score: 60.3
+  Notional total: $488,987
+  Contratos inusuales: 10
+    - Strike $15.0 exp 2026-05-01 | score 60.3 | vol 11,051 | V/OI 108.34x | Flujo ALCISTA extremo: 85.4% en una direccion | V/OI 108x — posiciones mayoritar
+    - Strike $16.0 exp 2026-04-24 | score 56.9 | vol 1,044 | V/OI 87.0x | V/OI 87x — posiciones mayoritariamente nuevas | OI concentrado: 59,604 contratos
+    - Strike $15.5 exp 2026-04-24 | score 52.1 | vol 569 | V/OI 9.48x | V/OI 9x — posiciones mayoritariamente nuevas | OI concentrado: 59,604 contratos 
