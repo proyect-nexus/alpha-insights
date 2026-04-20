@@ -1,50 +1,33 @@
-Scan: 2026-04-17T20:28:44.525222
+Scan: 2026-04-20T16:17:10.472728
 Tickers escaneados: 2395
-Total alertas: 366
+Total alertas: 309
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  MRNA — Moderna, Inc.
-  Precio: $53.72
-  Score: 71.7
-  Notional total: $4,686,040
-  Contratos inusuales: 8
-    - Strike $56.0 exp 2026-04-24 | score 71.7 | vol 21,641 | V/OI 27.67x | Flujo ALCISTA extremo: 97.6% en una direccion | V/OI 28x — posiciones mayoritari
-    - Strike $59.0 exp 2026-04-24 | score 70.2 | vol 20,785 | V/OI 152.83x | Flujo ALCISTA extremo: 97.6% en una direccion | V/OI 153x — posiciones mayoritar
-    - Strike $60.0 exp 2026-04-24 | score 59.9 | vol 5,203 | V/OI 11.51x | Flujo ALCISTA extremo: 97.6% en una direccion | V/OI 12x — posiciones mayoritari
-
-  ANET — Arista Networks, Inc.
-  Precio: $164.25
-  Score: 70.2
-  Notional total: $12,765,296
-  Contratos inusuales: 6
-    - Strike $195.0 exp 2026-05-15 | score 70.2 | vol 8,448 | V/OI 73.46x | Flujo ALCISTA extremo: 87.9% en una direccion | V/OI 73x — posiciones mayoritari
-    - Strike $180.0 exp 2026-05-01 | score 51.5 | vol 344 | V/OI 26.46x | Flujo ALCISTA: 81.8% direccional | V/OI 26x — posiciones mayoritariamente nuevas
-    - Strike $170.0 exp 2026-05-15 | score 48.2 | vol 7,844 | V/OI 0.78x | Flujo ALCISTA extremo: 87.9% en una direccion | OI concentrado: 10,100 contratos
-
-  MSFT — Microsoft Corporation
-  Precio: $422.79
-  Score: 68.5
-  Notional total: $85,290,515
-  Contratos inusuales: 28
-    - Strike $490.0 exp 2026-05-01 | score 68.5 | vol 39,909 | V/OI 26.36x | Flujo ALCISTA extremo: 94.1% en una direccion | V/OI 26x — posiciones mayoritari
-    - Strike $460.0 exp 2026-05-01 | score 56.0 | vol 38,209 | V/OI 5.74x | Flujo ALCISTA extremo: 94.1% en una direccion | V/OI 6x — posiciones mayoritaria
-    - Strike $430.0 exp 2026-04-20 | score 52.7 | vol 21,352 | V/OI 7.43x | Flujo ALCISTA: 80.9% direccional | V/OI 7x — posiciones mayoritariamente nuevas 
-
-  IP — International Paper Company
-  Precio: $37.14
-  Score: 65.5
-  Notional total: $253,260
-  Contratos inusuales: 1
-    - Strike $38.0 exp 2026-04-24 | score 65.5 | vol 3,618 | V/OI 26.03x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/
-
-  DVN — Devon Energy Corporation
-  Precio: $44.2
-  Score: 63.7
-  Notional total: $5,066,648
+  APP — Applovin Corporation
+  Precio: $479.66
+  Score: 63.4
+  Notional total: $2,381,206
   Contratos inusuales: 5
-    - Strike $45.0 exp 2026-05-15 | score 63.7 | vol 31,046 | V/OI 16.82x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 95.9% en una direccion | V/O
-    - Strike $45.0 exp 2026-05-08 | score 42.7 | vol 365 | V/OI 36.5x | Flujo ALCISTA: 77.3% direccional | V/OI 36x — posiciones mayoritariamente nuevas
-    - Strike $52.5 exp 2026-05-15 | score 42.7 | vol 3,469 | V/OI 0.3x | Flujo ALCISTA extremo: 95.9% en una direccion | OI concentrado: 11,690 contratos
+    - Strike $520.0 exp 2026-04-24 | score 63.4 | vol 4,822 | V/OI 11.4x | Flujo ALCISTA: 83.6% direccional | V/OI 11x — posiciones mayoritariamente nuevas
+    - Strike $550.0 exp 2026-04-24 | score 45.7 | vol 4,624 | V/OI 1.55x | Flujo ALCISTA: 83.6% direccional | Apuesta de $509K | Expira en 3 dias — maximo 
+    - Strike $530.0 exp 2026-04-24 | score 41.1 | vol 308 | V/OI 1.39x | Flujo ALCISTA: 83.6% direccional | Expira en 3 dias — maximo apalancamiento | 10
+
+  NRG — NRG Energy, Inc.
+  Precio: $160.43
+  Score: 62.0
+  Notional total: $56,931
+  Contratos inusuales: 2
+    - Strike $177.5 exp 2026-04-24 | score 62.0 | vol 1,203 | V/OI 240.6x | Flujo ALCISTA extremo: 96.2% en una direccion | V/OI 241x — posiciones mayoritar
+    - Strike $180.0 exp 2026-04-24 | score 48.7 | vol 105 | V/OI 0.88x | Flujo ALCISTA extremo: 96.2% en una direccion | OI concentrado: 2,171 contratos 
+
+  JBL — Jabil Inc.
+  Precio: $327.21
+  Score: 60.0
+  Notional total: $818,879
+  Contratos inusuales: 3
+    - Strike $370.0 exp 2026-05-15 | score 60.0 | vol 2,288 | V/OI 572.0x | Volumen 3.6x sobre lo normal | Flujo ALCISTA extremo: 97.2% en una direccion | V
+    - Strike $350.0 exp 2026-04-24 | score 52.2 | vol 120 | V/OI 13.33x | Flujo BAJISTA: 83.6% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+    - Strike $340.0 exp 2026-04-24 | score 51.6 | vol 127 | V/OI 12.7x | Flujo BAJISTA: 83.6% direccional | V/OI 13x — posiciones mayoritariamente nuevas
