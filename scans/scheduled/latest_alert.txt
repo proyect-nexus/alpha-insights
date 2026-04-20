@@ -1,51 +1,34 @@
-Scan: 2026-04-20T18:13:42.482912
+Scan: 2026-04-20T20:27:10.225729
 Tickers escaneados: 2395
-Total alertas: 463
+Total alertas: 555
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   FSLR — First Solar, Inc.
-  Precio: $191.88
+  Precio: $192.49
   Score: 69.0
-  Notional total: $2,768,963
-  Contratos inusuales: 10
-    - Strike $192.5 exp 2026-04-24 | score 69.0 | vol 4,824 | V/OI 27.57x | Flujo ALCISTA: 78.5% direccional | V/OI 28x — posiciones mayoritariamente nuevas
-    - Strike $200.0 exp 2026-04-24 | score 53.1 | vol 2,273 | V/OI 5.5x | Flujo ALCISTA: 78.5% direccional | V/OI 6x — posiciones mayoritariamente nuevas 
-    - Strike $195.0 exp 2026-04-24 | score 50.3 | vol 732 | V/OI 8.71x | Flujo ALCISTA: 78.5% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
-
-  RCL — Royal Caribbean Cruises Ltd.
-  Precio: $278.53
-  Score: 66.4
-  Notional total: $10,242,075
-  Contratos inusuales: 4
-    - Strike $300.0 exp 2026-05-15 | score 66.4 | vol 6,599 | V/OI 10.09x | Volumen 3.6x sobre lo normal | Flujo ALCISTA extremo: 96.4% en una direccion | V
-    - Strike $310.0 exp 2026-05-15 | score 57.9 | vol 5,045 | V/OI 0.61x | Flujo ALCISTA extremo: 96.4% en una direccion | OI concentrado: 8,224 contratos 
-    - Strike $350.0 exp 2026-05-15 | score 47.4 | vol 146 | V/OI 0.16x | Flujo ALCISTA extremo: 96.4% en una direccion | OI concentrado: 8,224 contratos 
-
-  NRG — NRG Energy, Inc.
-  Precio: $159.13
-  Score: 64.2
-  Notional total: $56,931
-  Contratos inusuales: 2
-    - Strike $177.5 exp 2026-04-24 | score 64.2 | vol 1,203 | V/OI 240.6x | Flujo ALCISTA extremo: 93.8% en una direccion | V/OI 241x — posiciones mayoritar
-    - Strike $180.0 exp 2026-04-24 | score 50.8 | vol 105 | V/OI 0.88x | Flujo ALCISTA extremo: 93.8% en una direccion | OI concentrado: 2,171 contratos 
-
-  APP — Applovin Corporation
-  Precio: $487.07
-  Score: 63.1
-  Notional total: $3,740,100
-  Contratos inusuales: 5
-    - Strike $520.0 exp 2026-04-24 | score 63.1 | vol 5,920 | V/OI 14.0x | Flujo ALCISTA: 81.5% direccional | V/OI 14x — posiciones mayoritariamente nuevas
-    - Strike $550.0 exp 2026-04-24 | score 48.0 | vol 5,623 | V/OI 1.89x | Flujo ALCISTA: 81.5% direccional | Apuesta de $776K | Expira en 3 dias — maximo 
-    - Strike $580.0 exp 2026-04-24 | score 47.5 | vol 258 | V/OI 2.9x | Flujo ALCISTA: 81.5% direccional | V/OI 2.9x — flujo de posiciones nuevas | Expi
+  Notional total: $3,984,260
+  Contratos inusuales: 11
+    - Strike $192.5 exp 2026-04-24 | score 69.0 | vol 4,957 | V/OI 28.33x | Flujo ALCISTA: 83.9% direccional | V/OI 28x — posiciones mayoritariamente nuevas
+    - Strike $200.0 exp 2026-04-24 | score 67.9 | vol 6,953 | V/OI 16.84x | Flujo ALCISTA: 83.9% direccional | V/OI 17x — posiciones mayoritariamente nuevas
+    - Strike $195.0 exp 2026-04-24 | score 50.6 | vol 751 | V/OI 8.94x | Flujo ALCISTA: 83.9% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
 
   JBL — Jabil Inc.
-  Precio: $328.26
-  Score: 61.3
-  Notional total: $909,412
-  Contratos inusuales: 3
-    - Strike $370.0 exp 2026-05-15 | score 61.3 | vol 2,681 | V/OI 670.25x | Volumen 4.2x sobre lo normal | Flujo ALCISTA extremo: 97.5% en una direccion | V
-    - Strike $350.0 exp 2026-04-24 | score 52.3 | vol 121 | V/OI 13.44x | Flujo ALCISTA: 75.9% direccional | V/OI 13x — posiciones mayoritariamente nuevas
-    - Strike $340.0 exp 2026-04-24 | score 52.0 | vol 131 | V/OI 13.1x | Flujo ALCISTA: 75.9% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+  Precio: $330.39
+  Score: 67.3
+  Notional total: $1,739,720
+  Contratos inusuales: 4
+    - Strike $370.0 exp 2026-05-15 | score 67.3 | vol 3,166 | V/OI 791.5x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 98.7% en una direccion | V/O
+    - Strike $390.0 exp 2026-05-15 | score 65.6 | vol 2,828 | V/OI 2828.0x | Volumen 4.4x sobre lo normal | Flujo ALCISTA extremo: 98.7% en una direccion | V
+    - Strike $350.0 exp 2026-04-24 | score 51.0 | vol 124 | V/OI 13.78x | V/OI 14x — posiciones mayoritariamente nuevas | OI concentrado: 1,860 contratos 
+
+  APP — Applovin Corporation
+  Precio: $490.96
+  Score: 64.0
+  Notional total: $7,472,822
+  Contratos inusuales: 7
+    - Strike $520.0 exp 2026-04-24 | score 64.0 | vol 6,513 | V/OI 15.4x | Flujo ALCISTA: 81.2% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+    - Strike $550.0 exp 2026-04-24 | score 50.1 | vol 6,298 | V/OI 2.12x | Flujo ALCISTA: 81.2% direccional | V/OI 2.1x — flujo de posiciones nuevas | Apue
+    - Strike $580.0 exp 2026-04-24 | score 48.2 | vol 333 | V/OI 3.74x | Flujo ALCISTA: 81.2% direccional | V/OI 3.7x — flujo de posiciones nuevas | Expi
