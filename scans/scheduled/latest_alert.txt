@@ -1,24 +1,34 @@
-Scan: 2026-04-21T16:13:50.962991
+Scan: 2026-04-21T18:12:09.956262
 Tickers escaneados: 2395
-Total alertas: 276
+Total alertas: 414
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   DLTR — Dollar Tree, Inc.
-  Precio: $108.78
-  Score: 67.4
-  Notional total: $166,179
-  Contratos inusuales: 2
-    - Strike $117.0 exp 2026-04-24 | score 67.4 | vol 9,446 | V/OI 2361.5x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 94.3% en una direccion | V/
-    - Strike $114.0 exp 2026-04-24 | score 54.6 | vol 307 | V/OI 20.47x | Flujo ALCISTA extremo: 94.3% en una direccion | V/OI 20x — posiciones mayoritari
+  Precio: $106.92
+  Score: 74.5
+  Notional total: $290,035
+  Contratos inusuales: 3
+    - Strike $117.0 exp 2026-04-24 | score 74.5 | vol 12,565 | V/OI 3141.25x | Volumen 13x sobre lo normal | Flujo ALCISTA extremo: 94.7% en una direccion | V/
+    - Strike $114.0 exp 2026-04-24 | score 57.0 | vol 1,384 | V/OI 92.27x | Flujo ALCISTA extremo: 94.7% en una direccion | V/OI 92x — posiciones mayoritari
+    - Strike $118.0 exp 2026-05-15 | score 44.3 | vol 1,049 | V/OI 69.93x | V/OI 70x — posiciones mayoritariamente nuevas | OI concentrado: 2,044 contratos 
 
   APP — Applovin Corporation
-  Precio: $483.54
-  Score: 65.0
-  Notional total: $5,089,470
-  Contratos inusuales: 6
-    - Strike $615.0 exp 2026-05-01 | score 65.0 | vol 5,039 | V/OI 173.76x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 174x — posiciones mayoritar
-    - Strike $600.0 exp 2026-05-01 | score 62.7 | vol 11,441 | V/OI 3.12x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 3.1x — flujo de posiciones 
-    - Strike $550.0 exp 2026-04-24 | score 43.7 | vol 2,985 | V/OI 0.65x | Flujo ALCISTA: 76.8% direccional | Apuesta de $433K | Expira en 2 dias — maximo 
+  Precio: $476.51
+  Score: 64.8
+  Notional total: $4,253,181
+  Contratos inusuales: 7
+    - Strike $615.0 exp 2026-05-01 | score 64.8 | vol 7,862 | V/OI 271.1x | Flujo ALCISTA extremo: 96.2% en una direccion | V/OI 271x — posiciones mayoritar
+    - Strike $600.0 exp 2026-05-01 | score 63.3 | vol 13,948 | V/OI 3.81x | Flujo ALCISTA extremo: 96.2% en una direccion | V/OI 3.8x — flujo de posiciones 
+    - Strike $550.0 exp 2026-05-01 | score 50.3 | vol 963 | V/OI 1.98x | Flujo ALCISTA extremo: 96.2% en una direccion | Apuesta de $472K | Expira en 9 d
+
+  GOOGL — Alphabet Inc.
+  Precio: $333.31
+  Score: 61.0
+  Notional total: $1,698,559
+  Contratos inusuales: 7
+    - Strike $390.0 exp 2026-04-27 | score 61.0 | vol 4,000 | V/OI 21.98x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 22x — posiciones mayoritari
+    - Strike $375.0 exp 2026-05-04 | score 50.0 | vol 1,220 | V/OI 1220.0x | Flujo ALCISTA extremo: 98.3% en una direccion | V/OI 1220x — posiciones mayorita
+    - Strike $342.5 exp 2026-04-27 | score 48.3 | vol 1,995 | V/OI 12.24x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 12x — posiciones mayoritari
