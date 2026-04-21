@@ -1,34 +1,24 @@
-Scan: 2026-04-20T20:27:10.225729
+Scan: 2026-04-21T16:13:50.962991
 Tickers escaneados: 2395
-Total alertas: 555
+Total alertas: 276
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  FSLR — First Solar, Inc.
-  Precio: $192.49
-  Score: 69.0
-  Notional total: $3,984,260
-  Contratos inusuales: 11
-    - Strike $192.5 exp 2026-04-24 | score 69.0 | vol 4,957 | V/OI 28.33x | Flujo ALCISTA: 83.9% direccional | V/OI 28x — posiciones mayoritariamente nuevas
-    - Strike $200.0 exp 2026-04-24 | score 67.9 | vol 6,953 | V/OI 16.84x | Flujo ALCISTA: 83.9% direccional | V/OI 17x — posiciones mayoritariamente nuevas
-    - Strike $195.0 exp 2026-04-24 | score 50.6 | vol 751 | V/OI 8.94x | Flujo ALCISTA: 83.9% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
-
-  JBL — Jabil Inc.
-  Precio: $330.39
-  Score: 67.3
-  Notional total: $1,739,720
-  Contratos inusuales: 4
-    - Strike $370.0 exp 2026-05-15 | score 67.3 | vol 3,166 | V/OI 791.5x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 98.7% en una direccion | V/O
-    - Strike $390.0 exp 2026-05-15 | score 65.6 | vol 2,828 | V/OI 2828.0x | Volumen 4.4x sobre lo normal | Flujo ALCISTA extremo: 98.7% en una direccion | V
-    - Strike $350.0 exp 2026-04-24 | score 51.0 | vol 124 | V/OI 13.78x | V/OI 14x — posiciones mayoritariamente nuevas | OI concentrado: 1,860 contratos 
+  DLTR — Dollar Tree, Inc.
+  Precio: $108.78
+  Score: 67.4
+  Notional total: $166,179
+  Contratos inusuales: 2
+    - Strike $117.0 exp 2026-04-24 | score 67.4 | vol 9,446 | V/OI 2361.5x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 94.3% en una direccion | V/
+    - Strike $114.0 exp 2026-04-24 | score 54.6 | vol 307 | V/OI 20.47x | Flujo ALCISTA extremo: 94.3% en una direccion | V/OI 20x — posiciones mayoritari
 
   APP — Applovin Corporation
-  Precio: $490.96
-  Score: 64.0
-  Notional total: $7,472,822
-  Contratos inusuales: 7
-    - Strike $520.0 exp 2026-04-24 | score 64.0 | vol 6,513 | V/OI 15.4x | Flujo ALCISTA: 81.2% direccional | V/OI 15x — posiciones mayoritariamente nuevas
-    - Strike $550.0 exp 2026-04-24 | score 50.1 | vol 6,298 | V/OI 2.12x | Flujo ALCISTA: 81.2% direccional | V/OI 2.1x — flujo de posiciones nuevas | Apue
-    - Strike $580.0 exp 2026-04-24 | score 48.2 | vol 333 | V/OI 3.74x | Flujo ALCISTA: 81.2% direccional | V/OI 3.7x — flujo de posiciones nuevas | Expi
+  Precio: $483.54
+  Score: 65.0
+  Notional total: $5,089,470
+  Contratos inusuales: 6
+    - Strike $615.0 exp 2026-05-01 | score 65.0 | vol 5,039 | V/OI 173.76x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 174x — posiciones mayoritar
+    - Strike $600.0 exp 2026-05-01 | score 62.7 | vol 11,441 | V/OI 3.12x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 3.1x — flujo de posiciones 
+    - Strike $550.0 exp 2026-04-24 | score 43.7 | vol 2,985 | V/OI 0.65x | Flujo ALCISTA: 76.8% direccional | Apuesta de $433K | Expira en 2 dias — maximo 
