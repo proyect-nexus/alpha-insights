@@ -1,34 +1,34 @@
-Scan: 2026-04-21T20:34:12.405991
+Scan: 2026-04-22T18:13:53.559349
 Tickers escaneados: 2395
-Total alertas: 602
+Total alertas: 416
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  DLTR — Dollar Tree, Inc.
-  Precio: $103.83
-  Score: 73.9
-  Notional total: $256,039
-  Contratos inusuales: 5
-    - Strike $117.0 exp 2026-04-24 | score 73.9 | vol 13,627 | V/OI 3406.75x | Volumen 14x sobre lo normal | Flujo ALCISTA extremo: 94.7% en una direccion | V/
-    - Strike $114.0 exp 2026-04-24 | score 61.5 | vol 1,504 | V/OI 100.27x | Flujo ALCISTA extremo: 94.7% en una direccion | V/OI 100x — posiciones mayoritar
-    - Strike $118.0 exp 2026-05-15 | score 44.3 | vol 1,049 | V/OI 69.93x | V/OI 70x — posiciones mayoritariamente nuevas | OI concentrado: 2,044 contratos 
+  AVGO — Broadcom Inc.
+  Precio: $419.78
+  Score: 64.0
+  Notional total: $31,480,196
+  Contratos inusuales: 17
+    - Strike $440.0 exp 2026-04-29 | score 64.0 | vol 7,344 | V/OI 489.6x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 490x — posiciones mayoritar
+    - Strike $407.5 exp 2026-05-08 | score 52.4 | vol 1,101 | V/OI 11.97x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 12x — posiciones mayoritari
+    - Strike $412.5 exp 2026-04-29 | score 52.0 | vol 783 | V/OI 20.61x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 21x — posiciones mayoritari
 
   APP — Applovin Corporation
-  Precio: $473.18
-  Score: 65.9
-  Notional total: $6,471,690
-  Contratos inusuales: 15
-    - Strike $615.0 exp 2026-05-01 | score 65.9 | vol 9,571 | V/OI 330.03x | Flujo ALCISTA extremo: 95.7% en una direccion | V/OI 330x — posiciones mayoritar
-    - Strike $600.0 exp 2026-05-01 | score 64.0 | vol 16,852 | V/OI 4.6x | Flujo ALCISTA extremo: 95.7% en una direccion | V/OI 4.6x — flujo de posiciones 
-    - Strike $552.5 exp 2026-04-24 | score 54.0 | vol 413 | V/OI 45.89x | V/OI 46x — posiciones mayoritariamente nuevas | Expira en 2 dias — maximo apalan
+  Precio: $479.57
+  Score: 63.6
+  Notional total: $3,053,634
+  Contratos inusuales: 8
+    - Strike $570.0 exp 2026-05-01 | score 63.6 | vol 2,703 | V/OI 87.19x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 87x — posiciones mayoritari
+    - Strike $607.5 exp 2026-05-01 | score 58.0 | vol 177 | V/OI 35.4x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 35x — posiciones mayoritari
+    - Strike $600.0 exp 2026-05-01 | score 56.2 | vol 11,480 | V/OI 1.07x | Flujo ALCISTA extremo: 93.9% en una direccion | Apuesta de $1.5M | Expira en 8 d
 
-  HUM — Humana Inc.
-  Precio: $217.36
-  Score: 61.3
-  Notional total: $3,463,801
-  Contratos inusuales: 9
-    - Strike $235.0 exp 2026-04-24 | score 61.3 | vol 371 | V/OI 21.82x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 22x — posiciones mayoritari
-    - Strike $230.0 exp 2026-04-24 | score 59.5 | vol 3,058 | V/OI 22.65x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 23x — posiciones mayoritari
-    - Strike $227.5 exp 2026-04-24 | score 57.4 | vol 427 | V/OI 26.69x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 27x — posiciones mayoritari
+  ARM — Arm Holdings plc
+  Precio: $195.32
+  Score: 61.7
+  Notional total: $36,011,946
+  Contratos inusuales: 23
+    - Strike $192.5 exp 2026-04-24 | score 61.7 | vol 3,419 | V/OI 48.84x | Flujo ALCISTA extremo: 85.2% en una direccion | V/OI 49x — posiciones mayoritari
+    - Strike $195.0 exp 2026-05-01 | score 59.5 | vol 4,361 | V/OI 17.44x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 17x — posiciones mayoritari
+    - Strike $240.0 exp 2026-05-01 | score 58.6 | vol 1,020 | V/OI 510.0x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 510x — posiciones mayoritar
