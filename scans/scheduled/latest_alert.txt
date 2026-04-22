@@ -1,34 +1,57 @@
-Scan: 2026-04-22T18:13:53.559349
+Scan: 2026-04-22T20:47:11.028753
 Tickers escaneados: 2395
-Total alertas: 416
+Total alertas: 530
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
+  DVN — Devon Energy Corporation
+  Precio: $47.12
+  Score: 66.0
+  Notional total: $5,875,731
+  Contratos inusuales: 2
+    - Strike $50.0 exp 2026-05-29 | score 66.0 | vol 41,621 | V/OI 1541.52x | Volumen 4.4x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V
+    - Strike $55.0 exp 2026-05-15 | score 44.0 | vol 239 | V/OI 0.03x | Flujo ALCISTA extremo: 90.6% en una direccion | OI concentrado: 28,152 contratos
+
   AVGO — Broadcom Inc.
-  Precio: $419.78
+  Precio: $422.65
   Score: 64.0
-  Notional total: $31,480,196
-  Contratos inusuales: 17
-    - Strike $440.0 exp 2026-04-29 | score 64.0 | vol 7,344 | V/OI 489.6x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 490x — posiciones mayoritar
-    - Strike $407.5 exp 2026-05-08 | score 52.4 | vol 1,101 | V/OI 11.97x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 12x — posiciones mayoritari
-    - Strike $412.5 exp 2026-04-29 | score 52.0 | vol 783 | V/OI 20.61x | Flujo ALCISTA extremo: 93.6% en una direccion | V/OI 21x — posiciones mayoritari
+  Notional total: $44,070,041
+  Contratos inusuales: 23
+    - Strike $440.0 exp 2026-04-29 | score 64.0 | vol 7,607 | V/OI 507.13x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 507x — posiciones mayoritar
+    - Strike $500.0 exp 2026-05-15 | score 56.4 | vol 16,617 | V/OI 8.86x | Flujo ALCISTA: 79.9% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
+    - Strike $412.5 exp 2026-04-29 | score 53.6 | vol 809 | V/OI 21.29x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 21x — posiciones mayoritari
 
   APP — Applovin Corporation
-  Precio: $479.57
-  Score: 63.6
-  Notional total: $3,053,634
-  Contratos inusuales: 8
-    - Strike $570.0 exp 2026-05-01 | score 63.6 | vol 2,703 | V/OI 87.19x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 87x — posiciones mayoritari
-    - Strike $607.5 exp 2026-05-01 | score 58.0 | vol 177 | V/OI 35.4x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 35x — posiciones mayoritari
-    - Strike $600.0 exp 2026-05-01 | score 56.2 | vol 11,480 | V/OI 1.07x | Flujo ALCISTA extremo: 93.9% en una direccion | Apuesta de $1.5M | Expira en 8 d
+  Precio: $483.71
+  Score: 63.9
+  Notional total: $4,994,359
+  Contratos inusuales: 10
+    - Strike $570.0 exp 2026-05-01 | score 63.9 | vol 2,866 | V/OI 92.45x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 92x — posiciones mayoritari
+    - Strike $607.5 exp 2026-05-01 | score 58.0 | vol 177 | V/OI 35.4x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 35x — posiciones mayoritari
+    - Strike $600.0 exp 2026-05-01 | score 57.2 | vol 12,078 | V/OI 1.12x | Flujo ALCISTA extremo: 93.4% en una direccion | Apuesta de $1.6M | Expira en 8 d
+
+  KDP — Keurig Dr Pepper Inc.
+  Precio: $26.54
+  Score: 63.8
+  Notional total: $1,026,000
+  Contratos inusuales: 1
+    - Strike $28.0 exp 2026-05-15 | score 63.8 | vol 22,800 | V/OI 10.34x | Volumen 42x sobre lo normal | Flujo ALCISTA extremo: 89.9% en una direccion | V/
+
+  ETSY — Etsy, Inc.
+  Precio: $66.06
+  Score: 62.7
+  Notional total: $1,099,656
+  Contratos inusuales: 2
+    - Strike $66.0 exp 2026-04-24 | score 62.7 | vol 9,141 | V/OI 18.66x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 88.4% en una direccion | V/O
+    - Strike $70.0 exp 2026-04-24 | score 41.3 | vol 152 | V/OI 2.67x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 2.7x — flujo de posiciones 
 
   ARM — Arm Holdings plc
-  Precio: $195.32
+  Precio: $196.57
   Score: 61.7
-  Notional total: $36,011,946
+  Notional total: $39,644,606
   Contratos inusuales: 23
-    - Strike $192.5 exp 2026-04-24 | score 61.7 | vol 3,419 | V/OI 48.84x | Flujo ALCISTA extremo: 85.2% en una direccion | V/OI 49x — posiciones mayoritari
-    - Strike $195.0 exp 2026-05-01 | score 59.5 | vol 4,361 | V/OI 17.44x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 17x — posiciones mayoritari
-    - Strike $240.0 exp 2026-05-01 | score 58.6 | vol 1,020 | V/OI 510.0x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 510x — posiciones mayoritar
+    - Strike $220.0 exp 2026-05-01 | score 61.7 | vol 4,446 | V/OI 17.23x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 17x — posiciones mayoritari
+    - Strike $192.5 exp 2026-04-24 | score 59.5 | vol 4,321 | V/OI 61.73x | Flujo ALCISTA: 84.1% direccional | V/OI 62x — posiciones mayoritariamente nuevas
+    - Strike $192.5 exp 2026-05-01 | score 59.5 | vol 2,005 | V/OI 48.9x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 49x — posiciones mayoritari
