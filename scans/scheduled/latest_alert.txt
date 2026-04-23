@@ -1,33 +1,33 @@
-Scan: 2026-04-23T16:36:56.435488
+Scan: 2026-04-23T18:20:57.234744
 Tickers escaneados: 2395
-Total alertas: 202
+Total alertas: 299
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  KHC — The Kraft Heinz Company
-  Precio: $21.78
-  Score: 63.5
-  Notional total: $271,296
-  Contratos inusuales: 2
-    - Strike $22.5 exp 2026-05-01 | score 63.5 | vol 13,632 | V/OI 27.21x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
-    - Strike $23.0 exp 2026-05-01 | score 62.5 | vol 13,408 | V/OI 24.6x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
-
   CMCSA — Comcast Corporation
-  Precio: $31.83
-  Score: 62.3
-  Notional total: $1,434,331
-  Contratos inusuales: 3
-    - Strike $32.0 exp 2026-05-15 | score 62.3 | vol 17,216 | V/OI 12.13x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.8% en una direccion | V/O
-    - Strike $33.5 exp 2026-05-15 | score 50.9 | vol 138 | V/OI 27.6x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 28x — posiciones mayoritari
-    - Strike $36.0 exp 2026-05-15 | score 44.2 | vol 141 | V/OI 2.14x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 2.1x — flujo de posiciones 
+  Precio: $31.81
+  Score: 71.7
+  Notional total: $2,050,005
+  Contratos inusuales: 5
+    - Strike $32.0 exp 2026-05-15 | score 71.7 | vol 23,319 | V/OI 16.43x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 97.0% en una direccion | V/O
+    - Strike $33.5 exp 2026-05-15 | score 50.9 | vol 149 | V/OI 29.8x | Flujo ALCISTA extremo: 97.0% en una direccion | V/OI 30x — posiciones mayoritari
+    - Strike $32.5 exp 2026-05-01 | score 47.7 | vol 443 | V/OI 14.77x | Flujo ALCISTA: 84.6% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+
+  KHC — The Kraft Heinz Company
+  Precio: $21.85
+  Score: 62.6
+  Notional total: $246,272
+  Contratos inusuales: 2
+    - Strike $23.0 exp 2026-05-01 | score 62.6 | vol 13,494 | V/OI 24.76x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V/O
+    - Strike $22.5 exp 2026-05-01 | score 59.0 | vol 13,754 | V/OI 27.45x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V/O
 
   ON — ON Semiconductor Corporation
-  Precio: $98.71
-  Score: 60.8
-  Notional total: $4,269,421
+  Precio: $97.96
+  Score: 60.6
+  Notional total: $4,243,169
   Contratos inusuales: 5
-    - Strike $115.0 exp 2026-05-15 | score 60.8 | vol 3,764 | V/OI 99.05x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 99x — posiciones mayoritari
-    - Strike $105.0 exp 2026-05-15 | score 57.2 | vol 3,408 | V/OI 31.56x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 32x — posiciones mayoritari
-    - Strike $100.0 exp 2026-05-15 | score 51.7 | vol 2,319 | V/OI 20.17x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 20x — posiciones mayoritari
+    - Strike $115.0 exp 2026-05-15 | score 60.6 | vol 4,103 | V/OI 107.97x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 108x — posiciones mayoritar
+    - Strike $105.0 exp 2026-05-15 | score 56.8 | vol 3,453 | V/OI 31.97x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 32x — posiciones mayoritari
+    - Strike $100.0 exp 2026-05-15 | score 52.0 | vol 2,392 | V/OI 20.8x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 21x — posiciones mayoritari
