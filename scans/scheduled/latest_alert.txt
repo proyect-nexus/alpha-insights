@@ -1,57 +1,33 @@
-Scan: 2026-04-22T20:47:11.028753
+Scan: 2026-04-23T16:36:56.435488
 Tickers escaneados: 2395
-Total alertas: 530
+Total alertas: 202
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  DVN — Devon Energy Corporation
-  Precio: $47.12
-  Score: 66.0
-  Notional total: $5,875,731
+  KHC — The Kraft Heinz Company
+  Precio: $21.78
+  Score: 63.5
+  Notional total: $271,296
   Contratos inusuales: 2
-    - Strike $50.0 exp 2026-05-29 | score 66.0 | vol 41,621 | V/OI 1541.52x | Volumen 4.4x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V
-    - Strike $55.0 exp 2026-05-15 | score 44.0 | vol 239 | V/OI 0.03x | Flujo ALCISTA extremo: 90.6% en una direccion | OI concentrado: 28,152 contratos
+    - Strike $22.5 exp 2026-05-01 | score 63.5 | vol 13,632 | V/OI 27.21x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
+    - Strike $23.0 exp 2026-05-01 | score 62.5 | vol 13,408 | V/OI 24.6x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
 
-  AVGO — Broadcom Inc.
-  Precio: $422.65
-  Score: 64.0
-  Notional total: $44,070,041
-  Contratos inusuales: 23
-    - Strike $440.0 exp 2026-04-29 | score 64.0 | vol 7,607 | V/OI 507.13x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 507x — posiciones mayoritar
-    - Strike $500.0 exp 2026-05-15 | score 56.4 | vol 16,617 | V/OI 8.86x | Flujo ALCISTA: 79.9% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
-    - Strike $412.5 exp 2026-04-29 | score 53.6 | vol 809 | V/OI 21.29x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 21x — posiciones mayoritari
+  CMCSA — Comcast Corporation
+  Precio: $31.83
+  Score: 62.3
+  Notional total: $1,434,331
+  Contratos inusuales: 3
+    - Strike $32.0 exp 2026-05-15 | score 62.3 | vol 17,216 | V/OI 12.13x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.8% en una direccion | V/O
+    - Strike $33.5 exp 2026-05-15 | score 50.9 | vol 138 | V/OI 27.6x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 28x — posiciones mayoritari
+    - Strike $36.0 exp 2026-05-15 | score 44.2 | vol 141 | V/OI 2.14x | Flujo ALCISTA extremo: 97.8% en una direccion | V/OI 2.1x — flujo de posiciones 
 
-  APP — Applovin Corporation
-  Precio: $483.71
-  Score: 63.9
-  Notional total: $4,994,359
-  Contratos inusuales: 10
-    - Strike $570.0 exp 2026-05-01 | score 63.9 | vol 2,866 | V/OI 92.45x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 92x — posiciones mayoritari
-    - Strike $607.5 exp 2026-05-01 | score 58.0 | vol 177 | V/OI 35.4x | Flujo ALCISTA extremo: 93.4% en una direccion | V/OI 35x — posiciones mayoritari
-    - Strike $600.0 exp 2026-05-01 | score 57.2 | vol 12,078 | V/OI 1.12x | Flujo ALCISTA extremo: 93.4% en una direccion | Apuesta de $1.6M | Expira en 8 d
-
-  KDP — Keurig Dr Pepper Inc.
-  Precio: $26.54
-  Score: 63.8
-  Notional total: $1,026,000
-  Contratos inusuales: 1
-    - Strike $28.0 exp 2026-05-15 | score 63.8 | vol 22,800 | V/OI 10.34x | Volumen 42x sobre lo normal | Flujo ALCISTA extremo: 89.9% en una direccion | V/
-
-  ETSY — Etsy, Inc.
-  Precio: $66.06
-  Score: 62.7
-  Notional total: $1,099,656
-  Contratos inusuales: 2
-    - Strike $66.0 exp 2026-04-24 | score 62.7 | vol 9,141 | V/OI 18.66x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 88.4% en una direccion | V/O
-    - Strike $70.0 exp 2026-04-24 | score 41.3 | vol 152 | V/OI 2.67x | Flujo ALCISTA extremo: 88.4% en una direccion | V/OI 2.7x — flujo de posiciones 
-
-  ARM — Arm Holdings plc
-  Precio: $196.57
-  Score: 61.7
-  Notional total: $39,644,606
-  Contratos inusuales: 23
-    - Strike $220.0 exp 2026-05-01 | score 61.7 | vol 4,446 | V/OI 17.23x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 17x — posiciones mayoritari
-    - Strike $192.5 exp 2026-04-24 | score 59.5 | vol 4,321 | V/OI 61.73x | Flujo ALCISTA: 84.1% direccional | V/OI 62x — posiciones mayoritariamente nuevas
-    - Strike $192.5 exp 2026-05-01 | score 59.5 | vol 2,005 | V/OI 48.9x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 49x — posiciones mayoritari
+  ON — ON Semiconductor Corporation
+  Precio: $98.71
+  Score: 60.8
+  Notional total: $4,269,421
+  Contratos inusuales: 5
+    - Strike $115.0 exp 2026-05-15 | score 60.8 | vol 3,764 | V/OI 99.05x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 99x — posiciones mayoritari
+    - Strike $105.0 exp 2026-05-15 | score 57.2 | vol 3,408 | V/OI 31.56x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 32x — posiciones mayoritari
+    - Strike $100.0 exp 2026-05-15 | score 51.7 | vol 2,319 | V/OI 20.17x | Flujo ALCISTA extremo: 99.2% en una direccion | V/OI 20x — posiciones mayoritari
