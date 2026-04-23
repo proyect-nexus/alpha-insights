@@ -1,33 +1,68 @@
-Scan: 2026-04-23T18:20:57.234744
+Scan: 2026-04-23T20:50:56.466909
 Tickers escaneados: 2395
-Total alertas: 299
+Total alertas: 411
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   CMCSA — Comcast Corporation
-  Precio: $31.81
-  Score: 71.7
-  Notional total: $2,050,005
+  Precio: $31.64
+  Score: 64.6
+  Notional total: $2,013,615
   Contratos inusuales: 5
-    - Strike $32.0 exp 2026-05-15 | score 71.7 | vol 23,319 | V/OI 16.43x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 97.0% en una direccion | V/O
-    - Strike $33.5 exp 2026-05-15 | score 50.9 | vol 149 | V/OI 29.8x | Flujo ALCISTA extremo: 97.0% en una direccion | V/OI 30x — posiciones mayoritari
-    - Strike $32.5 exp 2026-05-01 | score 47.7 | vol 443 | V/OI 14.77x | Flujo ALCISTA: 84.6% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+    - Strike $32.0 exp 2026-05-15 | score 64.6 | vol 24,107 | V/OI 16.99x | Volumen 9x sobre lo normal | V/OI 17x — posiciones mayoritariamente nuevas | OI 
+    - Strike $32.5 exp 2026-05-01 | score 50.9 | vol 919 | V/OI 30.63x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 31x — posiciones mayoritari
+    - Strike $33.0 exp 2026-05-01 | score 44.3 | vol 222 | V/OI 2.27x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 2.3x — flujo de posiciones 
 
   KHC — The Kraft Heinz Company
-  Precio: $21.85
-  Score: 62.6
-  Notional total: $246,272
+  Precio: $21.97
+  Score: 62.9
+  Notional total: $329,568
   Contratos inusuales: 2
-    - Strike $23.0 exp 2026-05-01 | score 62.6 | vol 13,494 | V/OI 24.76x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V/O
-    - Strike $22.5 exp 2026-05-01 | score 59.0 | vol 13,754 | V/OI 27.45x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.2% en una direccion | V/O
+    - Strike $23.0 exp 2026-05-01 | score 62.9 | vol 13,624 | V/OI 25.0x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.2% en una direccion | V/O
+    - Strike $22.5 exp 2026-05-01 | score 59.3 | vol 13,786 | V/OI 27.52x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.2% en una direccion | V/O
+
+  ETN — Eaton Corporation, PLC
+  Precio: $424.5
+  Score: 62.2
+  Notional total: $1,509,365
+  Contratos inusuales: 3
+    - Strike $480.0 exp 2026-05-15 | score 62.2 | vol 4,411 | V/OI 147.03x | Volumen 6x sobre lo normal | Flujo ALCISTA: 80.7% direccional | V/OI 147x — posi
+    - Strike $500.0 exp 2026-05-15 | score 58.2 | vol 2,857 | V/OI 79.36x | Volumen 4.2x sobre lo normal | Flujo ALCISTA: 80.7% direccional | V/OI 79x — pos
+    - Strike $490.0 exp 2026-05-15 | score 44.6 | vol 155 | V/OI 8.16x | Flujo ALCISTA: 80.7% direccional | V/OI 8x — posiciones mayoritariamente nuevas 
+
+  DE — Deere & Company
+  Precio: $591.95
+  Score: 61.7
+  Notional total: $1,105,011
+  Contratos inusuales: 2
+    - Strike $650.0 exp 2026-05-15 | score 61.7 | vol 2,710 | V/OI 18.56x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.5% en una direccion | V/O
+    - Strike $670.0 exp 2026-05-15 | score 56.2 | vol 2,071 | V/OI 34.52x | Volumen 4.2x sobre lo normal | Flujo ALCISTA extremo: 97.5% en una direccion | V
+
+  MRVL — Marvell Technology, Inc.
+  Precio: $165.56
+  Score: 61.5
+  Notional total: $7,878,455
+  Contratos inusuales: 6
+    - Strike $180.0 exp 2026-05-01 | score 61.5 | vol 9,292 | V/OI 21.61x | V/OI 22x — posiciones mayoritariamente nuevas | Apuesta de $2.3M | Expira en 7 d
+    - Strike $167.5 exp 2026-05-01 | score 52.5 | vol 3,117 | V/OI 20.64x | V/OI 21x — posiciones mayoritariamente nuevas | Apuesta de $2.0M | Expira en 7 d
+    - Strike $175.0 exp 2026-05-01 | score 51.3 | vol 6,475 | V/OI 8.39x | V/OI 8x — posiciones mayoritariamente nuevas | Apuesta de $2.4M | Expira en 7 di
 
   ON — ON Semiconductor Corporation
-  Precio: $97.96
-  Score: 60.6
-  Notional total: $4,243,169
+  Precio: $97.78
+  Score: 61.1
+  Notional total: $4,644,001
   Contratos inusuales: 5
-    - Strike $115.0 exp 2026-05-15 | score 60.6 | vol 4,103 | V/OI 107.97x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 108x — posiciones mayoritar
-    - Strike $105.0 exp 2026-05-15 | score 56.8 | vol 3,453 | V/OI 31.97x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 32x — posiciones mayoritari
-    - Strike $100.0 exp 2026-05-15 | score 52.0 | vol 2,392 | V/OI 20.8x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 21x — posiciones mayoritari
+    - Strike $115.0 exp 2026-05-15 | score 61.1 | vol 4,245 | V/OI 111.71x | Flujo ALCISTA extremo: 87.2% en una direccion | V/OI 112x — posiciones mayoritar
+    - Strike $105.0 exp 2026-05-15 | score 57.2 | vol 3,673 | V/OI 34.01x | Flujo ALCISTA extremo: 87.2% en una direccion | V/OI 34x — posiciones mayoritari
+    - Strike $100.0 exp 2026-05-15 | score 53.8 | vol 2,794 | V/OI 24.3x | Flujo ALCISTA extremo: 87.2% en una direccion | V/OI 24x — posiciones mayoritari
+
+  FSLR — First Solar, Inc.
+  Precio: $196.19
+  Score: 60.9
+  Notional total: $222,619
+  Contratos inusuales: 5
+    - Strike $230.0 exp 2026-05-08 | score 60.9 | vol 495 | V/OI 13.03x | Flujo ALCISTA: 84.7% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+    - Strike $240.0 exp 2026-05-01 | score 52.4 | vol 302 | V/OI 3.64x | V/OI 3.6x — flujo de posiciones nuevas | OI concentrado: 9,647 contratos (47% de
+    - Strike $250.0 exp 2026-05-01 | score 49.3 | vol 201 | V/OI 1.42x | OI concentrado: 9,647 contratos (47% del total) | Expira en 7 dias — maximo apal
