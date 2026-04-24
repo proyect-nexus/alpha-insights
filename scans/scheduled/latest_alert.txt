@@ -1,25 +1,43 @@
-Scan: 2026-04-24T16:08:05.196487
+Scan: 2026-04-24T20:26:07.406679
 Tickers escaneados: 2395
-Total alertas: 223
+Total alertas: 492
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   MRNA — Moderna, Inc.
-  Precio: $51.29
-  Score: 64.6
-  Notional total: $2,952,076
-  Contratos inusuales: 6
-    - Strike $57.0 exp 2026-05-01 | score 64.6 | vol 5,139 | V/OI 24.01x | Flujo ALCISTA extremo: 94.9% en una direccion | V/OI 24x — posiciones mayoritari
-    - Strike $58.0 exp 2026-05-01 | score 64.5 | vol 5,374 | V/OI 15.85x | Flujo ALCISTA extremo: 94.9% en una direccion | V/OI 16x — posiciones mayoritari
-    - Strike $53.0 exp 2026-05-01 | score 64.3 | vol 5,823 | V/OI 121.31x | Flujo ALCISTA extremo: 94.9% en una direccion | V/OI 121x — posiciones mayoritar
+  Precio: $50.73
+  Score: 67.6
+  Notional total: $5,554,187
+  Contratos inusuales: 12
+    - Strike $56.0 exp 2026-05-01 | score 67.6 | vol 8,916 | V/OI 35.1x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 35x — posiciones mayoritari
+    - Strike $52.0 exp 2026-05-01 | score 65.2 | vol 8,872 | V/OI 55.11x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 55x — posiciones mayoritari
+    - Strike $57.0 exp 2026-05-01 | score 64.3 | vol 5,206 | V/OI 24.33x | Flujo ALCISTA extremo: 93.9% en una direccion | V/OI 24x — posiciones mayoritari
 
   AMD — Advanced Micro Devices, Inc.
-  Precio: $350.29
-  Score: 61.5
-  Notional total: $65,642,040
+  Precio: $347.8
+  Score: 63.0
+  Notional total: $86,415,972
+  Contratos inusuales: 21
+    - Strike $400.0 exp 2026-05-01 | score 63.0 | vol 16,161 | V/OI 31.81x | V/OI 32x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 6 d
+    - Strike $450.0 exp 2026-05-08 | score 56.7 | vol 7,580 | V/OI 154.69x | V/OI 155x — posiciones mayoritariamente nuevas | Apuesta de $1.4M | Expira en 13
+    - Strike $400.0 exp 2026-05-15 | score 55.0 | vol 9,405 | V/OI 7.54x | V/OI 8x — posiciones mayoritariamente nuevas | Apuesta de $7.6M | 15% fuera del 
+
+  NVDA — NVIDIA Corporation
+  Precio: $208.26
+  Score: 62.8
+  Notional total: $353,646,265
+  Contratos inusuales: 56
+    - Strike $220.0 exp 2026-04-29 | score 62.8 | vol 35,284 | V/OI 26.71x | Flujo ALCISTA: 79.0% direccional | V/OI 27x — posiciones mayoritariamente nuevas
+    - Strike $217.5 exp 2026-05-01 | score 61.0 | vol 63,318 | V/OI 27.55x | Flujo ALCISTA: 75.5% direccional | V/OI 28x — posiciones mayoritariamente nuevas
+    - Strike $215.0 exp 2026-04-29 | score 60.7 | vol 28,930 | V/OI 11.19x | Flujo ALCISTA: 79.0% direccional | V/OI 11x — posiciones mayoritariamente nuevas
+
+  GOOGL — Alphabet Inc.
+  Precio: $344.4
+  Score: 60.7
+  Notional total: $51,085,710
   Contratos inusuales: 20
-    - Strike $400.0 exp 2026-05-01 | score 61.5 | vol 10,812 | V/OI 21.28x | V/OI 21x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 6 d
-    - Strike $450.0 exp 2026-05-08 | score 58.3 | vol 7,096 | V/OI 144.82x | V/OI 145x — posiciones mayoritariamente nuevas | Apuesta de $1.6M | Expira en 13
-    - Strike $450.0 exp 2026-05-01 | score 51.7 | vol 1,933 | V/OI 29.29x | V/OI 29x — posiciones mayoritariamente nuevas | Expira en 6 dias — maximo apalan
+    - Strike $385.0 exp 2026-05-08 | score 60.7 | vol 10,340 | V/OI 57.44x | Flujo ALCISTA extremo: 90.9% en una direccion | V/OI 57x — posiciones mayoritari
+    - Strike $337.5 exp 2026-04-27 | score 59.5 | vol 7,632 | V/OI 19.03x | Flujo ALCISTA: 78.1% direccional | V/OI 19x — posiciones mayoritariamente nuevas
+    - Strike $410.0 exp 2026-05-08 | score 56.5 | vol 9,846 | V/OI 273.5x | Flujo ALCISTA extremo: 90.9% en una direccion | V/OI 274x — posiciones mayoritar
