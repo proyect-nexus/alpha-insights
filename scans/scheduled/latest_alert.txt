@@ -1,82 +1,33 @@
-Scan: 2026-04-27T16:38:09.610825
+Scan: 2026-04-27T18:21:30.183166
 Tickers escaneados: 2395
-Total alertas: 889
+Total alertas: 629
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  PUMP — ProPetro Holding Corp.
-  Precio: $16.93
-  Score: 75.5
-  Notional total: $795,270
-  Contratos inusuales: 1
-    - Strike $20.0 exp 2026-05-15 | score 75.5 | vol 26,509 | V/OI 6627.25x | Volumen 33x sobre lo normal | Flujo ALCISTA extremo: 100.0% en una direccion | V
-
-  VZLA — Vizsla Silver Corp.
-  Precio: $3.41
-  Score: 71.7
-  Notional total: $308,880
-  Contratos inusuales: 1
-    - Strike $4.0 exp 2026-05-15 | score 71.7 | vol 23,760 | V/OI 23.11x | Volumen 114x sobre lo normal | Flujo ALCISTA extremo: 99.7% en una direccion | V
-
-  JOBY — Joby Aviation, Inc.
-  Precio: $8.69
-  Score: 70.0
-  Notional total: $486,579
-  Contratos inusuales: 14
-    - Strike $9.5 exp 2026-05-01 | score 70.0 | vol 28,334 | V/OI 11.63x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 90.2% en una direccion | V/O
-    - Strike $10.0 exp 2026-05-01 | score 55.9 | vol 4,464 | V/OI 0.25x | Flujo ALCISTA extremo: 90.2% en una direccion | OI concentrado: 17,655 contratos
-    - Strike $10.5 exp 2026-05-01 | score 55.9 | vol 763 | V/OI 1.35x | Flujo ALCISTA extremo: 90.2% en una direccion | OI concentrado: 17,655 contratos
-
   FSLR — First Solar, Inc.
-  Precio: $193.79
-  Score: 65.7
-  Notional total: $2,799,425
-  Contratos inusuales: 3
-    - Strike $195.0 exp 2026-05-01 | score 65.7 | vol 3,634 | V/OI 9.64x | Flujo ALCISTA extremo: 89.6% en una direccion | V/OI 10x — posiciones mayoritari
-    - Strike $215.0 exp 2026-05-01 | score 51.4 | vol 226 | V/OI 0.95x | Flujo ALCISTA extremo: 89.6% en una direccion | OI concentrado: 9,820 contratos 
-    - Strike $190.0 exp 2026-05-01 | score 43.3 | vol 129 | V/OI 0.49x | Flujo ALCISTA extremo: 89.6% en una direccion | OI concentrado: 9,820 contratos 
-
-  NOK — Nokia Corporation Sponsored
-  Precio: $10.73
-  Score: 61.6
-  Notional total: $1,416,315
-  Contratos inusuales: 13
-    - Strike $12.0 exp 2026-05-08 | score 61.6 | vol 8,193 | V/OI 15.14x | Flujo ALCISTA extremo: 88.3% en una direccion | V/OI 15x — posiciones mayoritari
-    - Strike $12.5 exp 2026-05-08 | score 52.1 | vol 379 | V/OI 0.29x | Flujo ALCISTA extremo: 88.3% en una direccion | OI concentrado: 95,999 contratos
-    - Strike $12.0 exp 2026-05-15 | score 50.1 | vol 38,457 | V/OI 0.4x | Flujo ALCISTA extremo: 98.5% en una direccion | OI concentrado: 95,999 contratos
+  Precio: $196.98
+  Score: 72.8
+  Notional total: $6,391,354
+  Contratos inusuales: 9
+    - Strike $197.5 exp 2026-05-01 | score 72.8 | vol 3,184 | V/OI 25.89x | Flujo ALCISTA extremo: 85.6% en una direccion | V/OI 26x — posiciones mayoritari
+    - Strike $195.0 exp 2026-05-01 | score 68.7 | vol 3,876 | V/OI 10.28x | Flujo ALCISTA extremo: 85.6% en una direccion | V/OI 10x — posiciones mayoritari
+    - Strike $250.0 exp 2026-05-01 | score 58.3 | vol 130 | V/OI 0.37x | Flujo ALCISTA extremo: 85.6% en una direccion | OI concentrado: 9,820 contratos 
 
   AXP — American Express Company
-  Precio: $315.67
-  Score: 61.5
-  Notional total: $199,630
-  Contratos inusuales: 6
-    - Strike $340.0 exp 2026-05-01 | score 61.5 | vol 6,884 | V/OI 98.34x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 98x — posiciones mayoritari
-    - Strike $385.0 exp 2026-05-15 | score 47.8 | vol 384 | V/OI 2.18x | Flujo ALCISTA: 77.5% direccional | V/OI 2.2x — flujo de posiciones nuevas | OI c
-    - Strike $327.5 exp 2026-05-01 | score 47.4 | vol 139 | V/OI 0.64x | Flujo ALCISTA extremo: 89.3% en una direccion | OI concentrado: 18,406 contratos
+  Precio: $315.19
+  Score: 61.7
+  Notional total: $266,592
+  Contratos inusuales: 8
+    - Strike $340.0 exp 2026-05-01 | score 61.7 | vol 7,961 | V/OI 113.73x | Flujo ALCISTA extremo: 91.2% en una direccion | V/OI 114x — posiciones mayoritar
+    - Strike $325.0 exp 2026-05-01 | score 47.4 | vol 203 | V/OI 0.98x | Flujo ALCISTA extremo: 91.2% en una direccion | OI concentrado: 18,406 contratos
+    - Strike $327.5 exp 2026-05-01 | score 47.4 | vol 154 | V/OI 0.71x | Flujo ALCISTA extremo: 91.2% en una direccion | OI concentrado: 18,406 contratos
 
   CDW — CDW Corporation
-  Precio: $133.7
+  Precio: $134.07
   Score: 60.7
   Notional total: $65,732
   Contratos inusuales: 2
     - Strike $170.0 exp 2026-05-15 | score 60.7 | vol 371 | V/OI 371.0x | Flujo ALCISTA extremo: 95.7% en una direccion | V/OI 371x — posiciones mayoritar
     - Strike $150.0 exp 2026-05-15 | score 51.6 | vol 369 | V/OI 9.22x | Flujo ALCISTA extremo: 95.7% en una direccion | V/OI 9x — posiciones mayoritaria
-
-  DIOD — Diodes Incorporated
-  Precio: $99.96
-  Score: 60.7
-  Notional total: $69,115
-  Contratos inusuales: 2
-    - Strike $120.0 exp 2026-05-15 | score 60.7 | vol 251 | V/OI 83.67x | Volumen 16x sobre lo normal | Flujo ALCISTA extremo: 91.9% en una direccion | V/
-    - Strike $115.0 exp 2026-05-15 | score 60.2 | vol 151 | V/OI 37.75x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 91.9% en una direccion | V/
-
-  BAX — Baxter International Inc.
-  Precio: $18.26
-  Score: 60.2
-  Notional total: $129,159
-  Contratos inusuales: 3
-    - Strike $19.5 exp 2026-05-01 | score 60.2 | vol 1,971 | V/OI 43.8x | Flujo ALCISTA extremo: 93.2% en una direccion | V/OI 44x — posiciones mayoritari
-    - Strike $18.5 exp 2026-05-01 | score 44.0 | vol 225 | V/OI 2.5x | Flujo ALCISTA extremo: 93.2% en una direccion | V/OI 2.5x — flujo de posiciones 
-    - Strike $22.0 exp 2026-05-15 | score 40.8 | vol 102 | V/OI 0.96x | OI concentrado: 2,216 contratos (31% del total) | 20% fuera del dinero — apuesta
