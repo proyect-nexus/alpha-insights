@@ -1,59 +1,15 @@
-Scan: 2026-04-27T20:56:20.715581
+Scan: 2026-04-28T21:04:56.431475
 Tickers escaneados: 2395
-Total alertas: 816
+Total alertas: 641
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  FSLR — First Solar, Inc.
-  Precio: $197.48
-  Score: 72.8
-  Notional total: $7,829,867
-  Contratos inusuales: 16
-    - Strike $197.5 exp 2026-05-01 | score 72.8 | vol 3,228 | V/OI 26.24x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 26x — posiciones mayoritari
-    - Strike $195.0 exp 2026-05-01 | score 69.1 | vol 4,076 | V/OI 10.81x | Flujo ALCISTA extremo: 85.8% en una direccion | V/OI 11x — posiciones mayoritari
-    - Strike $230.0 exp 2026-05-01 | score 58.3 | vol 106 | V/OI 0.91x | Flujo ALCISTA extremo: 85.8% en una direccion | OI concentrado: 9,820 contratos 
-
-  CAH — Cardinal Health, Inc.
-  Precio: $202.34
+  IP — International Paper Company
+  Precio: $34.02
   Score: 64.2
-  Notional total: $261,563
+  Notional total: $99,702
   Contratos inusuales: 2
-    - Strike $240.0 exp 2026-05-01 | score 64.2 | vol 1,837 | V/OI 57.41x | Volumen 4.7x sobre lo normal | Flujo ALCISTA extremo: 95.4% en una direccion | V
-    - Strike $220.0 exp 2026-05-01 | score 61.6 | vol 1,856 | V/OI 35.02x | Volumen 4.7x sobre lo normal | Flujo ALCISTA extremo: 95.4% en una direccion | V
-
-  BRK-B — Berkshire Hathaway Inc. New
-  Precio: $472.81
-  Score: 64.0
-  Notional total: $292,596
-  Contratos inusuales: 10
-    - Strike $560.0 exp 2026-05-01 | score 64.0 | vol 212 | V/OI 19.27x | Flujo ALCISTA: 77.9% direccional | V/OI 19x — posiciones mayoritariamente nuevas
-    - Strike $545.0 exp 2026-05-01 | score 51.0 | vol 104 | V/OI 0.21x | Flujo ALCISTA: 77.9% direccional | OI concentrado: 19,399 contratos (25% del tot
-    - Strike $515.0 exp 2026-05-01 | score 46.5 | vol 207 | V/OI 1.15x | Flujo ALCISTA: 77.9% direccional | OI concentrado: 19,399 contratos (25% del tot
-
-  AXP — American Express Company
-  Precio: $318.84
-  Score: 62.2
-  Notional total: $724,674
-  Contratos inusuales: 13
-    - Strike $340.0 exp 2026-05-01 | score 62.2 | vol 8,900 | V/OI 127.14x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 127x — posiciones mayoritar
-    - Strike $330.0 exp 2026-05-01 | score 48.8 | vol 424 | V/OI 1.62x | Flujo ALCISTA extremo: 89.3% en una direccion | OI concentrado: 18,406 contratos
-    - Strike $332.5 exp 2026-05-01 | score 47.4 | vol 103 | V/OI 0.41x | Flujo ALCISTA extremo: 89.3% en una direccion | OI concentrado: 18,406 contratos
-
-  CDW — CDW Corporation
-  Precio: $133.11
-  Score: 60.7
-  Notional total: $111,500
-  Contratos inusuales: 2
-    - Strike $170.0 exp 2026-05-15 | score 60.7 | vol 824 | V/OI 824.0x | Flujo ALCISTA extremo: 98.2% en una direccion | V/OI 824x — posiciones mayoritar
-    - Strike $150.0 exp 2026-05-15 | score 57.0 | vol 826 | V/OI 20.65x | Flujo ALCISTA extremo: 98.2% en una direccion | V/OI 21x — posiciones mayoritari
-
-  META — Meta Platforms, Inc.
-  Precio: $678.62
-  Score: 60.4
-  Notional total: $69,699,222
-  Contratos inusuales: 40
-    - Strike $765.0 exp 2026-05-01 | score 60.4 | vol 5,587 | V/OI 11.59x | V/OI 12x — posiciones mayoritariamente nuevas | Apuesta de $1.8M | Expira en 3 d
-    - Strike $690.0 exp 2026-05-04 | score 52.5 | vol 958 | V/OI 15.97x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 6 d
-    - Strike $750.0 exp 2026-05-01 | score 51.5 | vol 4,316 | V/OI 1.35x | Apuesta de $2.1M | Expira en 3 dias — maximo apalancamiento | 11% fuera del dine
+    - Strike $42.0 exp 2026-05-01 | score 64.2 | vol 261 | V/OI 43.5x | Flujo ALCISTA: 79.4% direccional | V/OI 44x — posiciones mayoritariamente nuevas
+    - Strike $33.0 exp 2026-05-01 | score 42.9 | vol 493 | V/OI 5.08x | Flujo ALCISTA: 79.4% direccional | V/OI 5x — posiciones mayoritariamente nuevas 
