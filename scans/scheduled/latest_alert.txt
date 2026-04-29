@@ -1,15 +1,33 @@
-Scan: 2026-04-28T21:04:56.431475
+Scan: 2026-04-29T16:37:52.766311
 Tickers escaneados: 2395
-Total alertas: 641
+Total alertas: 458
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  IP — International Paper Company
-  Precio: $34.02
-  Score: 64.2
-  Notional total: $99,702
+  OXY — Occidental Petroleum Corporatio
+  Precio: $60.44
+  Score: 64.0
+  Notional total: $2,716,406
+  Contratos inusuales: 3
+    - Strike $63.0 exp 2026-05-08 | score 64.0 | vol 25,230 | V/OI 43.95x | Flujo ALCISTA extremo: 98.7% en una direccion | V/OI 44x — posiciones mayoritari
+    - Strike $69.0 exp 2026-05-08 | score 56.8 | vol 24,638 | V/OI 98.16x | Flujo ALCISTA extremo: 98.7% en una direccion | V/OI 98x — posiciones mayoritari
+    - Strike $68.0 exp 2026-05-08 | score 40.5 | vol 101 | V/OI 1.06x | Flujo ALCISTA extremo: 98.7% en una direccion | Expira en 8 dias — near-term | 1
+
+  MGM — MGM Resorts International
+  Precio: $39.75
+  Score: 62.2
+  Notional total: $126,280
   Contratos inusuales: 2
-    - Strike $42.0 exp 2026-05-01 | score 64.2 | vol 261 | V/OI 43.5x | Flujo ALCISTA: 79.4% direccional | V/OI 44x — posiciones mayoritariamente nuevas
-    - Strike $33.0 exp 2026-05-01 | score 42.9 | vol 493 | V/OI 5.08x | Flujo ALCISTA: 79.4% direccional | V/OI 5x — posiciones mayoritariamente nuevas 
+    - Strike $44.0 exp 2026-05-01 | score 62.2 | vol 350 | V/OI 29.17x | Flujo ALCISTA extremo: 87.8% en una direccion | V/OI 29x — posiciones mayoritari
+    - Strike $39.5 exp 2026-05-01 | score 41.2 | vol 877 | V/OI 0.97x | Flujo ALCISTA extremo: 87.8% en una direccion | OI concentrado: 12,606 contratos
+
+  MSFT — Microsoft Corporation
+  Precio: $423.77
+  Score: 60.0
+  Notional total: $81,112,624
+  Contratos inusuales: 43
+    - Strike $490.0 exp 2026-05-01 | score 60.0 | vol 37,615 | V/OI 0.99x | Flujo ALCISTA: 81.3% direccional | Apuesta de $4.3M | Expira en 1 dias — maximo 
+    - Strike $490.0 exp 2026-05-06 | score 57.6 | vol 247 | V/OI 14.53x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 15x — posiciones mayoritari
+    - Strike $465.0 exp 2026-05-01 | score 57.3 | vol 19,782 | V/OI 2.13x | Flujo ALCISTA: 81.3% direccional | V/OI 2.1x — flujo de posiciones nuevas | Apue
