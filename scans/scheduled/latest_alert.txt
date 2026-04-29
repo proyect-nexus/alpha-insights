@@ -1,33 +1,88 @@
-Scan: 2026-04-29T16:37:52.766311
+Scan: 2026-04-29T18:28:36.944446
 Tickers escaneados: 2395
-Total alertas: 458
+Total alertas: 881
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  OXY — Occidental Petroleum Corporatio
-  Precio: $60.44
-  Score: 64.0
-  Notional total: $2,716,406
+  FLUT — Flutter Entertainment plc
+  Precio: $106.98
+  Score: 81.4
+  Notional total: $1,986,386
   Contratos inusuales: 3
-    - Strike $63.0 exp 2026-05-08 | score 64.0 | vol 25,230 | V/OI 43.95x | Flujo ALCISTA extremo: 98.7% en una direccion | V/OI 44x — posiciones mayoritari
-    - Strike $69.0 exp 2026-05-08 | score 56.8 | vol 24,638 | V/OI 98.16x | Flujo ALCISTA extremo: 98.7% en una direccion | V/OI 98x — posiciones mayoritari
-    - Strike $68.0 exp 2026-05-08 | score 40.5 | vol 101 | V/OI 1.06x | Flujo ALCISTA extremo: 98.7% en una direccion | Expira en 8 dias — near-term | 1
+    - Strike $120.0 exp 2026-05-15 | score 81.4 | vol 6,189 | V/OI 46.53x | Volumen 8x sobre lo normal | Flujo ALCISTA extremo: 95.5% en una direccion | V/O
+    - Strike $125.0 exp 2026-05-15 | score 51.0 | vol 612 | V/OI 0.1x | Flujo ALCISTA extremo: 95.5% en una direccion | OI concentrado: 6,205 contratos 
+    - Strike $115.0 exp 2026-05-15 | score 41.5 | vol 133 | V/OI 0.83x | Flujo ALCISTA extremo: 95.5% en una direccion | OI concentrado: 6,205 contratos 
 
-  MGM — MGM Resorts International
-  Precio: $39.75
-  Score: 62.2
-  Notional total: $126,280
-  Contratos inusuales: 2
-    - Strike $44.0 exp 2026-05-01 | score 62.2 | vol 350 | V/OI 29.17x | Flujo ALCISTA extremo: 87.8% en una direccion | V/OI 29x — posiciones mayoritari
-    - Strike $39.5 exp 2026-05-01 | score 41.2 | vol 877 | V/OI 0.97x | Flujo ALCISTA extremo: 87.8% en una direccion | OI concentrado: 12,606 contratos
+  PBF — PBF Energy Inc.
+  Precio: $43.11
+  Score: 74.7
+  Notional total: $9,432,781
+  Contratos inusuales: 3
+    - Strike $45.0 exp 2026-05-15 | score 74.7 | vol 15,281 | V/OI 19.01x | Volumen 4.9x sobre lo normal | Flujo ALCISTA extremo: 99.3% en una direccion | V
+    - Strike $43.0 exp 2026-05-15 | score 57.2 | vol 15,233 | V/OI 1.01x | Volumen 4.9x sobre lo normal | Flujo ALCISTA extremo: 99.3% en una direccion | O
+    - Strike $47.0 exp 2026-05-15 | score 45.3 | vol 121 | V/OI 0.86x | Flujo ALCISTA extremo: 99.3% en una direccion | OI concentrado: 15,133 contratos
+
+  PCG — Pacific Gas & Electric Co.
+  Precio: $16.37
+  Score: 65.3
+  Notional total: $65,451
+  Contratos inusuales: 5
+    - Strike $17.0 exp 2026-05-01 | score 65.3 | vol 19,108 | V/OI 69.48x | Volumen 3.5x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V
+    - Strike $17.5 exp 2026-05-08 | score 48.7 | vol 504 | V/OI 4.67x | Flujo ALCISTA extremo: 92.2% en una direccion | V/OI 4.7x — flujo de posiciones 
+    - Strike $17.5 exp 2026-05-01 | score 47.7 | vol 117 | V/OI 0.13x | Flujo ALCISTA extremo: 97.9% en una direccion | OI concentrado: 20,020 contratos
+
+  OXY — Occidental Petroleum Corporatio
+  Precio: $60.37
+  Score: 64.0
+  Notional total: $3,897,080
+  Contratos inusuales: 7
+    - Strike $63.0 exp 2026-05-08 | score 64.0 | vol 28,552 | V/OI 49.74x | Flujo ALCISTA extremo: 98.1% en una direccion | V/OI 50x — posiciones mayoritari
+    - Strike $69.0 exp 2026-05-08 | score 58.2 | vol 25,293 | V/OI 100.77x | Flujo ALCISTA extremo: 98.1% en una direccion | V/OI 101x — posiciones mayoritar
+    - Strike $68.0 exp 2026-05-08 | score 41.9 | vol 149 | V/OI 1.57x | Flujo ALCISTA extremo: 98.1% en una direccion | Expira en 8 dias — near-term | 1
+
+  EBAY — eBay Inc.
+  Precio: $101.78
+  Score: 62.5
+  Notional total: $995,659
+  Contratos inusuales: 4
+    - Strike $108.0 exp 2026-05-01 | score 62.5 | vol 6,816 | V/OI 103.27x | Volumen 6x sobre lo normal | Flujo ALCISTA: 77.0% direccional | V/OI 103x — posi
+    - Strike $111.0 exp 2026-05-08 | score 46.9 | vol 425 | V/OI 141.67x | V/OI 142x — posiciones mayoritariamente nuevas | Expira en 8 dias — near-term | 
+    - Strike $110.0 exp 2026-05-01 | score 43.4 | vol 463 | V/OI 3.38x | Flujo ALCISTA: 77.0% direccional | V/OI 3.4x — flujo de posiciones nuevas | Expi
+
+  WDC — Western Digital Corporation
+  Precio: $419.91
+  Score: 61.8
+  Notional total: $3,383,150
+  Contratos inusuales: 6
+    - Strike $510.0 exp 2026-05-29 | score 61.8 | vol 1,459 | V/OI 16.21x | Flujo ALCISTA: 78.4% direccional | V/OI 16x — posiciones mayoritariamente nuevas
+    - Strike $432.5 exp 2026-05-01 | score 44.6 | vol 203 | V/OI 25.38x | V/OI 25x — posiciones mayoritariamente nuevas | Apuesta de $346K | Expira en 1 d
+    - Strike $475.0 exp 2026-05-01 | score 43.6 | vol 504 | V/OI 8.84x | V/OI 9x — posiciones mayoritariamente nuevas | Apuesta de $328K | Expira en 1 di
+
+  TER — Teradyne, Inc.
+  Precio: $309.11
+  Score: 60.2
+  Notional total: $1,838,423
+  Contratos inusuales: 13
+    - Strike $350.0 exp 2026-05-08 | score 60.2 | vol 174 | V/OI 87.0x | Flujo ALCISTA: 78.7% direccional | V/OI 87x — posiciones mayoritariamente nuevas
+    - Strike $320.0 exp 2026-05-08 | score 58.6 | vol 351 | V/OI 50.14x | Flujo ALCISTA: 78.7% direccional | V/OI 50x — posiciones mayoritariamente nuevas
+    - Strike $330.0 exp 2026-05-08 | score 56.4 | vol 124 | V/OI 24.8x | Flujo ALCISTA: 78.7% direccional | V/OI 25x — posiciones mayoritariamente nuevas
 
   MSFT — Microsoft Corporation
-  Precio: $423.77
+  Precio: $422.85
   Score: 60.0
-  Notional total: $81,112,624
-  Contratos inusuales: 43
-    - Strike $490.0 exp 2026-05-01 | score 60.0 | vol 37,615 | V/OI 0.99x | Flujo ALCISTA: 81.3% direccional | Apuesta de $4.3M | Expira en 1 dias — maximo 
-    - Strike $490.0 exp 2026-05-06 | score 57.6 | vol 247 | V/OI 14.53x | Flujo ALCISTA extremo: 86.8% en una direccion | V/OI 15x — posiciones mayoritari
-    - Strike $465.0 exp 2026-05-01 | score 57.3 | vol 19,782 | V/OI 2.13x | Flujo ALCISTA: 81.3% direccional | V/OI 2.1x — flujo de posiciones nuevas | Apue
+  Notional total: $107,617,394
+  Contratos inusuales: 52
+    - Strike $490.0 exp 2026-05-01 | score 60.0 | vol 39,266 | V/OI 1.03x | Flujo ALCISTA: 79.4% direccional | Apuesta de $4.1M | Expira en 1 dias — maximo 
+    - Strike $465.0 exp 2026-05-01 | score 57.4 | vol 20,792 | V/OI 2.24x | Flujo ALCISTA: 79.4% direccional | V/OI 2.2x — flujo de posiciones nuevas | Apue
+    - Strike $460.0 exp 2026-05-01 | score 55.5 | vol 42,025 | V/OI 0.97x | Flujo ALCISTA: 79.4% direccional | Apuesta de $16.3M | Expira en 1 dias — maximo
+
+  NOK — Nokia Corporation Sponsored
+  Precio: $12.48
+  Score: 60.0
+  Notional total: $3,726,253
+  Contratos inusuales: 16
+    - Strike $13.5 exp 2026-05-15 | score 60.0 | vol 15,760 | V/OI 111.77x | Flujo ALCISTA extremo: 97.7% en una direccion | V/OI 112x — posiciones mayoritar
+    - Strike $12.5 exp 2026-05-15 | score 53.6 | vol 13,625 | V/OI 15.57x | Flujo ALCISTA extremo: 97.7% en una direccion | V/OI 16x — posiciones mayoritari
+    - Strike $14.0 exp 2026-05-29 | score 51.9 | vol 1,594 | V/OI 113.86x | Flujo ALCISTA extremo: 91.2% en una direccion | V/OI 114x — posiciones mayoritar
