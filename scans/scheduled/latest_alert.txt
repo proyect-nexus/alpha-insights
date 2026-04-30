@@ -1,25 +1,34 @@
-Scan: 2026-04-29T20:56:59.899378
+Scan: 2026-04-30T18:24:19.826773
 Tickers escaneados: 2395
-Total alertas: 733
+Total alertas: 351
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  EBAY — eBay Inc.
-  Precio: $103.79
-  Score: 68.6
-  Notional total: $2,016,999
-  Contratos inusuales: 4
-    - Strike $108.0 exp 2026-05-01 | score 68.6 | vol 8,470 | V/OI 128.33x | Volumen 8x sobre lo normal | V/OI 128x — posiciones mayoritariamente nuevas | Ap
-    - Strike $120.0 exp 2026-05-01 | score 54.0 | vol 122 | V/OI 24.4x | V/OI 24x — posiciones mayoritariamente nuevas | Expira en 1 dias — maximo apalan
-    - Strike $118.0 exp 2026-05-01 | score 49.5 | vol 103 | V/OI 103.0x | V/OI 103x — posiciones mayoritariamente nuevas | Expira en 1 dias — maximo apala
+  FSLR — First Solar, Inc.
+  Precio: $199.71
+  Score: 61.5
+  Notional total: $720,051
+  Contratos inusuales: 5
+    - Strike $250.0 exp 2026-05-08 | score 61.5 | vol 460 | V/OI 8.85x | Flujo ALCISTA: 75.1% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
+    - Strike $220.0 exp 2026-05-08 | score 49.3 | vol 108 | V/OI 0.66x | Flujo ALCISTA: 75.1% direccional | OI concentrado: 9,832 contratos (49% del tota
+    - Strike $240.0 exp 2026-05-15 | score 46.4 | vol 1,041 | V/OI 0.46x | OI concentrado: 9,832 contratos (49% del total) | Apuesta de $145K | Expira en 1
 
-  SMCI — Super Micro Computer, Inc.
-  Precio: $26.32
-  Score: 61.2
-  Notional total: $5,286,035
-  Contratos inusuales: 18
-    - Strike $29.5 exp 2026-05-08 | score 61.2 | vol 13,164 | V/OI 28.93x | Flujo ALCISTA extremo: 88.8% en una direccion | V/OI 29x — posiciones mayoritari
-    - Strike $27.5 exp 2026-05-08 | score 54.1 | vol 13,215 | V/OI 4.84x | Flujo ALCISTA extremo: 88.8% en una direccion | V/OI 4.8x — flujo de posiciones 
-    - Strike $29.0 exp 2026-05-08 | score 50.4 | vol 7,852 | V/OI 5.25x | Flujo ALCISTA extremo: 88.8% en una direccion | V/OI 5x — posiciones mayoritaria
+  QCOM — QUALCOMM Incorporated
+  Precio: $179.07
+  Score: 61.0
+  Notional total: $24,614,815
+  Contratos inusuales: 11
+    - Strike $190.0 exp 2026-05-08 | score 61.0 | vol 11,859 | V/OI 22.08x | Flujo ALCISTA: 83.2% direccional | V/OI 22x — posiciones mayoritariamente nuevas
+    - Strike $200.0 exp 2026-05-15 | score 50.8 | vol 16,277 | V/OI 3.21x | Flujo ALCISTA: 83.6% direccional | V/OI 3.2x — flujo de posiciones nuevas | Apue
+    - Strike $185.0 exp 2026-05-08 | score 49.6 | vol 4,137 | V/OI 5.76x | Flujo ALCISTA: 83.2% direccional | V/OI 6x — posiciones mayoritariamente nuevas 
+
+  GE — GE Aerospace
+  Precio: $288.8
+  Score: 60.0
+  Notional total: $7,216,842
+  Contratos inusuales: 10
+    - Strike $310.0 exp 2026-05-08 | score 60.0 | vol 6,050 | V/OI 63.02x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 63x — posiciones mayoritari
+    - Strike $325.0 exp 2026-05-08 | score 59.7 | vol 6,013 | V/OI 92.51x | Flujo ALCISTA extremo: 95.6% en una direccion | V/OI 93x — posiciones mayoritari
+    - Strike $300.0 exp 2026-05-15 | score 51.6 | vol 6,500 | V/OI 0.49x | Flujo ALCISTA extremo: 98.6% en una direccion | OI concentrado: 13,238 contratos
