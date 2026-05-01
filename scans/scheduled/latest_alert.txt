@@ -1,50 +1,75 @@
-Scan: 2026-05-01T16:00:52.774278
+Scan: 2026-05-01T18:16:05.910618
 Tickers escaneados: 2395
-Total alertas: 394
+Total alertas: 601
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   GEHC — GE HealthCare Technologies Inc.
-  Precio: $59.97
-  Score: 67.0
-  Notional total: $1,031,250
+  Precio: $60.9
+  Score: 66.4
+  Notional total: $1,544,960
   Contratos inusuales: 1
-    - Strike $62.5 exp 2026-05-15 | score 67.0 | vol 18,750 | V/OI 535.71x | Volumen 36x sobre lo normal | Flujo ALCISTA extremo: 98.4% en una direccion | V/
+    - Strike $62.5 exp 2026-05-15 | score 66.4 | vol 19,312 | V/OI 551.77x | Volumen 36x sobre lo normal | Flujo ALCISTA extremo: 97.0% en una direccion | V/
+
+  TER — Teradyne, Inc.
+  Precio: $346.94
+  Score: 64.8
+  Notional total: $1,115,800
+  Contratos inusuales: 1
+    - Strike $400.0 exp 2026-05-15 | score 64.8 | vol 3,985 | V/OI 39.07x | Flujo ALCISTA: 79.0% direccional | V/OI 39x — posiciones mayoritariamente nuevas
 
   MRNA — Moderna, Inc.
-  Precio: $45.8
-  Score: 62.8
-  Notional total: $1,521,006
-  Contratos inusuales: 7
-    - Strike $46.0 exp 2026-05-08 | score 62.8 | vol 10,241 | V/OI 82.59x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 83x — posiciones mayoritari
-    - Strike $55.0 exp 2026-05-08 | score 52.4 | vol 298 | V/OI 0.71x | Flujo ALCISTA extremo: 91.6% en una direccion | OI concentrado: 25,916 contratos
-    - Strike $48.0 exp 2026-05-08 | score 47.9 | vol 213 | V/OI 5.2x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 5x — posiciones mayoritaria
-
-  MSFT — Microsoft Corporation
-  Precio: $414.62
-  Score: 62.0
-  Notional total: $6,312,741
-  Contratos inusuales: 8
-    - Strike $420.0 exp 2026-05-06 | score 62.0 | vol 5,862 | V/OI 15.39x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 15x — posiciones mayoritari
-    - Strike $417.5 exp 2026-05-06 | score 50.6 | vol 1,031 | V/OI 18.09x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 18x — posiciones mayoritari
-    - Strike $465.0 exp 2026-05-06 | score 43.5 | vol 292 | V/OI 0.91x | Flujo ALCISTA extremo: 89.7% en una direccion | Expira en 4 dias — maximo apalan
+  Precio: $44.83
+  Score: 64.3
+  Notional total: $1,843,189
+  Contratos inusuales: 12
+    - Strike $46.0 exp 2026-05-08 | score 64.3 | vol 14,371 | V/OI 115.9x | Flujo ALCISTA extremo: 92.9% en una direccion | V/OI 116x — posiciones mayoritar
+    - Strike $54.0 exp 2026-05-22 | score 54.5 | vol 160 | V/OI 7.62x | Flujo ALCISTA extremo: 85.3% en una direccion | V/OI 8x — posiciones mayoritaria
+    - Strike $52.0 exp 2026-05-08 | score 52.4 | vol 345 | V/OI 0.9x | Flujo ALCISTA extremo: 92.9% en una direccion | OI concentrado: 25,916 contratos
 
   TDOC — Teladoc Health, Inc.
-  Precio: $6.6
-  Score: 62.0
-  Notional total: $152,348
+  Precio: $6.51
+  Score: 62.8
+  Notional total: $128,266
   Contratos inusuales: 4
-    - Strike $7.0 exp 2026-05-08 | score 62.0 | vol 14,890 | V/OI 15.84x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
-    - Strike $8.0 exp 2026-05-08 | score 52.8 | vol 893 | V/OI 2.45x | Flujo ALCISTA extremo: 98.6% en una direccion | V/OI 2.5x — flujo de posiciones 
-    - Strike $7.5 exp 2026-05-08 | score 46.2 | vol 133 | V/OI 0.54x | Flujo ALCISTA extremo: 98.6% en una direccion | OI concentrado: 6,754 contratos 
+    - Strike $7.0 exp 2026-05-08 | score 62.8 | vol 17,321 | V/OI 18.43x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.9% en una direccion | V/O
+    - Strike $8.0 exp 2026-05-08 | score 53.7 | vol 1,280 | V/OI 3.52x | Flujo ALCISTA extremo: 97.9% en una direccion | V/OI 3.5x — flujo de posiciones 
+    - Strike $7.5 exp 2026-05-15 | score 50.9 | vol 383 | V/OI 5.47x | Flujo ALCISTA extremo: 96.5% en una direccion | V/OI 5x — posiciones mayoritaria
+
+  MSFT — Microsoft Corporation
+  Precio: $414.65
+  Score: 62.5
+  Notional total: $17,593,494
+  Contratos inusuales: 15
+    - Strike $420.0 exp 2026-05-06 | score 62.5 | vol 8,890 | V/OI 23.33x | Flujo ALCISTA extremo: 86.6% en una direccion | V/OI 23x — posiciones mayoritari
+    - Strike $415.0 exp 2026-05-04 | score 50.9 | vol 7,450 | V/OI 9.73x | V/OI 10x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 2 d
+    - Strike $417.5 exp 2026-05-06 | score 50.9 | vol 1,237 | V/OI 21.7x | Flujo ALCISTA extremo: 86.6% en una direccion | V/OI 22x — posiciones mayoritari
+
+  DVN — Devon Energy Corporation
+  Precio: $50.38
+  Score: 61.3
+  Notional total: $21,172
+  Contratos inusuales: 5
+    - Strike $61.0 exp 2026-05-08 | score 61.3 | vol 120 | V/OI 120.0x | V/OI 120x — posiciones mayoritariamente nuevas | OI concentrado: 51,494 contrato
+    - Strike $60.0 exp 2026-05-08 | score 48.3 | vol 121 | V/OI 0.82x | OI concentrado: 51,494 contratos (43% del total) | Expira en 6 dias — maximo apa
+    - Strike $65.0 exp 2026-05-08 | score 48.3 | vol 120 | V/OI 0.86x | OI concentrado: 51,494 contratos (43% del total) | Expira en 6 dias — maximo apa
+
+  RBLX — Roblox Corporation
+  Precio: $45.97
+  Score: 60.4
+  Notional total: $1,828,752
+  Contratos inusuales: 17
+    - Strike $50.0 exp 2026-05-22 | score 60.4 | vol 4,819 | V/OI 1606.33x | Flujo ALCISTA extremo: 92.3% en una direccion | V/OI 1606x — posiciones mayorita
+    - Strike $54.0 exp 2026-05-08 | score 49.8 | vol 1,071 | V/OI 11.04x | V/OI 11x — posiciones mayoritariamente nuevas | OI concentrado: 8,100 contratos 
+    - Strike $50.0 exp 2026-05-15 | score 49.7 | vol 2,732 | V/OI 17.18x | V/OI 17x — posiciones mayoritariamente nuevas | OI concentrado: 8,100 contratos 
 
   LUV — Southwest Airlines Company
-  Precio: $39.57
+  Precio: $38.94
   Score: 60.3
-  Notional total: $270,975
-  Contratos inusuales: 4
-    - Strike $48.5 exp 2026-05-15 | score 60.3 | vol 130 | V/OI 16.25x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 16x — posiciones mayoritari
-    - Strike $41.0 exp 2026-05-15 | score 53.3 | vol 2,499 | V/OI 21.73x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 22x — posiciones mayoritari
-    - Strike $46.0 exp 2026-05-15 | score 47.3 | vol 655 | V/OI 0.93x | Flujo ALCISTA extremo: 93.5% en una direccion | OI concentrado: 6,971 contratos 
+  Notional total: $290,837
+  Contratos inusuales: 6
+    - Strike $48.5 exp 2026-05-15 | score 60.3 | vol 130 | V/OI 16.25x | Flujo ALCISTA extremo: 91.7% en una direccion | V/OI 16x — posiciones mayoritari
+    - Strike $41.0 exp 2026-05-15 | score 53.3 | vol 3,036 | V/OI 26.4x | Flujo ALCISTA extremo: 91.7% en una direccion | V/OI 26x — posiciones mayoritari
+    - Strike $46.0 exp 2026-05-15 | score 47.3 | vol 655 | V/OI 0.93x | Flujo ALCISTA extremo: 91.7% en una direccion | OI concentrado: 6,971 contratos 
