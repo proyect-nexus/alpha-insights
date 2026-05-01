@@ -1,58 +1,50 @@
-Scan: 2026-04-30T20:59:05.109889
+Scan: 2026-05-01T16:00:52.774278
 Tickers escaneados: 2395
-Total alertas: 516
+Total alertas: 394
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  EBAY — eBay Inc.
-  Precio: $103.48
-  Score: 71.5
-  Notional total: $6,540,359
+  GEHC — GE HealthCare Technologies Inc.
+  Precio: $59.97
+  Score: 67.0
+  Notional total: $1,031,250
   Contratos inusuales: 1
-    - Strike $106.0 exp 2026-05-08 | score 71.5 | vol 22,631 | V/OI 514.34x | Volumen 21x sobre lo normal | Flujo ALCISTA extremo: 85.5% en una direccion | V/
+    - Strike $62.5 exp 2026-05-15 | score 67.0 | vol 18,750 | V/OI 535.71x | Volumen 36x sobre lo normal | Flujo ALCISTA extremo: 98.4% en una direccion | V/
 
-  FISV — Fiserv, Inc.
-  Precio: $62.65
-  Score: 70.0
-  Notional total: $640,313
-  Contratos inusuales: 6
-    - Strike $80.0 exp 2026-05-08 | score 70.0 | vol 400 | V/OI 20.0x | Flujo ALCISTA extremo: 95.3% en una direccion | V/OI 20x — posiciones mayoritari
-    - Strike $67.0 exp 2026-05-08 | score 64.5 | vol 2,999 | V/OI 24.99x | Flujo ALCISTA extremo: 95.3% en una direccion | V/OI 25x — posiciones mayoritari
-    - Strike $68.0 exp 2026-05-08 | score 52.5 | vol 115 | V/OI 0.19x | Flujo ALCISTA extremo: 95.3% en una direccion | OI concentrado: 21,862 contratos
+  MRNA — Moderna, Inc.
+  Precio: $45.8
+  Score: 62.8
+  Notional total: $1,521,006
+  Contratos inusuales: 7
+    - Strike $46.0 exp 2026-05-08 | score 62.8 | vol 10,241 | V/OI 82.59x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 83x — posiciones mayoritari
+    - Strike $55.0 exp 2026-05-08 | score 52.4 | vol 298 | V/OI 0.71x | Flujo ALCISTA extremo: 91.6% en una direccion | OI concentrado: 25,916 contratos
+    - Strike $48.0 exp 2026-05-08 | score 47.9 | vol 213 | V/OI 5.2x | Flujo ALCISTA extremo: 91.6% en una direccion | V/OI 5x — posiciones mayoritaria
 
-  FSLR — First Solar, Inc.
-  Precio: $201.89
-  Score: 62.7
-  Notional total: $1,706,649
-  Contratos inusuales: 12
-    - Strike $250.0 exp 2026-05-08 | score 62.7 | vol 537 | V/OI 10.33x | Flujo ALCISTA: 77.2% direccional | V/OI 10x — posiciones mayoritariamente nuevas
-    - Strike $220.0 exp 2026-05-08 | score 49.9 | vol 204 | V/OI 1.25x | Flujo ALCISTA: 77.2% direccional | OI concentrado: 9,832 contratos (49% del tota
-    - Strike $230.0 exp 2026-05-08 | score 49.3 | vol 207 | V/OI 0.86x | Flujo ALCISTA: 77.2% direccional | OI concentrado: 9,832 contratos (49% del tota
+  MSFT — Microsoft Corporation
+  Precio: $414.62
+  Score: 62.0
+  Notional total: $6,312,741
+  Contratos inusuales: 8
+    - Strike $420.0 exp 2026-05-06 | score 62.0 | vol 5,862 | V/OI 15.39x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 15x — posiciones mayoritari
+    - Strike $417.5 exp 2026-05-06 | score 50.6 | vol 1,031 | V/OI 18.09x | Flujo ALCISTA extremo: 89.7% en una direccion | V/OI 18x — posiciones mayoritari
+    - Strike $465.0 exp 2026-05-06 | score 43.5 | vol 292 | V/OI 0.91x | Flujo ALCISTA extremo: 89.7% en una direccion | Expira en 4 dias — maximo apalan
 
-  EMN — Eastman Chemical Company
-  Precio: $73.09
-  Score: 61.5
-  Notional total: $1,597,046
-  Contratos inusuales: 2
-    - Strike $75.0 exp 2026-05-15 | score 61.5 | vol 6,325 | V/OI 16.43x | Volumen 36x sobre lo normal | Flujo ALCISTA extremo: 97.8% en una direccion | V/
-    - Strike $85.0 exp 2026-05-15 | score 45.9 | vol 718 | V/OI 3.28x | Volumen 4.1x sobre lo normal | Flujo ALCISTA extremo: 97.8% en una direccion | V
+  TDOC — Teladoc Health, Inc.
+  Precio: $6.6
+  Score: 62.0
+  Notional total: $152,348
+  Contratos inusuales: 4
+    - Strike $7.0 exp 2026-05-08 | score 62.0 | vol 14,890 | V/OI 15.84x | Volumen 5x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/O
+    - Strike $8.0 exp 2026-05-08 | score 52.8 | vol 893 | V/OI 2.45x | Flujo ALCISTA extremo: 98.6% en una direccion | V/OI 2.5x — flujo de posiciones 
+    - Strike $7.5 exp 2026-05-08 | score 46.2 | vol 133 | V/OI 0.54x | Flujo ALCISTA extremo: 98.6% en una direccion | OI concentrado: 6,754 contratos 
 
-  QCOM — QUALCOMM Incorporated
-  Precio: $179.58
-  Score: 61.0
-  Notional total: $25,599,963
-  Contratos inusuales: 11
-    - Strike $190.0 exp 2026-05-08 | score 61.0 | vol 12,615 | V/OI 23.49x | Flujo ALCISTA: 80.9% direccional | V/OI 23x — posiciones mayoritariamente nuevas
-    - Strike $185.0 exp 2026-05-08 | score 51.9 | vol 4,775 | V/OI 6.65x | Flujo ALCISTA: 80.9% direccional | V/OI 7x — posiciones mayoritariamente nuevas 
-    - Strike $200.0 exp 2026-05-15 | score 51.2 | vol 18,878 | V/OI 3.72x | Flujo ALCISTA: 79.6% direccional | V/OI 3.7x — flujo de posiciones nuevas | Apue
-
-  NVDA — NVIDIA Corporation
-  Precio: $199.57
-  Score: 60.8
-  Notional total: $145,831,681
-  Contratos inusuales: 53
-    - Strike $212.5 exp 2026-05-08 | score 60.8 | vol 55,566 | V/OI 14.72x | Flujo ALCISTA: 75.5% direccional | V/OI 15x — posiciones mayoritariamente nuevas
-    - Strike $200.0 exp 2026-05-04 | score 55.5 | vol 24,715 | V/OI 25.02x | V/OI 25x — posiciones mayoritariamente nuevas | Apuesta de $6.3M | Expira en 3 d
-    - Strike $202.5 exp 2026-05-04 | score 55.5 | vol 25,387 | V/OI 38.0x | V/OI 38x — posiciones mayoritariamente nuevas | Apuesta de $4.0M | Expira en 3 d
+  LUV — Southwest Airlines Company
+  Precio: $39.57
+  Score: 60.3
+  Notional total: $270,975
+  Contratos inusuales: 4
+    - Strike $48.5 exp 2026-05-15 | score 60.3 | vol 130 | V/OI 16.25x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 16x — posiciones mayoritari
+    - Strike $41.0 exp 2026-05-15 | score 53.3 | vol 2,499 | V/OI 21.73x | Flujo ALCISTA extremo: 93.5% en una direccion | V/OI 22x — posiciones mayoritari
+    - Strike $46.0 exp 2026-05-15 | score 47.3 | vol 655 | V/OI 0.93x | Flujo ALCISTA extremo: 93.5% en una direccion | OI concentrado: 6,971 contratos 
