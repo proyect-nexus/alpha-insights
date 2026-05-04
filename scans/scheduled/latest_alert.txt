@@ -1,34 +1,51 @@
-Scan: 2026-05-04T16:41:41.626615
+Scan: 2026-05-04T18:27:43.197729
 Tickers escaneados: 2395
-Total alertas: 360
+Total alertas: 465
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   EBAY — eBay Inc.
-  Precio: $109.18
+  Precio: $109.92
   Score: 67.2
-  Notional total: $8,342,371
-  Contratos inusuales: 16
-    - Strike $128.0 exp 2026-05-08 | score 67.2 | vol 1,049 | V/OI 52.45x | Flujo ALCISTA: 78.7% direccional | V/OI 52x — posiciones mayoritariamente nuevas
-    - Strike $120.0 exp 2026-05-08 | score 63.2 | vol 1,961 | V/OI 56.03x | Flujo ALCISTA: 78.7% direccional | V/OI 56x — posiciones mayoritariamente nuevas
-    - Strike $122.0 exp 2026-05-08 | score 62.7 | vol 414 | V/OI 207.0x | Flujo ALCISTA: 78.7% direccional | V/OI 207x — posiciones mayoritariamente nueva
+  Notional total: $3,769,747
+  Contratos inusuales: 19
+    - Strike $128.0 exp 2026-05-08 | score 67.2 | vol 1,082 | V/OI 54.1x | Flujo ALCISTA: 79.8% direccional | V/OI 54x — posiciones mayoritariamente nuevas
+    - Strike $120.0 exp 2026-05-08 | score 63.2 | vol 2,850 | V/OI 81.43x | Flujo ALCISTA: 79.8% direccional | V/OI 81x — posiciones mayoritariamente nuevas
+    - Strike $122.0 exp 2026-05-08 | score 62.7 | vol 431 | V/OI 215.5x | Flujo ALCISTA: 79.8% direccional | V/OI 216x — posiciones mayoritariamente nueva
+
+  DVA — DaVita Inc.
+  Precio: $154.66
+  Score: 62.2
+  Notional total: $159,856
+  Contratos inusuales: 2
+    - Strike $185.0 exp 2026-05-15 | score 62.2 | vol 341 | V/OI 113.67x | Flujo ALCISTA extremo: 88.8% en una direccion | V/OI 114x — posiciones mayoritar
+    - Strike $165.0 exp 2026-05-15 | score 41.3 | vol 340 | V/OI 0.15x | Flujo ALCISTA extremo: 88.8% en una direccion | OI concentrado: 2,288 contratos 
+
+  AMD — Advanced Micro Devices, Inc.
+  Precio: $344.11
+  Score: 61.8
+  Notional total: $69,159,157
+  Contratos inusuales: 19
+    - Strike $400.0 exp 2026-05-29 | score 61.8 | vol 8,416 | V/OI 16.06x | Flujo ALCISTA: 76.1% direccional | V/OI 16x — posiciones mayoritariamente nuevas
+    - Strike $400.0 exp 2026-05-08 | score 54.3 | vol 10,568 | V/OI 1.51x | Apuesta de $2.1M | Expira en 3 dias — maximo apalancamiento | 16% fuera del dine
+    - Strike $402.5 exp 2026-05-08 | score 52.4 | vol 3,835 | V/OI 10.51x | V/OI 11x — posiciones mayoritariamente nuevas | Apuesta de $702K | Expira en 3 d
 
   AMGN — Amgen Inc.
-  Precio: $324.27
+  Precio: $323.38
   Score: 61.0
-  Notional total: $83,453
-  Contratos inusuales: 5
-    - Strike $420.0 exp 2026-05-08 | score 61.0 | vol 645 | V/OI 215.0x | Flujo ALCISTA extremo: 85.4% en una direccion | V/OI 215x — posiciones mayoritar
-    - Strike $385.0 exp 2026-05-08 | score 48.4 | vol 247 | V/OI 1.02x | Flujo ALCISTA extremo: 85.4% en una direccion | Expira en 3 dias — maximo apalan
-    - Strike $375.0 exp 2026-05-08 | score 48.0 | vol 177 | V/OI 0.4x | Flujo ALCISTA extremo: 85.4% en una direccion | Expira en 3 dias — maximo apalan
-
-  FISV — Fiserv, Inc.
-  Precio: $63.17
-  Score: 60.0
-  Notional total: $128,564
+  Notional total: $89,847
   Contratos inusuales: 6
-    - Strike $78.0 exp 2026-05-08 | score 60.0 | vol 603 | V/OI 120.6x | V/OI 121x — posiciones mayoritariamente nuevas | OI concentrado: 21,947 contrato
-    - Strike $75.0 exp 2026-05-29 | score 49.0 | vol 681 | V/OI 14.8x | V/OI 15x — posiciones mayoritariamente nuevas | OI concentrado: 21,947 contratos
-    - Strike $72.0 exp 2026-05-08 | score 48.4 | vol 407 | V/OI 6.78x | V/OI 7x — posiciones mayoritariamente nuevas | OI concentrado: 21,947 contratos 
+    - Strike $420.0 exp 2026-05-08 | score 61.0 | vol 649 | V/OI 216.33x | Flujo ALCISTA extremo: 85.0% en una direccion | V/OI 216x — posiciones mayoritar
+    - Strike $385.0 exp 2026-05-08 | score 48.4 | vol 247 | V/OI 1.02x | Flujo ALCISTA extremo: 85.0% en una direccion | Expira en 3 dias — maximo apalan
+    - Strike $375.0 exp 2026-05-08 | score 48.0 | vol 198 | V/OI 0.45x | Flujo ALCISTA extremo: 85.0% en una direccion | Expira en 3 dias — maximo apalan
+
+  MCHP — Microchip Technology Incorporat
+  Precio: $95.05
+  Score: 60.3
+  Notional total: $600,547
+  Contratos inusuales: 10
+    - Strike $110.0 exp 2026-05-15 | score 60.3 | vol 370 | V/OI 7.25x | Flujo ALCISTA: 77.6% direccional | V/OI 7x — posiciones mayoritariamente nuevas 
+    - Strike $115.0 exp 2026-05-15 | score 57.8 | vol 100 | V/OI 4.35x | Flujo ALCISTA: 77.6% direccional | V/OI 4.3x — flujo de posiciones nuevas | OI c
+    - Strike $105.0 exp 2026-05-15 | score 51.6 | vol 408 | V/OI 1.68x | Flujo ALCISTA: 77.6% direccional | OI concentrado: 90,067 contratos (54% del tot
