@@ -1,132 +1,34 @@
-Scan: 2026-05-04T21:11:46.573683
+Scan: 2026-05-05T16:37:58.847879
 Tickers escaneados: 2395
-Total alertas: 1492
+Total alertas: 409
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  IPGP — IPG Photonics Corporation
-  Precio: $122.33
-  Score: 73.6
-  Notional total: $2,667,545
-  Contratos inusuales: 4
-    - Strike $130.0 exp 2026-05-15 | score 73.6 | vol 3,001 | V/OI 33.72x | Volumen 31x sobre lo normal | Flujo ALCISTA extremo: 97.3% en una direccion | V/
-    - Strike $150.0 exp 2026-05-15 | score 46.5 | vol 130 | V/OI 4.48x | Flujo ALCISTA extremo: 97.3% en una direccion | V/OI 4.5x — flujo de posiciones 
-    - Strike $145.0 exp 2026-05-15 | score 43.1 | vol 163 | V/OI 0.77x | Flujo ALCISTA extremo: 97.3% en una direccion | Expira en 10 dias — near-term | 
+  TSLA — Tesla, Inc.
+  Precio: $392.18
+  Score: 64.0
+  Notional total: $164,105,935
+  Contratos inusuales: 58
+    - Strike $415.0 exp 2026-05-11 | score 64.0 | vol 10,205 | V/OI 19.0x | Flujo ALCISTA: 75.2% direccional | V/OI 19x — posiciones mayoritariamente nuevas
+    - Strike $420.0 exp 2026-05-11 | score 51.5 | vol 6,210 | V/OI 8.37x | Flujo ALCISTA: 75.2% direccional | V/OI 8x — posiciones mayoritariamente nuevas 
+    - Strike $405.0 exp 2026-05-08 | score 49.2 | vol 16,213 | V/OI 2.51x | V/OI 2.5x — flujo de posiciones nuevas | Apuesta de $6.0M | Expira en 2 dias — m
 
-  PBF — PBF Energy Inc.
-  Precio: $45.53
-  Score: 68.4
-  Notional total: $5,136,557
-  Contratos inusuales: 2
-    - Strike $47.0 exp 2026-05-15 | score 68.4 | vol 10,883 | V/OI 42.68x | Flujo ALCISTA extremo: 99.0% en una direccion | V/OI 43x — posiciones mayoritari
-    - Strike $45.0 exp 2026-05-15 | score 52.4 | vol 13,153 | V/OI 0.85x | Flujo ALCISTA extremo: 99.0% en una direccion | OI concentrado: 15,480 contratos
-
-  TDC — Teradata Corporation
-  Precio: $29.32
-  Score: 67.4
-  Notional total: $578,492
-  Contratos inusuales: 1
-    - Strike $32.5 exp 2026-05-15 | score 67.4 | vol 4,987 | V/OI 23.09x | Volumen 27x sobre lo normal | Flujo ALCISTA extremo: 98.1% en una direccion | V/
-
-  EBAY — eBay Inc.
-  Precio: $109.33
-  Score: 67.2
-  Notional total: $3,630,378
-  Contratos inusuales: 21
-    - Strike $128.0 exp 2026-05-08 | score 67.2 | vol 1,098 | V/OI 54.9x | Flujo ALCISTA: 81.3% direccional | V/OI 55x — posiciones mayoritariamente nuevas
-    - Strike $120.0 exp 2026-05-08 | score 62.7 | vol 3,121 | V/OI 89.17x | Flujo ALCISTA: 81.3% direccional | V/OI 89x — posiciones mayoritariamente nuevas
-    - Strike $122.0 exp 2026-05-08 | score 62.7 | vol 484 | V/OI 242.0x | Flujo ALCISTA: 81.3% direccional | V/OI 242x — posiciones mayoritariamente nueva
-
-  CRC — California Resources Corporatio
-  Precio: $69.17
-  Score: 65.2
-  Notional total: $32,993
-  Contratos inusuales: 2
-    - Strike $80.0 exp 2026-05-15 | score 65.2 | vol 200 | V/OI 66.67x | Volumen 10x sobre lo normal | Flujo ALCISTA extremo: 94.2% en una direccion | V/
-    - Strike $72.5 exp 2026-05-15 | score 45.0 | vol 187 | V/OI 2.92x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 94.2% en una direccion | V/O
-
-  DOCN — DigitalOcean Holdings, Inc.
-  Precio: $108.81
-  Score: 64.5
-  Notional total: $2,677,842
-  Contratos inusuales: 5
-    - Strike $120.0 exp 2026-05-08 | score 64.5 | vol 5,863 | V/OI 34.69x | V/OI 35x — posiciones mayoritariamente nuevas | Apuesta de $2.4M | Expira en 3 d
-    - Strike $130.0 exp 2026-05-08 | score 55.6 | vol 1,146 | V/OI 81.86x | V/OI 82x — posiciones mayoritariamente nuevas | Apuesta de $218K | Expira en 3 d
-    - Strike $126.0 exp 2026-05-08 | score 54.0 | vol 102 | V/OI 51.0x | V/OI 51x — posiciones mayoritariamente nuevas | Expira en 3 dias — maximo apalan
-
-  ADTN — ADTRAN Holdings, Inc.
-  Precio: $18.34
-  Score: 63.5
-  Notional total: $101,414
-  Contratos inusuales: 3
-    - Strike $23.0 exp 2026-05-15 | score 63.5 | vol 343 | V/OI 20.18x | Flujo ALCISTA: 81.9% direccional | V/OI 20x — posiciones mayoritariamente nuevas
-    - Strike $21.0 exp 2026-05-15 | score 46.6 | vol 1,101 | V/OI 0.69x | Flujo ALCISTA: 81.9% direccional | OI concentrado: 4,476 contratos (46% del tota
-    - Strike $19.0 exp 2026-05-15 | score 41.5 | vol 110 | V/OI 0.68x | Flujo ALCISTA: 81.9% direccional | OI concentrado: 4,476 contratos (46% del tota
-
-  INSW — International Seaways, Inc.
-  Precio: $84.89
-  Score: 63.0
-  Notional total: $1,144,839
-  Contratos inusuales: 1
-    - Strike $90.0 exp 2026-05-15 | score 63.0 | vol 4,353 | V/OI 65.95x | Volumen 3.7x sobre lo normal | Flujo ALCISTA extremo: 99.5% en una direccion | V
-
-  LQDA — Liquidia Corporation
-  Precio: $38.48
-  Score: 62.0
-  Notional total: $78,280
-  Contratos inusuales: 5
-    - Strike $43.0 exp 2026-05-08 | score 62.0 | vol 155 | V/OI 51.67x | Flujo BAJISTA extremo: 85.8% en una direccion | V/OI 52x — posiciones mayoritari
-    - Strike $42.0 exp 2026-05-08 | score 57.0 | vol 174 | V/OI 9.16x | Flujo BAJISTA extremo: 85.8% en una direccion | V/OI 9x — posiciones mayoritaria
-    - Strike $50.0 exp 2026-05-08 | score 55.4 | vol 669 | V/OI 2.14x | Flujo BAJISTA extremo: 85.8% en una direccion | V/OI 2.1x — flujo de posiciones 
-
-  AMD — Advanced Micro Devices, Inc.
-  Precio: $341.54
-  Score: 61.8
-  Notional total: $89,095,031
-  Contratos inusuales: 23
-    - Strike $400.0 exp 2026-05-29 | score 61.8 | vol 13,217 | V/OI 25.22x | Flujo ALCISTA: 81.9% direccional | V/OI 25x — posiciones mayoritariamente nuevas
-    - Strike $400.0 exp 2026-05-08 | score 54.7 | vol 13,769 | V/OI 1.96x | Apuesta de $2.4M | Expira en 3 dias — maximo apalancamiento | 17% fuera del dine
-    - Strike $342.5 exp 2026-05-08 | score 52.5 | vol 5,145 | V/OI 17.27x | V/OI 17x — posiciones mayoritariamente nuevas | Apuesta de $7.4M | Expira en 3 d
-
-  ESTA — Establishment Labs Holdings Inc
-  Precio: $70.24
-  Score: 61.6
-  Notional total: $300,000
-  Contratos inusuales: 1
-    - Strike $90.0 exp 2026-05-15 | score 61.6 | vol 10,000 | V/OI 4.38x | Volumen 12x sobre lo normal | Flujo ALCISTA extremo: 98.8% en una direccion | V/
-
-  MU — Micron Technology, Inc.
-  Precio: $576.45
-  Score: 61.5
-  Notional total: $246,529,597
-  Contratos inusuales: 53
-    - Strike $650.0 exp 2026-05-08 | score 61.5 | vol 18,380 | V/OI 16.41x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $4.8M | Expira en 3 d
-    - Strike $630.0 exp 2026-05-08 | score 57.6 | vol 5,490 | V/OI 10.52x | V/OI 11x — posiciones mayoritariamente nuevas | Apuesta de $2.7M | Expira en 3 d
-    - Strike $675.0 exp 2026-05-08 | score 53.6 | vol 2,666 | V/OI 41.66x | V/OI 42x — posiciones mayoritariamente nuevas | Apuesta de $341K | Expira en 3 d
-
-  LFUS — Littelfuse, Inc.
-  Precio: $424.27
-  Score: 61.3
-  Notional total: $1,013,250
-  Contratos inusuales: 1
-    - Strike $480.0 exp 2026-05-15 | score 61.3 | vol 965 | V/OI 321.67x | Volumen 13x sobre lo normal | V/OI 322x — posiciones mayoritariamente nuevas | A
-
-  CSCO — Cisco Systems, Inc.
-  Precio: $92.63
-  Score: 61.0
-  Notional total: $79,911
-  Contratos inusuales: 5
-    - Strike $115.0 exp 2026-05-08 | score 61.0 | vol 151 | V/OI 15.1x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 15x — posiciones mayoritari
-    - Strike $105.0 exp 2026-05-08 | score 56.5 | vol 225 | V/OI 225.0x | Flujo ALCISTA extremo: 89.3% en una direccion | V/OI 225x — posiciones mayoritar
-    - Strike $102.0 exp 2026-05-08 | score 43.5 | vol 216 | V/OI 1.0x | Flujo ALCISTA extremo: 89.3% en una direccion | Expira en 3 dias — maximo apalan
-
-  BB — BlackBerry Limited
-  Precio: $5.58
-  Score: 61.0
-  Notional total: $203,789
+  GFS — GlobalFoundries Inc.
+  Precio: $70.9
+  Score: 62.9
+  Notional total: $1,731,916
   Contratos inusuales: 6
-    - Strike $7.0 exp 2026-05-08 | score 61.0 | vol 3,665 | V/OI 20.82x | Flujo ALCISTA extremo: 87.7% en una direccion | V/OI 21x — posiciones mayoritari
-    - Strike $6.5 exp 2026-05-08 | score 48.0 | vol 5,776 | V/OI 0.81x | Flujo ALCISTA extremo: 87.7% en una direccion | Expira en 3 dias — maximo apalan
-    - Strike $7.0 exp 2026-06-12 | score 47.5 | vol 643 | V/OI 42.87x | Flujo ALCISTA extremo: 99.1% en una direccion | V/OI 43x — posiciones mayoritari
+    - Strike $90.0 exp 2026-06-18 | score 62.9 | vol 6,786 | V/OI 11.31x | Volumen 3.2x sobre lo normal | Flujo ALCISTA extremo: 96.4% en una direccion | V
+    - Strike $90.0 exp 2026-05-15 | score 51.4 | vol 992 | V/OI 0.5x | Flujo ALCISTA extremo: 93.3% en una direccion | OI concentrado: 5,718 contratos 
+    - Strike $85.0 exp 2026-06-18 | score 48.7 | vol 108 | V/OI 9.0x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 9x — posiciones mayoritaria
+
+  LVS — Las Vegas Sands Corp.
+  Precio: $52.71
+  Score: 61.8
+  Notional total: $404,110
+  Contratos inusuales: 5
+    - Strike $55.0 exp 2026-05-08 | score 61.8 | vol 9,220 | V/OI 52.99x | Flujo ALCISTA extremo: 92.2% en una direccion | V/OI 53x — posiciones mayoritari
+    - Strike $53.0 exp 2026-05-15 | score 47.6 | vol 1,268 | V/OI 7.55x | Flujo ALCISTA extremo: 88.3% en una direccion | V/OI 8x — posiciones mayoritaria
+    - Strike $55.0 exp 2026-05-15 | score 44.4 | vol 361 | V/OI 0.2x | Flujo ALCISTA extremo: 88.3% en una direccion | OI concentrado: 14,077 contratos
