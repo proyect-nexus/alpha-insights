@@ -1,34 +1,16 @@
-Scan: 2026-05-05T16:37:58.847879
+Scan: 2026-05-05T18:25:29.156367
 Tickers escaneados: 2395
-Total alertas: 409
+Total alertas: 429
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  TSLA — Tesla, Inc.
-  Precio: $392.18
-  Score: 64.0
-  Notional total: $164,105,935
-  Contratos inusuales: 58
-    - Strike $415.0 exp 2026-05-11 | score 64.0 | vol 10,205 | V/OI 19.0x | Flujo ALCISTA: 75.2% direccional | V/OI 19x — posiciones mayoritariamente nuevas
-    - Strike $420.0 exp 2026-05-11 | score 51.5 | vol 6,210 | V/OI 8.37x | Flujo ALCISTA: 75.2% direccional | V/OI 8x — posiciones mayoritariamente nuevas 
-    - Strike $405.0 exp 2026-05-08 | score 49.2 | vol 16,213 | V/OI 2.51x | V/OI 2.5x — flujo de posiciones nuevas | Apuesta de $6.0M | Expira en 2 dias — m
-
   GFS — GlobalFoundries Inc.
-  Precio: $70.9
-  Score: 62.9
-  Notional total: $1,731,916
-  Contratos inusuales: 6
-    - Strike $90.0 exp 2026-06-18 | score 62.9 | vol 6,786 | V/OI 11.31x | Volumen 3.2x sobre lo normal | Flujo ALCISTA extremo: 96.4% en una direccion | V
-    - Strike $90.0 exp 2026-05-15 | score 51.4 | vol 992 | V/OI 0.5x | Flujo ALCISTA extremo: 93.3% en una direccion | OI concentrado: 5,718 contratos 
-    - Strike $85.0 exp 2026-06-18 | score 48.7 | vol 108 | V/OI 9.0x | Flujo ALCISTA extremo: 96.4% en una direccion | V/OI 9x — posiciones mayoritaria
-
-  LVS — Las Vegas Sands Corp.
-  Precio: $52.71
-  Score: 61.8
-  Notional total: $404,110
+  Precio: $72.49
+  Score: 63.4
+  Notional total: $1,407,740
   Contratos inusuales: 5
-    - Strike $55.0 exp 2026-05-08 | score 61.8 | vol 9,220 | V/OI 52.99x | Flujo ALCISTA extremo: 92.2% en una direccion | V/OI 53x — posiciones mayoritari
-    - Strike $53.0 exp 2026-05-15 | score 47.6 | vol 1,268 | V/OI 7.55x | Flujo ALCISTA extremo: 88.3% en una direccion | V/OI 8x — posiciones mayoritaria
-    - Strike $55.0 exp 2026-05-15 | score 44.4 | vol 361 | V/OI 0.2x | Flujo ALCISTA extremo: 88.3% en una direccion | OI concentrado: 14,077 contratos
+    - Strike $90.0 exp 2026-06-18 | score 63.4 | vol 7,009 | V/OI 11.68x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 96.2% en una direccion | V
+    - Strike $90.0 exp 2026-05-15 | score 51.4 | vol 1,082 | V/OI 0.54x | Flujo ALCISTA extremo: 90.8% en una direccion | OI concentrado: 5,718 contratos 
+    - Strike $85.0 exp 2026-06-18 | score 51.0 | vol 140 | V/OI 11.67x | Flujo ALCISTA extremo: 96.2% en una direccion | V/OI 12x — posiciones mayoritari
