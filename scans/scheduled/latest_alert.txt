@@ -1,16 +1,16 @@
-Scan: 2026-05-05T18:25:29.156367
+Scan: 2026-05-06T16:37:17.472667
 Tickers escaneados: 2395
-Total alertas: 429
+Total alertas: 390
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  GFS — GlobalFoundries Inc.
-  Precio: $72.49
-  Score: 63.4
-  Notional total: $1,407,740
-  Contratos inusuales: 5
-    - Strike $90.0 exp 2026-06-18 | score 63.4 | vol 7,009 | V/OI 11.68x | Volumen 3.3x sobre lo normal | Flujo ALCISTA extremo: 96.2% en una direccion | V
-    - Strike $90.0 exp 2026-05-15 | score 51.4 | vol 1,082 | V/OI 0.54x | Flujo ALCISTA extremo: 90.8% en una direccion | OI concentrado: 5,718 contratos 
-    - Strike $85.0 exp 2026-06-18 | score 51.0 | vol 140 | V/OI 11.67x | Flujo ALCISTA extremo: 96.2% en una direccion | V/OI 12x — posiciones mayoritari
+  ARM — Arm Holdings plc
+  Precio: $233.49
+  Score: 66.5
+  Notional total: $39,230,297
+  Contratos inusuales: 29
+    - Strike $265.0 exp 2026-05-08 | score 66.5 | vol 6,179 | V/OI 12.69x | Flujo ALCISTA: 80.1% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+    - Strike $270.0 exp 2026-05-08 | score 60.1 | vol 3,672 | V/OI 1.89x | Flujo ALCISTA: 80.1% direccional | Apuesta de $1.8M | Expira en 1 dias — maximo 
+    - Strike $282.5 exp 2026-05-08 | score 56.3 | vol 258 | V/OI 12.29x | Flujo ALCISTA: 80.1% direccional | V/OI 12x — posiciones mayoritariamente nuevas
