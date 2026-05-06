@@ -1,16 +1,33 @@
-Scan: 2026-05-06T18:31:04.783929
+Scan: 2026-05-06T21:10:10.545709
 Tickers escaneados: 2395
-Total alertas: 464
+Total alertas: 650
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   ARM — Arm Holdings plc
-  Precio: $235.94
-  Score: 67.1
-  Notional total: $48,725,051
-  Contratos inusuales: 30
-    - Strike $265.0 exp 2026-05-08 | score 67.1 | vol 6,542 | V/OI 13.43x | Flujo ALCISTA: 77.0% direccional | V/OI 13x — posiciones mayoritariamente nuevas
-    - Strike $275.0 exp 2026-05-08 | score 59.4 | vol 2,088 | V/OI 9.08x | Flujo ALCISTA: 77.0% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
-    - Strike $282.5 exp 2026-05-08 | score 57.6 | vol 289 | V/OI 13.76x | Flujo ALCISTA: 77.0% direccional | V/OI 14x — posiciones mayoritariamente nuevas
+  Precio: $237.3
+  Score: 69.0
+  Notional total: $110,047,150
+  Contratos inusuales: 43
+    - Strike $275.0 exp 2026-05-08 | score 69.0 | vol 7,593 | V/OI 33.01x | V/OI 33x — posiciones mayoritariamente nuevas | Apuesta de $4.6M | Expira en 1 d
+    - Strike $265.0 exp 2026-05-08 | score 64.5 | vol 9,400 | V/OI 19.3x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $7.2M | Expira en 1 d
+    - Strike $277.5 exp 2026-05-08 | score 63.9 | vol 2,347 | V/OI 22.35x | V/OI 22x — posiciones mayoritariamente nuevas | Apuesta de $1.3M | Expira en 1 d
+
+  DOC — Healthpeak Properties, Inc.
+  Precio: $19.5
+  Score: 67.6
+  Notional total: $17,605
+  Contratos inusuales: 2
+    - Strike $22.5 exp 2026-05-15 | score 67.6 | vol 657 | V/OI 657.0x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 657x — posiciones mayoritar
+    - Strike $20.0 exp 2026-05-15 | score 48.1 | vol 1,432 | V/OI 2.59x | Volumen 4.0x sobre lo normal | Flujo ALCISTA extremo: 90.4% en una direccion | V
+
+  DDOG — Datadog, Inc.
+  Precio: $143.71
+  Score: 64.5
+  Notional total: $11,374,189
+  Contratos inusuales: 10
+    - Strike $165.0 exp 2026-05-08 | score 64.5 | vol 9,332 | V/OI 82.58x | V/OI 83x — posiciones mayoritariamente nuevas | Apuesta de $2.9M | Expira en 1 d
+    - Strike $157.5 exp 2026-05-08 | score 54.0 | vol 1,263 | V/OI 28.07x | V/OI 28x — posiciones mayoritariamente nuevas | Apuesta de $606K | Expira en 1 d
+    - Strike $150.0 exp 2026-05-08 | score 49.3 | vol 5,638 | V/OI 2.61x | V/OI 2.6x — flujo de posiciones nuevas | Apuesta de $3.9M | Expira en 1 dias — m
