@@ -1,16 +1,16 @@
-Scan: 2026-05-07T18:36:43.735535
+Scan: 2026-05-07T21:06:45.454160
 Tickers escaneados: 2395
-Total alertas: 350
+Total alertas: 404
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   MCHP — Microchip Technology Incorporat
-  Precio: $101.01
-  Score: 60.9
-  Notional total: $2,062,917
-  Contratos inusuales: 5
-    - Strike $102.0 exp 2026-05-15 | score 60.9 | vol 2,314 | V/OI 100.61x | Flujo ALCISTA: 77.3% direccional | V/OI 101x — posiciones mayoritariamente nueva
-    - Strike $105.0 exp 2026-05-15 | score 56.2 | vol 2,922 | V/OI 5.15x | Flujo ALCISTA: 77.3% direccional | V/OI 5x — posiciones mayoritariamente nuevas 
-    - Strike $120.0 exp 2026-05-15 | score 56.2 | vol 122 | V/OI 2.54x | Flujo ALCISTA: 77.3% direccional | V/OI 2.5x — flujo de posiciones nuevas | OI c
+  Precio: $101.58
+  Score: 63.0
+  Notional total: $3,599,954
+  Contratos inusuales: 11
+    - Strike $102.0 exp 2026-05-15 | score 63.0 | vol 2,354 | V/OI 102.35x | Flujo ALCISTA: 82.0% direccional | V/OI 102x — posiciones mayoritariamente nueva
+    - Strike $120.0 exp 2026-05-15 | score 59.6 | vol 308 | V/OI 6.42x | Flujo ALCISTA: 82.0% direccional | V/OI 6x — posiciones mayoritariamente nuevas 
+    - Strike $105.0 exp 2026-05-15 | score 58.7 | vol 3,086 | V/OI 5.44x | Flujo ALCISTA: 82.0% direccional | V/OI 5x — posiciones mayoritariamente nuevas 
