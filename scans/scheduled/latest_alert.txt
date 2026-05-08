@@ -1,34 +1,43 @@
-Scan: 2026-05-08T18:22:40.566303
+Scan: 2026-05-08T20:50:51.356797
 Tickers escaneados: 2395
-Total alertas: 363
+Total alertas: 460
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
   QCOM — QUALCOMM Incorporated
-  Precio: $217.71
-  Score: 67.2
-  Notional total: $92,081,212
-  Contratos inusuales: 33
-    - Strike $270.0 exp 2026-05-15 | score 67.2 | vol 10,480 | V/OI 42.95x | Flujo ALCISTA: 84.2% direccional | V/OI 43x — posiciones mayoritariamente nuevas
-    - Strike $250.0 exp 2026-05-15 | score 60.8 | vol 27,582 | V/OI 9.62x | Flujo ALCISTA: 84.2% direccional | V/OI 10x — posiciones mayoritariamente nuevas
-    - Strike $240.0 exp 2026-05-15 | score 60.6 | vol 13,988 | V/OI 9.38x | Flujo ALCISTA: 84.2% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
+  Precio: $219.09
+  Score: 69.8
+  Notional total: $113,988,664
+  Contratos inusuales: 35
+    - Strike $270.0 exp 2026-05-15 | score 69.8 | vol 12,698 | V/OI 52.04x | Flujo ALCISTA: 83.0% direccional | V/OI 52x — posiciones mayoritariamente nuevas
+    - Strike $250.0 exp 2026-05-15 | score 62.4 | vol 32,829 | V/OI 11.45x | Flujo ALCISTA: 83.0% direccional | V/OI 11x — posiciones mayoritariamente nuevas
+    - Strike $240.0 exp 2026-05-15 | score 62.3 | vol 16,812 | V/OI 11.27x | Flujo ALCISTA: 83.0% direccional | V/OI 11x — posiciones mayoritariamente nuevas
+
+  INTC — Intel Corporation
+  Precio: $124.92
+  Score: 61.5
+  Notional total: $133,231,669
+  Contratos inusuales: 30
+    - Strike $145.0 exp 2026-05-22 | score 61.5 | vol 5,087 | V/OI 18.84x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 13 
+    - Strike $150.0 exp 2026-05-22 | score 57.3 | vol 19,366 | V/OI 10.2x | V/OI 10x — posiciones mayoritariamente nuevas | Apuesta de $6.0M | Expira en 13 
+    - Strike $155.0 exp 2026-05-22 | score 55.9 | vol 4,710 | V/OI 22.86x | V/OI 23x — posiciones mayoritariamente nuevas | Apuesta de $1.2M | Expira en 13 
 
   MRNA — Moderna, Inc.
-  Precio: $55.23
-  Score: 64.0
-  Notional total: $10,650,448
-  Contratos inusuales: 18
-    - Strike $57.0 exp 2026-05-15 | score 64.0 | vol 7,418 | V/OI 18.18x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 18x — posiciones mayoritari
-    - Strike $61.0 exp 2026-05-15 | score 61.9 | vol 7,460 | V/OI 373.0x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 373x — posiciones mayoritar
-    - Strike $58.0 exp 2026-05-15 | score 58.2 | vol 4,722 | V/OI 72.65x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 73x — posiciones mayoritari
+  Precio: $54.35
+  Score: 60.8
+  Notional total: $13,254,146
+  Contratos inusuales: 21
+    - Strike $57.0 exp 2026-05-15 | score 60.8 | vol 7,653 | V/OI 18.76x | Flujo ALCISTA extremo: 92.4% en una direccion | V/OI 19x — posiciones mayoritari
+    - Strike $61.0 exp 2026-05-15 | score 60.3 | vol 7,540 | V/OI 377.0x | Flujo ALCISTA extremo: 92.4% en una direccion | V/OI 377x — posiciones mayoritar
+    - Strike $63.0 exp 2026-05-15 | score 58.0 | vol 408 | V/OI 27.2x | Flujo ALCISTA extremo: 92.4% en una direccion | V/OI 27x — posiciones mayoritari
 
-  AVGO — Broadcom Inc.
-  Precio: $427.57
-  Score: 62.5
-  Notional total: $14,311,701
-  Contratos inusuales: 12
-    - Strike $430.0 exp 2026-05-11 | score 62.5 | vol 13,650 | V/OI 53.74x | Flujo ALCISTA extremo: 88.1% en una direccion | V/OI 54x — posiciones mayoritari
-    - Strike $440.0 exp 2026-05-13 | score 59.5 | vol 5,267 | V/OI 26.87x | Flujo ALCISTA: 80.7% direccional | V/OI 27x — posiciones mayoritariamente nuevas
-    - Strike $462.5 exp 2026-05-11 | score 47.5 | vol 453 | V/OI 4.62x | Flujo ALCISTA extremo: 88.1% en una direccion | V/OI 4.6x — flujo de posiciones 
+  TSLA — Tesla, Inc.
+  Precio: $428.35
+  Score: 60.0
+  Notional total: $286,158,415
+  Contratos inusuales: 55
+    - Strike $450.0 exp 2026-05-11 | score 60.0 | vol 32,938 | V/OI 20.74x | V/OI 21x — posiciones mayoritariamente nuevas | Apuesta de $2.0M | Expira en 2 d
+    - Strike $422.5 exp 2026-05-11 | score 55.5 | vol 20,279 | V/OI 31.06x | V/OI 31x — posiciones mayoritariamente nuevas | Apuesta de $17.4M | Expira en 2 
+    - Strike $425.0 exp 2026-05-11 | score 55.5 | vol 36,874 | V/OI 18.77x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $24.7M | Expira en 2 
