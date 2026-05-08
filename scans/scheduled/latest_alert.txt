@@ -1,34 +1,34 @@
-Scan: 2026-05-08T16:21:17.344784
+Scan: 2026-05-08T18:22:40.566303
 Tickers escaneados: 2395
-Total alertas: 213
+Total alertas: 363
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  AVGO — Broadcom Inc.
-  Precio: $425.94
-  Score: 62.5
-  Notional total: $2,164,879
-  Contratos inusuales: 3
-    - Strike $430.0 exp 2026-05-11 | score 62.5 | vol 6,876 | V/OI 27.07x | Flujo ALCISTA extremo: 87.7% en una direccion | V/OI 27x — posiciones mayoritari
-    - Strike $462.5 exp 2026-05-11 | score 47.3 | vol 424 | V/OI 4.33x | Flujo ALCISTA extremo: 87.7% en una direccion | V/OI 4.3x — flujo de posiciones 
-    - Strike $455.0 exp 2026-05-11 | score 40.6 | vol 105 | V/OI 1.81x | Flujo ALCISTA extremo: 87.7% en una direccion | Expira en 2 dias — maximo apalan
+  QCOM — QUALCOMM Incorporated
+  Precio: $217.71
+  Score: 67.2
+  Notional total: $92,081,212
+  Contratos inusuales: 33
+    - Strike $270.0 exp 2026-05-15 | score 67.2 | vol 10,480 | V/OI 42.95x | Flujo ALCISTA: 84.2% direccional | V/OI 43x — posiciones mayoritariamente nuevas
+    - Strike $250.0 exp 2026-05-15 | score 60.8 | vol 27,582 | V/OI 9.62x | Flujo ALCISTA: 84.2% direccional | V/OI 10x — posiciones mayoritariamente nuevas
+    - Strike $240.0 exp 2026-05-15 | score 60.6 | vol 13,988 | V/OI 9.38x | Flujo ALCISTA: 84.2% direccional | V/OI 9x — posiciones mayoritariamente nuevas 
 
   MRNA — Moderna, Inc.
-  Precio: $54.41
-  Score: 60.5
-  Notional total: $5,958,849
-  Contratos inusuales: 13
-    - Strike $61.0 exp 2026-05-15 | score 60.5 | vol 7,213 | V/OI 360.65x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 361x — posiciones mayoritar
-    - Strike $57.0 exp 2026-05-15 | score 60.3 | vol 7,108 | V/OI 17.42x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 17x — posiciones mayoritari
-    - Strike $63.0 exp 2026-05-15 | score 58.0 | vol 304 | V/OI 20.27x | Flujo ALCISTA extremo: 90.4% en una direccion | V/OI 20x — posiciones mayoritari
+  Precio: $55.23
+  Score: 64.0
+  Notional total: $10,650,448
+  Contratos inusuales: 18
+    - Strike $57.0 exp 2026-05-15 | score 64.0 | vol 7,418 | V/OI 18.18x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 18x — posiciones mayoritari
+    - Strike $61.0 exp 2026-05-15 | score 61.9 | vol 7,460 | V/OI 373.0x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 373x — posiciones mayoritar
+    - Strike $58.0 exp 2026-05-15 | score 58.2 | vol 4,722 | V/OI 72.65x | Flujo ALCISTA extremo: 91.4% en una direccion | V/OI 73x — posiciones mayoritari
 
-  QCOM — QUALCOMM Incorporated
-  Precio: $224.08
-  Score: 60.2
-  Notional total: $63,956,819
-  Contratos inusuales: 21
-    - Strike $250.0 exp 2026-05-15 | score 60.2 | vol 15,626 | V/OI 5.45x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 5x — posiciones mayoritaria
-    - Strike $240.0 exp 2026-05-15 | score 57.4 | vol 11,071 | V/OI 7.42x | Flujo ALCISTA extremo: 85.9% en una direccion | V/OI 7x — posiciones mayoritaria
-    - Strike $280.0 exp 2026-05-22 | score 56.3 | vol 2,382 | V/OI 25.89x | Flujo ALCISTA: 83.3% direccional | V/OI 26x — posiciones mayoritariamente nuevas
+  AVGO — Broadcom Inc.
+  Precio: $427.57
+  Score: 62.5
+  Notional total: $14,311,701
+  Contratos inusuales: 12
+    - Strike $430.0 exp 2026-05-11 | score 62.5 | vol 13,650 | V/OI 53.74x | Flujo ALCISTA extremo: 88.1% en una direccion | V/OI 54x — posiciones mayoritari
+    - Strike $440.0 exp 2026-05-13 | score 59.5 | vol 5,267 | V/OI 26.87x | Flujo ALCISTA: 80.7% direccional | V/OI 27x — posiciones mayoritariamente nuevas
+    - Strike $462.5 exp 2026-05-11 | score 47.5 | vol 453 | V/OI 4.62x | Flujo ALCISTA extremo: 88.1% en una direccion | V/OI 4.6x — flujo de posiciones 
