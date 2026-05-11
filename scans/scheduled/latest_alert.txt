@@ -1,43 +1,52 @@
-Scan: 2026-05-11T17:32:01.149845
+Scan: 2026-05-11T19:10:24.291920
 Tickers escaneados: 2395
-Total alertas: 560
+Total alertas: 657
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  AVGO — Broadcom Inc.
-  Precio: $429.79
-  Score: 66.4
-  Notional total: $16,855,125
-  Contratos inusuales: 21
-    - Strike $447.5 exp 2026-05-15 | score 66.4 | vol 5,874 | V/OI 14.26x | Flujo ALCISTA extremo: 85.3% en una direccion | V/OI 14x — posiciones mayoritari
-    - Strike $450.0 exp 2026-05-18 | score 60.9 | vol 6,151 | V/OI 11.48x | Flujo ALCISTA extremo: 89.2% en una direccion | V/OI 11x — posiciones mayoritari
-    - Strike $470.0 exp 2026-05-15 | score 58.4 | vol 16,908 | V/OI 5.3x | Flujo ALCISTA extremo: 85.3% en una direccion | V/OI 5x — posiciones mayoritaria
+  MU — Micron Technology, Inc.
+  Precio: $811.47
+  Score: 66.0
+  Notional total: $659,181,807
+  Contratos inusuales: 74
+    - Strike $970.0 exp 2026-05-15 | score 66.0 | vol 3,087 | V/OI 21.0x | V/OI 21x — posiciones mayoritariamente nuevas | Apuesta de $2.3M | Expira en 3 d
+    - Strike $960.0 exp 2026-05-15 | score 61.5 | vol 3,747 | V/OI 9.86x | V/OI 10x — posiciones mayoritariamente nuevas | Apuesta de $3.0M | Expira en 3 d
+    - Strike $950.0 exp 2026-05-15 | score 59.5 | vol 7,775 | V/OI 7.54x | V/OI 8x — posiciones mayoritariamente nuevas | Apuesta de $7.0M | Expira en 3 di
 
   QCOM — QUALCOMM Incorporated
-  Precio: $235.14
-  Score: 63.9
-  Notional total: $72,826,223
-  Contratos inusuales: 24
-    - Strike $280.0 exp 2026-05-29 | score 63.9 | vol 9,350 | V/OI 13.11x | Flujo ALCISTA: 77.3% direccional | V/OI 13x — posiciones mayoritariamente nuevas
-    - Strike $300.0 exp 2026-05-15 | score 57.7 | vol 15,747 | V/OI 3.71x | Flujo ALCISTA: 77.2% direccional | V/OI 3.7x — flujo de posiciones nuevas | Apue
-    - Strike $270.0 exp 2026-05-15 | score 55.5 | vol 10,063 | V/OI 1.41x | Flujo ALCISTA: 77.2% direccional | Apuesta de $2.4M | Expira en 3 dias — maximo 
+  Precio: $235.65
+  Score: 64.1
+  Notional total: $96,785,328
+  Contratos inusuales: 26
+    - Strike $280.0 exp 2026-05-29 | score 64.1 | vol 9,536 | V/OI 13.37x | Flujo ALCISTA: 76.2% direccional | V/OI 13x — posiciones mayoritariamente nuevas
+    - Strike $255.0 exp 2026-05-15 | score 59.0 | vol 3,290 | V/OI 11.79x | V/OI 12x — posiciones mayoritariamente nuevas | Apuesta de $1.6M | Expira en 3 d
+    - Strike $260.0 exp 2026-05-15 | score 55.0 | vol 4,611 | V/OI 5.12x | V/OI 5x — posiciones mayoritariamente nuevas | Apuesta de $1.9M | Expira en 3 di
 
-  MU — Micron Technology, Inc.
-  Precio: $799.59
-  Score: 62.3
-  Notional total: $404,034,157
-  Contratos inusuales: 51
-    - Strike $970.0 exp 2026-05-15 | score 62.3 | vol 2,849 | V/OI 19.38x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $1.5M | Expira en 3 d
-    - Strike $960.0 exp 2026-05-15 | score 60.8 | vol 3,428 | V/OI 9.02x | V/OI 9x — posiciones mayoritariamente nuevas | Apuesta de $2.1M | Expira en 3 di
-    - Strike $950.0 exp 2026-05-15 | score 58.1 | vol 6,080 | V/OI 5.9x | V/OI 6x — posiciones mayoritariamente nuevas | Apuesta de $4.0M | Expira en 3 di
+  AVGO — Broadcom Inc.
+  Precio: $429.14
+  Score: 63.7
+  Notional total: $17,172,268
+  Contratos inusuales: 17
+    - Strike $447.5 exp 2026-05-15 | score 63.7 | vol 6,042 | V/OI 14.67x | Flujo ALCISTA: 83.3% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+    - Strike $450.0 exp 2026-05-18 | score 61.4 | vol 6,424 | V/OI 11.99x | Flujo ALCISTA extremo: 89.0% en una direccion | V/OI 12x — posiciones mayoritari
+    - Strike $470.0 exp 2026-05-15 | score 56.2 | vol 17,969 | V/OI 5.63x | Flujo ALCISTA: 83.3% direccional | V/OI 6x — posiciones mayoritariamente nuevas 
+
+  NVDA — NVIDIA Corporation
+  Precio: $220.93
+  Score: 61.4
+  Notional total: $426,548,356
+  Contratos inusuales: 69
+    - Strike $230.0 exp 2026-05-13 | score 61.4 | vol 36,495 | V/OI 14.52x | Flujo ALCISTA: 76.3% direccional | V/OI 15x — posiciones mayoritariamente nuevas
+    - Strike $222.5 exp 2026-05-13 | score 59.5 | vol 36,538 | V/OI 23.93x | Flujo ALCISTA: 76.3% direccional | V/OI 24x — posiciones mayoritariamente nuevas
+    - Strike $240.0 exp 2026-05-22 | score 55.4 | vol 6,642 | V/OI 0.5x | Flujo ALCISTA extremo: 86.3% en una direccion | Apuesta de $2.0M | Expira en 10 
 
   TSLA — Tesla, Inc.
-  Precio: $438.44
+  Precio: $446.43
   Score: 60.0
-  Notional total: $495,268,058
-  Contratos inusuales: 88
-    - Strike $460.0 exp 2026-05-13 | score 60.0 | vol 16,493 | V/OI 17.91x | V/OI 18x — posiciones mayoritariamente nuevas | Apuesta de $4.1M | Expira en 1 d
-    - Strike $475.0 exp 2026-06-05 | score 57.2 | vol 6,967 | V/OI 16.28x | Flujo ALCISTA: 78.8% direccional | V/OI 16x — posiciones mayoritariamente nuevas
-    - Strike $452.5 exp 2026-05-13 | score 57.1 | vol 4,128 | V/OI 16.32x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $1.6M | Expira en 1 d
+  Notional total: $551,993,736
+  Contratos inusuales: 94
+    - Strike $460.0 exp 2026-05-13 | score 60.0 | vol 25,384 | V/OI 27.56x | V/OI 28x — posiciones mayoritariamente nuevas | Apuesta de $8.8M | Expira en 1 d
+    - Strike $437.5 exp 2026-05-13 | score 55.5 | vol 12,988 | V/OI 30.49x | V/OI 30x — posiciones mayoritariamente nuevas | Apuesta de $15.8M | Expira en 1 
+    - Strike $447.5 exp 2026-05-13 | score 55.5 | vol 4,815 | V/OI 16.05x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $3.4M | Expira en 1 d
