@@ -1,61 +1,79 @@
-Scan: 2026-05-11T21:16:35.010674
+Scan: 2026-05-13T17:28:03.678235
 Tickers escaneados: 2395
-Total alertas: 771
+Total alertas: 904
 
 ============================================================
 ALERTAS (score >= 60)
 ============================================================
 
-  QCOM — QUALCOMM Incorporated
-  Precio: $237.53
-  Score: 64.6
-  Notional total: $108,322,154
-  Contratos inusuales: 25
-    - Strike $280.0 exp 2026-05-29 | score 64.6 | vol 9,980 | V/OI 14.0x | Flujo ALCISTA: 75.8% direccional | V/OI 14x — posiciones mayoritariamente nuevas
-    - Strike $255.0 exp 2026-05-15 | score 60.0 | vol 4,343 | V/OI 15.57x | V/OI 16x — posiciones mayoritariamente nuevas | Apuesta de $2.5M | Expira en 3 d
-    - Strike $300.0 exp 2026-05-15 | score 57.8 | vol 19,146 | V/OI 4.51x | V/OI 4.5x — flujo de posiciones nuevas | Apuesta de $1.7M | Expira en 3 dias — m
+  MIRM — Mirum Pharmaceuticals, Inc.
+  Precio: $109.9
+  Score: 67.1
+  Notional total: $86,300
+  Contratos inusuales: 2
+    - Strike $130.0 exp 2026-05-15 | score 67.1 | vol 500 | V/OI 55.56x | Flujo BAJISTA extremo: 91.3% en una direccion | V/OI 56x — posiciones mayoritari
+    - Strike $120.0 exp 2026-06-18 | score 48.7 | vol 104 | V/OI 104.0x | Flujo ALCISTA extremo: 92.2% en una direccion | V/OI 104x — posiciones mayoritar
 
-  MU — Micron Technology, Inc.
-  Precio: $795.33
-  Score: 64.2
-  Notional total: $804,804,944
-  Contratos inusuales: 89
-    - Strike $970.0 exp 2026-05-15 | score 64.2 | vol 3,319 | V/OI 22.58x | V/OI 23x — posiciones mayoritariamente nuevas | Apuesta de $1.8M | Expira en 3 d
-    - Strike $960.0 exp 2026-05-15 | score 62.7 | vol 4,271 | V/OI 11.24x | V/OI 11x — posiciones mayoritariamente nuevas | Apuesta de $2.5M | Expira en 3 d
-    - Strike $950.0 exp 2026-05-15 | score 61.6 | vol 10,217 | V/OI 9.91x | V/OI 10x — posiciones mayoritariamente nuevas | Apuesta de $6.4M | Expira en 3 d
+  ROCK — Gibraltar Industries, Inc.
+  Precio: $37.61
+  Score: 66.6
+  Notional total: $52,000
+  Contratos inusuales: 2
+    - Strike $45.0 exp 2026-05-15 | score 66.6 | vol 2,000 | V/OI 1.0x | Volumen 9x sobre lo normal | Flujo ALCISTA extremo: 98.9% en una direccion | OI 
+    - Strike $40.0 exp 2026-05-15 | score 48.7 | vol 400 | V/OI 2.92x | Flujo ALCISTA extremo: 98.9% en una direccion | V/OI 2.9x — flujo de posiciones 
 
-  AVGO — Broadcom Inc.
-  Precio: $428.43
-  Score: 63.8
-  Notional total: $16,089,660
-  Contratos inusuales: 18
-    - Strike $447.5 exp 2026-05-15 | score 63.8 | vol 6,364 | V/OI 15.45x | Flujo ALCISTA: 82.3% direccional | V/OI 15x — posiciones mayoritariamente nuevas
-    - Strike $450.0 exp 2026-05-18 | score 61.9 | vol 6,718 | V/OI 12.53x | Flujo ALCISTA extremo: 87.2% en una direccion | V/OI 13x — posiciones mayoritari
-    - Strike $470.0 exp 2026-05-15 | score 54.3 | vol 19,092 | V/OI 5.98x | Flujo ALCISTA: 82.3% direccional | V/OI 6x — posiciones mayoritariamente nuevas 
+  ARW — Arrow Electronics, Inc.
+  Precio: $209.71
+  Score: 64.7
+  Notional total: $129,673
+  Contratos inusuales: 1
+    - Strike $230.0 exp 2026-05-15 | score 64.7 | vol 4,183 | V/OI 2091.5x | Volumen 17x sobre lo normal | Flujo ALCISTA extremo: 99.1% en una direccion | V/
 
-  AMD — Advanced Micro Devices, Inc.
-  Precio: $458.79
-  Score: 63.4
-  Notional total: $134,353,844
-  Contratos inusuales: 50
-    - Strike $510.0 exp 2026-05-15 | score 63.4 | vol 14,716 | V/OI 13.71x | V/OI 14x — posiciones mayoritariamente nuevas | Apuesta de $3.7M | Expira en 3 d
-    - Strike $530.0 exp 2026-06-26 | score 59.5 | vol 3,005 | V/OI 273.18x | Flujo ALCISTA: 82.3% direccional | V/OI 273x — posiciones mayoritariamente nueva
-    - Strike $500.0 exp 2026-05-15 | score 53.5 | vol 14,205 | V/OI 2.35x | V/OI 2.4x — flujo de posiciones nuevas | Apuesta de $5.2M | Expira en 3 dias — m
+  ESTA — Establishment Labs Holdings Inc
+  Precio: $69.73
+  Score: 64.4
+  Notional total: $300,000
+  Contratos inusuales: 1
+    - Strike $90.0 exp 2026-05-15 | score 64.4 | vol 10,000 | V/OI 4.38x | Volumen 12x sobre lo normal | Flujo ALCISTA extremo: 98.6% en una direccion | V/
+
+  SFM — Sprouts Farmers Market, Inc.
+  Precio: $87.29
+  Score: 63.3
+  Notional total: $1,508,571
+  Contratos inusuales: 3
+    - Strike $105.0 exp 2026-06-18 | score 63.3 | vol 11,614 | V/OI 33.47x | Volumen 7x sobre lo normal | Flujo ALCISTA extremo: 98.9% en una direccion | V/O
+    - Strike $110.0 exp 2026-06-18 | score 52.7 | vol 9,521 | V/OI 8.49x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 98.9% en una direccion | V/O
+    - Strike $95.0 exp 2026-05-15 | score 43.5 | vol 467 | V/OI 0.58x | Flujo ALCISTA extremo: 93.9% en una direccion | Expira en 1 dias — maximo apalan
+
+  ACN — Accenture plc
+  Precio: $157.55
+  Score: 63.1
+  Notional total: $8,288,041
+  Contratos inusuales: 10
+    - Strike $180.0 exp 2026-06-18 | score 63.1 | vol 10,817 | V/OI 30.05x | Flujo ALCISTA extremo: 95.4% en una direccion | V/OI 30x — posiciones mayoritari
+    - Strike $175.0 exp 2026-06-18 | score 50.1 | vol 2,098 | V/OI 8.2x | Flujo ALCISTA extremo: 95.4% en una direccion | V/OI 8x — posiciones mayoritaria
+    - Strike $200.0 exp 2026-06-18 | score 49.5 | vol 10,368 | V/OI 0.85x | Flujo ALCISTA extremo: 95.4% en una direccion | OI concentrado: 12,127 contratos
+
+  PACS — PACS Group, Inc.
+  Precio: $41.01
+  Score: 61.7
+  Notional total: $484,270
+  Contratos inusuales: 2
+    - Strike $50.0 exp 2026-06-18 | score 61.7 | vol 5,983 | V/OI 42.43x | Volumen 4.8x sobre lo normal | Flujo ALCISTA extremo: 95.6% en una direccion | V
+    - Strike $45.0 exp 2026-05-15 | score 48.4 | vol 563 | V/OI 0.32x | Flujo ALCISTA extremo: 88.9% en una direccion | OI concentrado: 3,793 contratos 
+
+  TDC — Teradata Corporation
+  Precio: $32.78
+  Score: 60.4
+  Notional total: $94,341
+  Contratos inusuales: 1
+    - Strike $35.0 exp 2026-05-15 | score 60.4 | vol 7,257 | V/OI 10.26x | Volumen 6x sobre lo normal | Flujo ALCISTA extremo: 97.7% en una direccion | V/O
 
   ASML — ASML Holding N.V. - New York Re
-  Precio: $1565.81
+  Precio: $1567.67
   Score: 60.0
-  Notional total: $6,243,935
+  Notional total: $3,898,371
   Contratos inusuales: 3
-    - Strike $1650.0 exp 2026-05-15 | score 60.0 | vol 3,560 | V/OI 19.04x | V/OI 19x — posiciones mayoritariamente nuevas | Apuesta de $4.1M | Expira en 3 d
-    - Strike $1600.0 exp 2026-05-15 | score 42.5 | vol 858 | V/OI 0.48x | Apuesta de $2.1M | Expira en 3 dias — maximo apalancamiento | 17 contratos inusu
-    - Strike $2000.0 exp 2026-05-15 | score 41.0 | vol 215 | V/OI 0.47x | Expira en 3 dias — maximo apalancamiento | 28% fuera del dinero — apuesta muy ag
-
-  TSLA — Tesla, Inc.
-  Precio: $445.0
-  Score: 60.0
-  Notional total: $670,350,603
-  Contratos inusuales: 114
-    - Strike $460.0 exp 2026-05-13 | score 60.0 | vol 38,737 | V/OI 42.06x | V/OI 42x — posiciones mayoritariamente nuevas | Apuesta de $10.5M | Expira en 1 
-    - Strike $470.0 exp 2026-05-13 | score 57.6 | vol 13,206 | V/OI 14.37x | V/OI 14x — posiciones mayoritariamente nuevas | Apuesta de $1.8M | Expira en 1 d
-    - Strike $465.0 exp 2026-05-13 | score 57.1 | vol 8,489 | V/OI 18.1x | V/OI 18x — posiciones mayoritariamente nuevas | Apuesta de $1.6M | Expira en 1 d
+    - Strike $1630.0 exp 2026-05-15 | score 60.0 | vol 3,702 | V/OI 23.14x | V/OI 23x — posiciones mayoritariamente nuevas | Apuesta de $3.9M | Expira en 1 d
+    - Strike $2020.0 exp 2026-05-22 | score 48.0 | vol 112 | V/OI 28.0x | V/OI 28x — posiciones mayoritariamente nuevas | Expira en 8 dias — near-term | 2
+    - Strike $2000.0 exp 2026-05-15 | score 41.0 | vol 215 | V/OI 0.41x | Expira en 1 dias — maximo apalancamiento | 28% fuera del dinero — apuesta muy ag
